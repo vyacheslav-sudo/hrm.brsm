@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<FilterCriterion uuid="4c9dd3d1-067f-4e9e-8771-dbe1fb357a0b">
+		<InternalInfo>
+			<xr:GeneratedType name="FilterCriterionManager.СвязанныеДокументы" category="Manager">
+				<xr:TypeId>aa3ace9a-af2c-45bc-a752-11e64f181b31</xr:TypeId>
+				<xr:ValueId>8e88df42-cbde-4c2c-bd5f-1481143f214f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="FilterCriterionList.СвязанныеДокументы" category="List">
+				<xr:TypeId>ad469f3d-63a4-4a56-b106-50bf4c4da0f4</xr:TypeId>
+				<xr:ValueId>cd30e292-55ce-45f7-909b-046d8eb9d528</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СвязанныеДокументы</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Связанные документы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Пов'язані документи</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Type>
+				<v8:Type>cfg:DocumentRef.ЛистокСообщенияДляВоенкомата</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗапланированноеВзаимодействие</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыРаздатчиком</v8:Type>
+				<v8:Type>cfg:DocumentRef.КадровыйПеревод</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПростойСотрудников</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЗаявлениеРасчетВФСС</v8:Type>
+				<v8:Type>cfg:DocumentRef.Отпуск</v8:Type>
+				<v8:Type>cfg:DocumentRef.БольничныйЛист</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОплатаПоСреднемуЗаработку</v8:Type>
+				<v8:Type>cfg:DocumentRef.Премия</v8:Type>
+				<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИзменениеУсловийДоговораЗаймаСотруднику</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыПеречислением</v8:Type>
+				<v8:Type>cfg:DocumentRef.НачислениеЗарплаты</v8:Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:Type>cfg:DocumentRef.Увольнение</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыВБанк</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтпускБезСохраненияОплаты</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПрогулНеявка</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПриемНаРаботу</v8:Type>
+				<v8:Type>cfg:DocumentRef.Командировка</v8:Type>
+				<v8:Type>cfg:DocumentRef.АттестацияРабочихМестДляУчетаСпецстажа</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыВКассу</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.БольничныйЛист.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Встреча.Attribute.УдалитьПредмет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыплатаДепонированнойЗарплаты.TabularSection.Депоненты.Attribute.Ведомость</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ДепонированиеЗарплаты.Attribute.Ведомость</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗапланированноеВзаимодействие.Attribute.УдалитьПредмет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявлениеРасчетВФСС.TabularSection.Оплаты.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеУсловийДоговораЗаймаСотруднику.Attribute.ДоговорЗайма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Командировка.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЛистокСообщенияДляВоенкомата.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты.TabularSection.ПогашениеЗаймов.Attribute.ДоговорЗайма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаПоСреднемуЗаработку.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отпуск.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускБезСохраненияОплаты.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодтверждениеВыплатЗаСчетФСС.TabularSection.Выплаты.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодтверждениеВыплатЗаСчетФСС.TabularSection.Выплаты.Attribute.Заявление</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодтверждениеОплатыЗаявленияРасчетаВФСС.Attribute.ЗаявлениеРасчетВФСС</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодтверждениеОплатыЗаявленияРасчетаВФСС.TabularSection.РасчетыСФондами.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПрогулНеявка.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПростойСотрудников.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РасчетСпецстажаСотрудников.TabularSection.Спецстаж.Attribute.Приказ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ТелефонныйЗвонок.Attribute.УдалитьПредмет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеДепонированнойЗарплаты.TabularSection.Депоненты.Attribute.Ведомость</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЭлектронноеПисьмоВходящее.Attribute.УдалитьПредмет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЭлектронноеПисьмоИсходящее.Attribute.УдалитьПредмет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыдачаЗаймаСотруднику.Attribute.ДоговорЗайма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПогашениеЗаймаСотруднику.Attribute.ДоговорЗайма</xr:Item>
+			</Content>
+			<DefaultForm/>
+			<AuxiliaryForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects/>
+	</FilterCriterion>
+</MetaDataObject>

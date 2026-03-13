@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Subsystem uuid="847fc56e-cb51-4e12-837f-927d4201a740">
+		<Properties>
+			<Name>ЗарплатаИУправлениеПерсоналом</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зарплата и управление персоналом</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Зарплата і управління персоналом</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<IncludeInCommandInterface>false</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбновлениеИнформационнойБазыКонфигурацииЗарплатаКадры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОсновнаяФормаРабочегоСтола</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.УправлениеДоступомБЗК</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПодсистемаЗарплата</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПодсистемаКадры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.БухгалтерскийУчетПереопределяемый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.БазовыеПраваБЗК</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПомощникПерехода_ЗУП_УТП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИнтерфейсБЗК</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ИнтерфейсERP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИнтерфейсERP</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИнтерфейсБЗК</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПодсистемаНастройка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПодсистемаНалогиИВзносы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ПодсистемаВыплатыПеречисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиЗарплатаКадрыБазовый</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиЗарплатаКадры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиЗарплатаКадрыВнутренний</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбменДаннымиЗарплатаКадрыРасширенный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОтражениеЗарплатыВФинансовомУчетеУП</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ИзменениеНормативноСправочнойИнформации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеНормативноСправочнойИнформации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ОбщегоНазначенияБПКлиентСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonTemplate.ОписаниеИзмененийСистемы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.НастройкиСистемыЗарплатаКадры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">EventSubscription.ПередЗаписьюКонстанты</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects>
+			<Subsystem>ОбменЗарплата30Бухгалтерия21</Subsystem>
+			<Subsystem>ОбменЗарплата30Бухгалтерия21Расширенная</Subsystem>
+			<Subsystem>УчетДепонированнойЗарплаты</Subsystem>
+			<Subsystem>ЗаймыСотрудникамВХО</Subsystem>
+		</ChildObjects>
+	</Subsystem>
+</MetaDataObject>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<CheckBoxField name="ИспользоватьНесколькоОрганизаций" id="1">
+			<DataPath>ИспользоватьНесколькоОрганизаций</DataPath>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ИспользоватьНесколькоОрганизацийКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ИспользоватьНесколькоОрганизацийРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">ИспользоватьНесколькоОрганизацийПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<Pages name="ГруппаСтраницыИспользоватьНесколькоОрганизаций" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы использовать несколько организаций</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Сторінки використовувати кілька організацій</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>None</PagesRepresentation>
+			<ExtendedTooltip name="ГруппаСтраницыИспользоватьНесколькоОрганизацийExtendedTooltip" id="5"/>
+			<ChildItems>
+				<Page name="ГруппаОднаОрганизация" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Одна организация</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Одна організація</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа версионируемые объекты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Група об'єкти, що версіонуються</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОднаОрганизацияExtendedTooltip" id="7"/>
+					<ChildItems>
+						<LabelDecoration name="ПояснениеОднаОрганизация" id="8">
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Возможность ведения нескольких организаций.
+Для настройки необходимо перейти в раздел
+"НСИ и администрирование" — "Сведения о предприятии" — "Сведения об организации".</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>uk</v8:lang>
+									<v8:content>Можливість ведення декількох організацій. 
+Для настройки необхідно перейти в розділ 
+"НДІ і адміністрування" - "Відомості про підприємство" - "Відомості про організацію".</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="ПояснениеОднаОрганизацияКонтекстноеМеню" id="9"/>
+							<ExtendedTooltip name="ПояснениеОднаОрганизацияExtendedTooltip" id="10"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаНесколькоОрганизаций" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Несколько организаций</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Кілька організацій</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаНесколькоОрганизацийExtendedTooltip" id="12"/>
+					<ChildItems>
+						<LabelDecoration name="ПояснениеНесколькоОрганизаций" id="13">
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Возможность ведения нескольких организаций.
+Для настройки необходимо перейти в раздел
+"НСИ и администрирование" — "Организации".</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>uk</v8:lang>
+									<v8:content>Можливість ведення декількох організацій. 
+Для встановлення необхідно перейти в розділ 
+"НДІ і адміністрування" - "Організації".</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПояснениеНесколькоОрганизацийКонтекстноеМеню" id="14"/>
+							<ExtendedTooltip name="ПояснениеНесколькоОрганизацийExtendedTooltip" id="15"/>
+						</LabelDecoration>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<CheckBoxField name="ИнтерфейсБЗК" id="16">
+			<DataPath>ИнтерфейсБЗК</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать стандартный набор разделов интерфейса</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Використовувати стандартний набір розділів інтерфейсу</v8:content>
+				</v8:item>
+			</Title>
+			<TitleLocation>Right</TitleLocation>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ИнтерфейсБЗККонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ИнтерфейсБЗКРасширеннаяПодсказка" id="18"/>
+			<Events>
+				<Event name="OnChange">ИнтерфейсБЗКПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<LabelDecoration name="ПояснениеИнтерфейсБЗК" id="19">
+			<TextColor>style:ПоясняющийТекст</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Если флаг снят используется "компактный"
+вариант интерфейса - только разделы 
+"Зарплата" и "Кадры".</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Якщо прапор знято використовується 
+"компактний" варіант інтерфейсу - тільки 
+розділи"Зарплата" та "Кадри".</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ПояснениеИнтерфейсБЗККонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ПояснениеИнтерфейсБЗКРасширеннаяПодсказка" id="21"/>
+		</LabelDecoration>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПанельНастроекЗарплатаКадры</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ИспользоватьНесколькоОрганизаций" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать несколько организаций</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Використовувати кілька організацій</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<FunctionalOptions>
+				<Item>FunctionalOption.НеБазоваяВерсия</Item>
+			</FunctionalOptions>
+		</Attribute>
+		<Attribute name="ИнтерфейсБЗК" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Интерфейс БЗК</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Items Description="Начальное заполнение справочника Профили групп доступа" Columns="PredefinedName,Name#" ColumnNames="ИмяПредопределенного,Наименование" Config="ЗаполнениеТолькоСинонимов">
+	<Item PredefinedName="АдминистрированиеИНСИ" Name="Администрирование и НСИ" NameUkr="Адміністрування та НДІ"/>
+	<Item PredefinedName="Администратор" Name="Администратор" NameUkr="Адміністратор"/>
+	<Item PredefinedName="ЗарплатаИКадры" Name="Зарплата и кадры" NameUkr="Зарплата і кадри"/>
+	<Item PredefinedName="Аудитор" Name="Аудитор" NameUkr="Аудитор"/>
+	<Item PredefinedName="Кадровик" Name="Кадровик" NameUkr="Кадровик"/>
+	<Item PredefinedName="КадровикБезДоступаКЗарплате" Name="Кадровик (без доступа к зарплате)" NameUkr="Кадровик (без доступу до зарплати)"/>
+	<Item PredefinedName="КадровикРасчетчик" Name="Кадровик-расчетчик" NameUkr="Кадровик-розраховувач"/>
+	<Item PredefinedName="Расчетчик" Name="Расчетчик" NameUkr="Розраховувач"/>
+	<Item PredefinedName="СтаршийКадровик" Name="Старший кадровик" NameUkr="Старший кадровик"/>
+	<Item PredefinedName="СтаршийКадровикРасчетчик" Name="Старший кадровик-расчетчик" NameUkr="Старший кадровик-розраховувач"/>
+	<Item PredefinedName="СтаршийРасчетчик" Name="Старший расчетчик" NameUkr="Старший розраховувач"/>
+	<Item PredefinedName="Табельщик" Name="Табельщик" NameUkr="Табельник"/>
+</Items>

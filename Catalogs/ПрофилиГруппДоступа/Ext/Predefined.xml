@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.12">
+	<Item id="cf963903-6960-4958-a5d4-886894b6ec8b">
+		<Name>АдминистрированиеИНСИ</Name>
+		<Code/>
+		<Description>Администрирование и НСИ</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="6c4b0307-43a4-4141-9c35-3dd7e9586d41">
+				<Name>Администратор</Name>
+				<Code/>
+				<Description>Администратор</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="12dad8e9-e0e4-4c6e-a20d-c02a80416c24">
+		<Name>ЗарплатаИКадры</Name>
+		<Code/>
+		<Description>Зарплата и кадры</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="f7a987ad-e3ae-43d9-a7f3-5821150d0983">
+				<Name>Аудитор</Name>
+				<Code/>
+				<Description>Аудитор</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="bc7b77fe-4f55-4e8c-9e7d-0386cccbd6dc">
+				<Name>Кадровик</Name>
+				<Code/>
+				<Description>Кадровик</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="800b49ac-88aa-4af8-868f-4dde9078f5cd">
+				<Name>КадровикБезДоступаКЗарплате</Name>
+				<Code/>
+				<Description>Кадровик (без доступа к зарплате)</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b1cb6273-89cc-41fa-8cb7-ae19150153ee">
+				<Name>КадровикРасчетчик</Name>
+				<Code/>
+				<Description>Кадровик расчетчик</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="cfb310fe-d389-430d-bc89-7f1d4bf0f54e">
+				<Name>Расчетчик</Name>
+				<Code/>
+				<Description>Расчетчик</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="a5a25235-1309-4ec2-af3a-3d3b225d55a0">
+				<Name>СтаршийКадровик</Name>
+				<Code/>
+				<Description>Старший кадровик</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="bcf631d2-6ecf-4ff9-918a-196455e7945f">
+				<Name>СтаршийКадровикРасчетчик</Name>
+				<Code/>
+				<Description>Старший кадровик расчетчик</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="5347d68d-30cc-4e04-bfd5-2a9707291dbf">
+				<Name>СтаршийРасчетчик</Name>
+				<Code/>
+				<Description>Старший расчетчик</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b626ea2e-d497-41ea-be7b-421701d5edf8">
+				<Name>Табельщик</Name>
+				<Code/>
+				<Description>Табельщик</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>
