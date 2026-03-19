@@ -62,6 +62,7 @@
 							<v8:content>Група дані для розрахунку зліва</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>43</Width>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -73,6 +74,7 @@
 							<ExtendedTooltip name="КнопкаПВРНачисленияExtendedTooltip" id="100"/>
 						</Button>
 						<LabelDecoration name="ДекорацияПВРНачисления" id="51">
+							<Height>2</Height>
 							<TextColor>style:ПоясняющийТекст</TextColor>
 							<Title formatted="false">
 								<v8:item>
@@ -94,6 +96,7 @@
 							<ExtendedTooltip name="КнопкаПВРУдержанияExtendedTooltip" id="102"/>
 						</Button>
 						<LabelDecoration name="ПВРУдержания" id="54">
+							<Height>2</Height>
 							<TextColor>style:ПоясняющийТекст</TextColor>
 							<Title formatted="false">
 								<v8:item>
@@ -115,6 +118,7 @@
 							<ExtendedTooltip name="КнопкаВидыДокументовВводДанныхДляРасчетаЗарплатыExtendedTooltip" id="104"/>
 						</Button>
 						<LabelDecoration name="ДекорацияВидыДокументовВводДанныхДляРасчетаЗарплаты" id="78">
+							<Height>5</Height>
 							<TextColor>style:ПоясняющийТекст</TextColor>
 							<Title formatted="false">
 								<v8:item>
@@ -153,6 +157,7 @@
 							<v8:content>Група дані для розрахунку праворуч</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>43</Width>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -164,6 +169,7 @@
 							<ExtendedTooltip name="КнопкаПоказателиРасчетаЗарплатыExtendedTooltip" id="107"/>
 						</Button>
 						<LabelDecoration name="ДекорацияПоказателиРасчетаЗарплаты" id="57">
+							<Height>2</Height>
 							<TextColor>style:ПоясняющийТекст</TextColor>
 							<Title formatted="false">
 								<v8:item>
@@ -184,6 +190,7 @@
 							<CommandName>Form.Command.ОткрытьТарифныеСетки</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОткрытьТарифныеСеткиРасширеннаяПодсказка" id="176">
+								<Height>2</Height>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -204,6 +211,7 @@
 							<CommandName>Form.Command.ОткрытьКвалификационныеРазряды</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОткрытьКвалификационныеРазрядыРасширеннаяПодсказка" id="178">
+								<Height>5</Height>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -295,6 +303,7 @@
 									<v8:content>Група НСИ1 лінія зліва</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -305,7 +314,7 @@
 									<CommandName>Form.Command.ОткрытьСправочникПодразделенияОрганизаций</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="КнопкаПодразделенияОрганизацийExtendedTooltip" id="84">
-										<Height>3</Height>
+										<Height>4</Height>
 										<TextColor>style:ПоясняющийТекст</TextColor>
 										<Title formatted="false">
 											<v8:item>
@@ -361,7 +370,7 @@
 												<v8:content>Довідник описує нарахування, відповідні місцям роботи. Застосовуються при короткочасних змінах оплати праці в залежності від виконуваної працівниками роботи.</v8:content>
 											</v8:item>
 										</Title>
-										<VerticalAlign>Center</VerticalAlign>
+										<VerticalAlign>Bottom</VerticalAlign>
 									</ExtendedTooltip>
 								</Button>
 							</ChildItems>
@@ -387,6 +396,7 @@
 									<v8:content>Група НСИ1 лінія праворуч</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -398,7 +408,7 @@
 									<ExtendedTooltip name="КнопкаГрафикиРаботыСотрудниковРасширеннаяПодсказка" id="89"/>
 								</Button>
 								<LabelDecoration name="ДекорацияГрафикиРаботыСотрудников" id="29">
-									<Height>3</Height>
+									<Height>4</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -442,7 +452,6 @@
 									<ExtendedTooltip name="КнопкаГруппыУчетаНачисленийИУдержанийРасширеннаяПодсказка" id="228"/>
 								</Button>
 								<LabelDecoration name="ДекорацияГруппыУчетаНачисленийИУдержаний" id="229">
-									<Height>3</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -514,6 +523,7 @@
 							<v8:content>Група НСИ2 лінія зліва</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>43</Width>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -564,6 +574,7 @@
 							<v8:content>Група НСИ2 лінія праворуч</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>43</Width>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -674,6 +685,57 @@
 						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
+				<UsualGroup name="ГруппаНормативныеВеличины" id="232">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа Нормативные величины</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Група Нормативні величини</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа НСИ2 линия слева</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Група НСИ2 лінія зліва</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Width>43</Width>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНормативныеВеличиныРасширеннаяПодсказка" id="233"/>
+					<ChildItems>
+						<Button name="ОткрытьНормативныеВеличины" id="239">
+							<Type>Hyperlink</Type>
+							<CommandName>Form.Command.ОткрытьНормативныеВеличины</CommandName>
+							<ExtendedTooltip name="ОткрытьНормативныеВеличиныРасширеннаяПодсказка" id="240"/>
+						</Button>
+						<LabelDecoration name="ДекорацияНормативныеВеличины" id="236">
+							<Height>3</Height>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Список нормативных показателей, которые требуют периодического обновления</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>uk</v8:lang>
+									<v8:content>Список нормативних показників, які потребують періодичного оновлення</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="ДекорацияНормативныеВеличиныКонтекстноеМеню" id="237"/>
+							<ExtendedTooltip name="ДекорацияНормативныеВеличиныРасширеннаяПодсказка" id="238"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаНДФЛ" id="1">
@@ -724,6 +786,7 @@
 							<v8:content>Група НДФЛСлева</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>43</Width>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -751,27 +814,6 @@
 							<ContextMenu name="ДекорацияВидыДоходовНДФЛКонтекстноеМеню" id="6"/>
 							<ExtendedTooltip name="ДекорацияВидыДоходовНДФЛExtendedTooltip" id="112"/>
 						</LabelDecoration>
-						<Button name="КнопкаВидыЛьготПоНДФЛ" id="10">
-							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.ОткрытьСправочникВидыЛьготПоНДФЛ</CommandName>
-							<ExtendedTooltip name="КнопкаВидыЛьготПоНДФЛРасширеннаяПодсказка" id="113"/>
-						</Button>
-						<LabelDecoration name="ДекорацияВидыЛьготПоНДФЛ" id="11">
-							<TextColor>style:ПоясняющийТекст</TextColor>
-							<Title formatted="false">
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Список действующих льгот по НДФЛ, соответствующий действующему Налоговому кодексу.</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>uk</v8:lang>
-									<v8:content>Список діючих пільг з ПДФО, що відповідає чинному Податковому кодексу.</v8:content>
-								</v8:item>
-							</Title>
-							<VerticalAlign>Top</VerticalAlign>
-							<ContextMenu name="ДекорацияВидыЛьготПоНДФЛКонтекстноеМеню" id="12"/>
-							<ExtendedTooltip name="ДекорацияВидыЛьготПоНДФЛРасширеннаяПодсказка" id="114"/>
-						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
 				<UsualGroup name="ГруппаНДФЛСправа" id="3">
@@ -795,31 +837,33 @@
 							<v8:content>Група НДФЛСправа</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>43</Width>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаНДФЛСправаExtendedTooltip" id="115"/>
 					<ChildItems>
-						<Button name="КнопкаРазмерЛьготНДФЛ" id="13">
+						<Button name="КнопкаВидыЛьготПоНДФЛ" id="10">
 							<Type>Hyperlink</Type>
-							<CommandName>Form.Command.ОткрытьРегистрСведенийРазмерЛьготНДФЛ</CommandName>
-							<ExtendedTooltip name="КнопкаРазмерЛьготНДФЛРасширеннаяПодсказка" id="118"/>
+							<CommandName>Form.Command.ОткрытьСправочникВидыЛьготПоНДФЛ</CommandName>
+							<ExtendedTooltip name="КнопкаВидыЛьготПоНДФЛРасширеннаяПодсказка" id="113"/>
 						</Button>
-						<LabelDecoration name="ДекорацияРазмерЛьготНДФЛ" id="14">
+						<LabelDecoration name="ДекорацияВидыЛьготПоНДФЛ" id="11">
+							<Height>3</Height>
 							<TextColor>style:ПоясняющийТекст</TextColor>
 							<Title formatted="false">
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Список текущих размеров налоговых льгот. Для каждой льготы указан его актуальный размер и ограничение по доходам.</v8:content>
+									<v8:content>Список действующих льгот по НДФЛ, соответствующий действующему Налоговому кодексу.</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>uk</v8:lang>
-									<v8:content>Список поточних розмірів податкових пільг. Для кожної пільги вказано його актуальний розмір і обмеження за доходами.</v8:content>
+									<v8:content>Список діючих пільг з ПДФО, що відповідає чинному Податковому кодексу.</v8:content>
 								</v8:item>
 							</Title>
 							<VerticalAlign>Top</VerticalAlign>
-							<ContextMenu name="ДекорацияРазмерЛьготНДФЛКонтекстноеМеню" id="15"/>
-							<ExtendedTooltip name="ДекорацияРазмерЛьготНДФЛРасширеннаяПодсказка" id="119"/>
+							<ContextMenu name="ДекорацияВидыЛьготПоНДФЛКонтекстноеМеню" id="12"/>
+							<ExtendedTooltip name="ДекорацияВидыЛьготПоНДФЛРасширеннаяПодсказка" id="114"/>
 						</LabelDecoration>
 					</ChildItems>
 				</UsualGroup>
@@ -898,6 +942,7 @@
 									<v8:content>Група страхові внески праворуч</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -909,7 +954,7 @@
 									<ExtendedTooltip name="КнопкаКатегорииЗастрахованныхЛицРасширеннаяПодсказка" id="125"/>
 								</Button>
 								<LabelDecoration name="ДекорацияКатегорииЗастрахованныхЛиц" id="23">
-									<Width>50</Width>
+									<Height>3</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -948,6 +993,7 @@
 									<v8:content>Група страхові внески зліва</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -959,15 +1005,16 @@
 									<ExtendedTooltip name="КнопкаНалогиРасширеннаяПодсказка" id="195"/>
 								</Button>
 								<LabelDecoration name="ДекорацияНалоги" id="196">
+									<Height>3</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Действующие ставки страховых взносов.</v8:content>
+											<v8:content>Действующие виды ставок страховых взносов.</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>uk</v8:lang>
-											<v8:content>Діючі ставки страхових внесків.</v8:content>
+											<v8:content>Діючі види ставок страхових внесків.</v8:content>
 										</v8:item>
 									</Title>
 									<VerticalAlign>Top</VerticalAlign>
@@ -999,6 +1046,7 @@
 							<v8:content>Група страхові внески1 лінія</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Width>43</Width>
 					<Group>Horizontal</Group>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСтраховыеВзносы2ЛинияРасширеннаяПодсказка" id="202"/>
@@ -1024,6 +1072,7 @@
 									<v8:content>Група страхові внески праворуч</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>40</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -1035,7 +1084,7 @@
 									<ExtendedTooltip name="КнопкаПараметрыКатегорийЕСВРасширеннаяПодсказка" id="211"/>
 								</Button>
 								<LabelDecoration name="ДекорацияПараметрыКатегорийЕСВ" id="212">
-									<Width>50</Width>
+									<Height>3</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -1074,33 +1123,11 @@
 									<v8:content>Група страхові внески зліва</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаСтраховыеВзносыСлева1РасширеннаяПодсказка" id="216"/>
-							<ChildItems>
-								<Button name="КнопкаТарифыСтраховыхВзносов" id="222">
-									<Type>Hyperlink</Type>
-									<CommandName>Form.Command.ОткрытьРегистрСведенийТарифыСтраховыхВзносов</CommandName>
-									<ExtendedTooltip name="КнопкаТарифыСтраховыхВзносовРасширеннаяПодсказка" id="223"/>
-								</Button>
-								<LabelDecoration name="ДекорацияТарифыСтраховыхВзносов" id="224">
-									<TextColor>style:ПоясняющийТекст</TextColor>
-									<Title formatted="false">
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Действующие ставки страховых взносов.</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>uk</v8:lang>
-											<v8:content>Діючі ставки страхових внесків.</v8:content>
-										</v8:item>
-									</Title>
-									<VerticalAlign>Top</VerticalAlign>
-									<ContextMenu name="ДекорацияТарифыСтраховыхВзносовКонтекстноеМеню" id="225"/>
-									<ExtendedTooltip name="ДекорацияТарифыСтраховыхВзносовРасширеннаяПодсказка" id="226"/>
-								</LabelDecoration>
-							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
 				</UsualGroup>
@@ -1164,6 +1191,7 @@
 							<CommandName>Form.Command.ОткрытьСпособыВыплатыЗарплаты</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОткрытьСпособыВыплатыЗарплатыРасширеннаяПодсказка" id="180">
+								<Height>3</Height>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -1210,6 +1238,7 @@
 							<CommandName>Form.Command.ОткрытьСпособыОкругления</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОткрытьСпособыОкругленияРасширеннаяПодсказка" id="188">
+								<Height>3</Height>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -1804,6 +1833,29 @@
 			</ToolTip>
 			<Action>ОткрытьСправочникГруппыУчетаНачисленийИУдержаний</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ОткрытьНормативныеВеличины" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нормативные величины</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Нормативні величини</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть нормативные величины</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Відкрити нормативні величини</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьНормативныеВеличины</Action>
 		</Command>
 	</Commands>
 </Form>

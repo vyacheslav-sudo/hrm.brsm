@@ -138,7 +138,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Найменування питання для подання у списку питань. Не виводиться респондентові.</v8:content>
+							<v8:content>Найменування питання для представлення у списку питань. Не виводиться респонденту.</v8:content>
 						</v8:item>
 					</xr:ToolTip>
 					<xr:ExtendedEdit>false</xr:ExtendedEdit>

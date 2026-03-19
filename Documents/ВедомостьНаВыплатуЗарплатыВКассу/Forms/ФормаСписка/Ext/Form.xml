@@ -111,6 +111,31 @@
 				<Event name="OnUpdateUserSettingSetAtServer">СписокПриОбновленииСоставаПользовательскихНастроекНаСервере</Event>
 			</Events>
 			<ChildItems>
+				<PictureField name="ЕстьФайлы" id="59">
+					<DataPath>Список.ЕстьФайлы</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть файлы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Є файли</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<HeaderPicture>
+						<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</HeaderPicture>
+					<Width>2</Width>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="61"/>
+				</PictureField>
 				<LabelField name="ПериодРегистрации" id="18">
 					<DataPath>Список.ПериодРегистрации</DataPath>
 					<ContextMenu name="ПериодРегистрацииКонтекстноеМеню" id="19"/>
@@ -249,9 +274,19 @@
 					(ВЫРАЗИТЬ(ОплатаВедомостейНаВыплатуЗарплаты.Ведомость КАК Документ.ВедомостьНаВыплатуЗарплатыВКассу)) = ДокументВедомостьНаВыплатуЗарплатыВКассу.Ссылка)
 			ТОГДА ИСТИНА
 		ИНАЧЕ ЛОЖЬ
-	КОНЕЦ КАК ЕстьОплаты
+	КОНЕЦ КАК ЕстьОплаты,
+	ВЫБОР
+		КОГДА НаличиеФайлов.ЕстьФайлы ЕСТЬ NULL
+			ТОГДА 0
+		КОГДА НаличиеФайлов.ЕстьФайлы
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ЕстьФайлы
+	
 ИЗ
-	Документ.ВедомостьНаВыплатуЗарплатыВКассу КАК ДокументВедомостьНаВыплатуЗарплатыВКассу</QueryText>
+	Документ.ВедомостьНаВыплатуЗарплатыВКассу КАК ДокументВедомостьНаВыплатуЗарплатыВКассу
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
+		ПО ДокументВедомостьНаВыплатуЗарплатыВКассу.Ссылка = НаличиеФайлов.ОбъектСФайлами</QueryText>
 				<MainTable>Document.ВедомостьНаВыплатуЗарплатыВКассу</MainTable>
 				<ListSettings>
 					<dcsset:filter>

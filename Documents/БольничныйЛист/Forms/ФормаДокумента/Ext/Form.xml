@@ -194,11 +194,11 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Номер листка нетрудоспособности</v8:content>
+									<v8:content>Номер листка</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>uk</v8:lang>
-									<v8:content>Номер листа непрацездатності</v8:content>
+									<v8:content>Номер листка</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -425,25 +425,6 @@
 													<ShowTitle>false</ShowTitle>
 													<ExtendedTooltip name="ПричинаНетрудоспособностиГруппаExtendedTooltip" id="579"/>
 													<ChildItems>
-														<InputField name="ПричинаНетрудоспособности" id="17">
-															<DataPath>Объект.ПричинаНетрудоспособности</DataPath>
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Причина нетрудоспособн.</v8:content>
-																</v8:item>
-																<v8:item>
-																	<v8:lang>uk</v8:lang>
-																	<v8:content>Причина непрацездатн.</v8:content>
-																</v8:item>
-															</Title>
-															<EditMode>EnterOnInput</EditMode>
-															<ContextMenu name="ПричинаНетрудоспособностиКонтекстноеМеню" id="18"/>
-															<ExtendedTooltip name="ПричинаНетрудоспособностиExtendedTooltip" id="580"/>
-															<Events>
-																<Event name="OnChange">ПричинаНетрудоспособностиПриИзменении</Event>
-															</Events>
-														</InputField>
 														<UsualGroup name="ПериодБольничного" id="288">
 															<Title>
 																<v8:item>
@@ -508,6 +489,46 @@
 																</LabelField>
 															</ChildItems>
 														</UsualGroup>
+														<InputField name="ПричинаНетрудоспособности" id="17">
+															<DataPath>Объект.ПричинаНетрудоспособности</DataPath>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Причина нетрудоспособн.</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>uk</v8:lang>
+																	<v8:content>Причина непрацездатн.</v8:content>
+																</v8:item>
+															</Title>
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="ПричинаНетрудоспособностиКонтекстноеМеню" id="18"/>
+															<ExtendedTooltip name="ПричинаНетрудоспособностиExtendedTooltip" id="580"/>
+															<Events>
+																<Event name="OnChange">ПричинаНетрудоспособностиПриИзменении</Event>
+															</Events>
+														</InputField>
+														<CheckBoxField name="СобытиеНаДругомПредприятии" id="1180">
+															<DataPath>Объект.СобытиеНаДругомПредприятии</DataPath>
+															<TitleLocation>Right</TitleLocation>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Если флажок установлен, то для больничного по причине травмы на производстве или профзаболевания, который начался не ранее 04.04.2025 г., количество дней за счет предприятия составляет 5 дней, иначе - 17 дней.</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>uk</v8:lang>
+																	<v8:content>Якщо прапорець встановлено, то для лікарняного через травму на виробництві або профзахворювання, який розпочався не раніше 04.04.2025 р., кількість днів за рахунок підприємства становить 5 днів, інакше - 17 днів.</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>Button</ToolTipRepresentation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="СобытиеНаДругомПредприятииКонтекстноеМеню" id="1181"/>
+															<ExtendedTooltip name="СобытиеНаДругомПредприятииРасширеннаяПодсказка" id="1182"/>
+															<Events>
+																<Event name="OnChange">СобытиеНаДругомПредприятииПриИзменении</Event>
+															</Events>
+														</CheckBoxField>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -2079,6 +2100,59 @@
 												</InputField>
 											</ChildItems>
 										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ДополнительныеПараметры" id="1175">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дополнительные параметры</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Додаткові параметри</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дополнительные параметры</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Додаткові параметри</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ДополнительныеПараметрыРасширеннаяПодсказка" id="1176"/>
+									<ChildItems>
+										<CheckBoxField name="ДоНачалаУчета" id="1177">
+											<DataPath>Объект.ДоНачалаУчета</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>За период до начала учета</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>uk</v8:lang>
+													<v8:content>За період до початку обліку</v8:content>
+												</v8:item>
+											</Title>
+											<TitleLocation>Right</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Флаг следует установить, если документ введен за период до начала ведения учета. В таком случае при проведении документа движения по регистрам учета среднего зароботка производиться не будут.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>uk</v8:lang>
+													<v8:content>Прапор слід установити, якщо документ введено за період до початку ведення обліку. У такому разі під час проведення документа рухи за регістрами обліку середнього заробітку виконуватися не будуть.</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ДоНачалаУчетаКонтекстноеМеню" id="1178"/>
+											<ExtendedTooltip name="ДоНачалаУчетаРасширеннаяПодсказка" id="1179"/>
+										</CheckBoxField>
 									</ChildItems>
 								</UsualGroup>
 							</ChildItems>

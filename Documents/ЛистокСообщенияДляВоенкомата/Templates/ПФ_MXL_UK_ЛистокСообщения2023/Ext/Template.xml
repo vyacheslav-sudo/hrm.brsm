@@ -1820,55 +1820,55 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>19</f>
+					<f>32</f>
 					<parameter>РуководительДолжность</parameter>
 				</c>
 			</c>
 			<c>
 				<i>15</i>
 				<c>
-					<f>32</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 				</c>
 			</c>
 			<c>
 				<i>27</i>
 				<c>
-					<f>19</f>
+					<f>32</f>
 					<parameter>Руководитель</parameter>
 				</c>
 			</c>
@@ -1880,7 +1880,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>33</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1912,7 +1912,7 @@
 			<c>
 				<i>27</i>
 				<c>
-					<f>34</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2288,6 +2288,12 @@
 	</format>
 	<format>
 		<height>21</height>
+	</format>
+	<format>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<bottomBorder>1</bottomBorder>

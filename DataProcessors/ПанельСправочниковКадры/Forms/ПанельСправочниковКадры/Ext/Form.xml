@@ -35,6 +35,7 @@
 					<v8:content>Група настройки</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Width>86</Width>
 			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -51,7 +52,6 @@
 							<v8:content>Група класифікатори 1</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Width>86</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
@@ -80,6 +80,7 @@
 									<v8:content>Група класифікатори 1 зліва</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -91,6 +92,7 @@
 									<ExtendedTooltip name="НастройкиПечатныхФормРасширеннаяПодсказка" id="119"/>
 								</Button>
 								<LabelDecoration name="ДекорацияНастройкиПечатныхФорм" id="120">
+									<Height>3</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -184,7 +186,6 @@
 				</v8:item>
 			</ToolTip>
 			<Width>86</Width>
-			<HorizontalStretch>false</HorizontalStretch>
 			<Group>Horizontal</Group>
 			<ExtendedTooltip name="ГруппаСправочникиРасширеннаяПодсказка" id="147"/>
 			<ChildItems>
@@ -221,7 +222,7 @@
 							<CommandName>Form.Command.ОткрытьРаботодатели</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОткрытьРаботодателиРасширеннаяПодсказка" id="153">
-								<Height>3</Height>
+								<Height>2</Height>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -278,7 +279,6 @@
 						</v8:item>
 					</ToolTip>
 					<Width>43</Width>
-					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
@@ -289,6 +289,7 @@
 							<CommandName>Form.Command.ОткрытьВидыОтпусков</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОткрытьВидыОтпусковРасширеннаяПодсказка" id="139">
+								<Height>2</Height>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -306,6 +307,7 @@
 							<CommandName>Form.Command.ОткрытьСправочникОснованияСпецСтажа</CommandName>
 							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 							<ExtendedTooltip name="ОткрытьСправочникОснованияСпецСтажаРасширеннаяПодсказка" id="157">
+								<Height>3</Height>
 								<Title formatted="false">
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -343,6 +345,7 @@
 					<v8:content>Група класифікатори</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Width>86</Width>
 			<Group>Vertical</Group>
 			<ChildItemsWidth>Equal</ChildItemsWidth>
 			<ExtendedTooltip name="ГруппаКлассификаторыРасширеннаяПодсказка" id="27"/>
@@ -368,7 +371,6 @@
 							<v8:content>Група класифікатори 1</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Width>86</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
@@ -397,6 +399,7 @@
 									<v8:content>Група класифікатори 1 зліва</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -408,6 +411,7 @@
 									<ExtendedTooltip name="КнопкаПрофессииРасширеннаяПодсказка" id="33"/>
 								</Button>
 								<LabelDecoration name="ДекорацияПрофессии" id="34">
+									<Height>2</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -429,6 +433,7 @@
 									<ExtendedTooltip name="КнопкаОснованияУвольненияРасширеннаяПодсказка" id="51"/>
 								</Button>
 								<LabelDecoration name="ДекорацияОснованияУвольнения" id="52">
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -477,6 +482,7 @@
 									<CommandName>Form.Command.ОткрытьВидыСтажа</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьВидыСтажаРасширеннаяПодсказка" id="141">
+										<Height>2</Height>
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -495,7 +501,7 @@
 									<ExtendedTooltip name="КнопкаСпециальностиРасширеннаяПодсказка" id="38"/>
 								</Button>
 								<LabelDecoration name="ДекорацияСпециальности" id="39">
-									<Height>2</Height>
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -536,7 +542,6 @@
 							<v8:content>Група класифікатори 2</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Width>86</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
@@ -565,6 +570,7 @@
 									<v8:content>Група класифікатори 2 зліва</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -576,6 +582,7 @@
 									<ExtendedTooltip name="КнопкаЯзыкиНародовМираРасширеннаяПодсказка" id="60"/>
 								</Button>
 								<LabelDecoration name="ДекорацияЯзыкиНародовМира" id="61">
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -625,6 +632,7 @@
 									<ExtendedTooltip name="КнопкаСтепениЗнанияЯзыкаРасширеннаяПодсказка" id="65"/>
 								</Button>
 								<LabelDecoration name="ДекорацияСтепениЗнанияЯзыка" id="66">
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -665,7 +673,6 @@
 							<v8:content>Група класифікатори 3</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Width>86</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
@@ -694,6 +701,7 @@
 									<v8:content>Група класифікатори 3 зліва</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -705,6 +713,7 @@
 									<ExtendedTooltip name="КнопкаСостояниеВБракеРасширеннаяПодсказка" id="74"/>
 								</Button>
 								<LabelDecoration name="ДекорацияСостояниеВБраке" id="77">
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -726,6 +735,7 @@
 									<ExtendedTooltip name="КнопкаНаградыРасширеннаяПодсказка" id="76"/>
 								</Button>
 								<LabelDecoration name="ДекорацияНаграды" id="80">
+									<Height>2</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -775,6 +785,7 @@
 									<ExtendedTooltip name="КнопкаСтепениРодстваРасширеннаяПодсказка" id="84"/>
 								</Button>
 								<LabelDecoration name="ДекорацияСтепениРодства" id="85">
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -795,6 +806,7 @@
 									<CommandName>Form.Command.ОткрытьВидыДокументов</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьВидыДокументовРасширеннаяПодсказка" id="155">
+										<Height>2</Height>
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -832,7 +844,6 @@
 							<v8:content>Група класифікатори 4</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Width>86</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
@@ -861,6 +872,7 @@
 									<v8:content>Група класифікатори 4 зліва</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -872,6 +884,7 @@
 									<ExtendedTooltip name="КнопкаВидыОбразованияРасширеннаяПодсказка" id="95"/>
 								</Button>
 								<LabelDecoration name="ДекорацияВидыОбразования" id="99">
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -893,6 +906,7 @@
 									<ExtendedTooltip name="КнопкаУчебныеЗаведенияРасширеннаяПодсказка" id="93"/>
 								</Button>
 								<LabelDecoration name="ДекорацияУчебныеЗаведения" id="96">
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -942,6 +956,7 @@
 									<ExtendedTooltip name="КнопкаУченыеЗванияРасширеннаяПодсказка" id="105"/>
 								</Button>
 								<LabelDecoration name="ДекорацияУченыеЗвания" id="109">
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -963,6 +978,7 @@
 									<ExtendedTooltip name="КнопкаУченыеСтепениРасширеннаяПодсказка" id="103"/>
 								</Button>
 								<LabelDecoration name="ДекорацияУченыеСтепени" id="106">
+									<Height>1</Height>
 									<TextColor>style:ПоясняющийТекст</TextColor>
 									<Title formatted="false">
 										<v8:item>
@@ -1003,7 +1019,6 @@
 							<v8:content>Група класифікатори 4</v8:content>
 						</v8:item>
 					</ToolTip>
-					<Width>86</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<Group>Horizontal</Group>
 					<Representation>None</Representation>
@@ -1032,6 +1047,7 @@
 									<v8:content>Група класифікатори 4 зліва</v8:content>
 								</v8:item>
 							</ToolTip>
+							<Width>43</Width>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
@@ -1042,6 +1058,7 @@
 									<CommandName>Form.Command.ОткрытьСправочникДопГарантии</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьСправочникДопГарантииРасширеннаяПодсказка" id="175">
+										<Height>1</Height>
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1087,6 +1104,7 @@
 									<CommandName>Form.Command.ОткрытьСправочникКатегорииДолжностей</CommandName>
 									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
 									<ExtendedTooltip name="ОткрытьСправочникКатегорииДолжностейРасширеннаяПодсказка" id="177">
+										<Height>1</Height>
 										<Title formatted="false">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1164,6 +1182,7 @@
 							<ExtendedTooltip name="КнопкаВоенкоматыExtendedTooltip" id="18"/>
 						</Button>
 						<LabelDecoration name="ДекорацияВоенкоматы" id="5">
+							<Height>1</Height>
 							<TextColor>style:ПоясняющийТекст</TextColor>
 							<Title formatted="false">
 								<v8:item>
@@ -1185,6 +1204,7 @@
 							<ExtendedTooltip name="КнопкаЗванияГражданскогоВоинскогоУчетаExtendedTooltip" id="20"/>
 						</Button>
 						<LabelDecoration name="ДекорацияЗванияГражданскогоВоинскогоУчета" id="8">
+							<Height>1</Height>
 							<TextColor>style:ПоясняющийТекст</TextColor>
 							<Title formatted="false">
 								<v8:item>
@@ -1235,6 +1255,7 @@
 							<ExtendedTooltip name="КнопкаСоставыВоеннослужащихExtendedTooltip" id="22"/>
 						</Button>
 						<LabelDecoration name="ДекорацияСоставыВоеннослужащих" id="11">
+							<Height>1</Height>
 							<TextColor>style:ПоясняющийТекст</TextColor>
 							<Title formatted="false">
 								<v8:item>

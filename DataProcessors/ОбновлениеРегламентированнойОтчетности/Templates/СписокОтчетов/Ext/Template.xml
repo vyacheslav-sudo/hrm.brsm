@@ -2744,11 +2744,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отчет по труду  (форма №1-ПВ)</v8:content>
+							<v8:content>Отчет по труду (форма №1-ПВ)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Отчет по труду  (форма №1-ПВ)</v8:content>
+							<v8:content>Отчет по труду (форма №1-ПВ)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2804,11 +2804,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Звіт по праці (форма №1-ПВ)</v8:content>
+							<v8:content>Звіт із праці (форма №1-ПВ)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Звіт по праці (форма №1-ПВ)</v8:content>
+							<v8:content>Звіт із праці (форма №1-ПВ)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2819,11 +2819,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Звіт по праці  (форма №1-ПВ)</v8:content>
+							<v8:content>Звіт із праці (форма №1-ПВ)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Звіт по праці  (форма №1-ПВ)</v8:content>
+							<v8:content>Звіт із праці (форма №1-ПВ)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -3644,11 +3644,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Квартал: 1, 2, 3, 4;</v8:content>
+							<v8:content>Месяц: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12; Квартал: 1, 2, 3, 4;</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Квартал: 1, 2, 3, 4;</v8:content>
+							<v8:content>Месяц: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12; Квартал: 1, 2, 3, 4;</v8:content>
 						</v8:item>
 					</tl>
 				</c>

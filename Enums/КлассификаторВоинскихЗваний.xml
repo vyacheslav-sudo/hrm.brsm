@@ -96,6 +96,22 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
+			<EnumValue uuid="327901cd-c625-46da-a5b6-315c5fc58d71">
+				<Properties>
+					<Name>Рекрут</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рекрут</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Рекрут</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="f1228f9c-1bc2-4019-9e90-842e7a8523d8">
 				<Properties>
 					<Name>Солдат</Name>
@@ -182,11 +198,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Старшина2 статьи</v8:content>
+							<v8:content>Старшина 2 статьи</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Старшина2 статті</v8:content>
+							<v8:content>Старшина 2 статті</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -214,11 +230,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Старшина1 статьи</v8:content>
+							<v8:content>Старшина 1 статьи</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Старшина1 статті</v8:content>
+							<v8:content>Старшина 1 статті</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -272,6 +288,22 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="89f9dd55-30a4-4a2e-90bb-b4dae2c11316">
+				<Properties>
+					<Name>ГлавныйСержант</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Главный сержант</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Головний сержант</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="290301fa-5360-4aa2-8320-8f6c773f9584">
 				<Properties>
 					<Name>ГлавныйКорабельныйСтаршина</Name>
@@ -288,17 +320,145 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="1f92cfad-d234-4952-91b5-0079a4c4e754">
+				<Properties>
+					<Name>ШтабСержант</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штаб-сержант</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Штаб-сержант</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1ff64164-3bb4-484f-af4c-faec8f20030a">
+				<Properties>
+					<Name>ШтабСтаршина</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штаб-старшина</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Штаб-старшина</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cd317c3f-f6bb-4041-86fb-48406cc5cbfc">
+				<Properties>
+					<Name>МастерСержант</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мастер-сержант</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Майстер-сержант</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="43840fad-e91c-4bc1-b4f4-1f1d6c3e9214">
+				<Properties>
+					<Name>МастерСтаршина</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Мастер-старшина</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Майстер-старшина</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ae02a9f1-0418-4d07-bc52-5d499816a087">
+				<Properties>
+					<Name>СтаршийМастерСержант</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Старший мастер-сержант</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Старший майстер-сержант</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="693d8495-f4f1-4ddc-a1b0-d809ca521812">
+				<Properties>
+					<Name>СтаршийМастерСтаршина</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Старший мастер-старшина</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Старший майстер-старшина</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cff42365-3918-417c-a4d3-158e94e9a474">
+				<Properties>
+					<Name>ГлавныйМастерСержант</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Главный мастер-сержант</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Головний майстер-сержант</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bc12a5b1-abf2-4aca-8de4-907b29000eb4">
+				<Properties>
+					<Name>ГлавныйМастерСтаршина</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Главный мастер-старшина</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Головний майстер-старшина</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="218d6054-09ed-4b07-af45-7550d20e4b64">
 				<Properties>
 					<Name>Прапорщик</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Прапорщик</v8:content>
+							<v8:content>(устарело) Прапорщик</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Прапорщик</v8:content>
+							<v8:content>(застаріло) Прапорщик</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -310,11 +470,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Мичман</v8:content>
+							<v8:content>(устарело) Мичман</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Мічман</v8:content>
+							<v8:content>(застаріло) Мічман</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -326,11 +486,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Старший прапорщик</v8:content>
+							<v8:content>(устарело) Старший прапорщик</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Старший прапорщик</v8:content>
+							<v8:content>(застаріло) Старший прапорщик</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -342,11 +502,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Старший мичман</v8:content>
+							<v8:content>(устарело) Старший мичман</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Старший мічман</v8:content>
+							<v8:content>(застаріло) Старший мічман</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -528,6 +688,38 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="6cb031e1-8cc1-4819-b39c-ff191df0055b">
+				<Properties>
+					<Name>БригадныйГенерал</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Бригадный генерал</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Бригадний генерал</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="10921c67-144d-4df6-824f-35d2bbfc8b31">
+				<Properties>
+					<Name>Коммодор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Коммодор</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Коммодор</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="8e22430b-88ab-4cca-baf8-b3ea7fb8df8e">
 				<Properties>
 					<Name>ГенералМайор</Name>
@@ -598,11 +790,27 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Генерал-полковник</v8:content>
+							<v8:content>(устарело) Генерал-полковник</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Генерал-полковник</v8:content>
+							<v8:content>(застаріло) Генерал-полковник</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a3d1266f-a5f0-404e-a5c4-539518d0db16">
+				<Properties>
+					<Name>Генерал</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Генерал</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Генерал</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -630,11 +838,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Генерал армии Украины</v8:content>
+							<v8:content>(устарело) Генерал армии Украины</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Генерал армії України</v8:content>
+							<v8:content>(застаріло) Генерал армії України</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

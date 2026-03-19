@@ -561,6 +561,9 @@
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Акты</DataPath>
 							<RowPictureDataPath>Акты.DefaultPicture</RowPictureDataPath>
+							<CommandSet>
+								<ExcludedCommand>Create</ExcludedCommand>
+							</CommandSet>
 							<AutoRefresh>false</AutoRefresh>
 							<AutoRefreshPeriod>60</AutoRefreshPeriod>
 							<Period>
@@ -590,24 +593,24 @@
 									</Button>
 									<Button name="АктыСкопировать" id="245">
 										<Type>CommandBarButton</Type>
-										<CommandName>200:0ae4bea5-23be-42a7-b69e-97b11b29c453</CommandName>
+										<CommandName>Form.Item.Акты.StandardCommand.Copy</CommandName>
 										<ExtendedTooltip name="АктыСкопироватьРасширеннаяПодсказка" id="246"/>
 									</Button>
 									<Button name="АктыИзменить" id="247">
 										<Type>CommandBarButton</Type>
-										<CommandName>200:b41f5bbc-ba5d-4888-8cd1-db246a371418</CommandName>
+										<CommandName>Form.Item.Акты.StandardCommand.Change</CommandName>
 										<ExtendedTooltip name="АктыИзменитьРасширеннаяПодсказка" id="248"/>
 									</Button>
 									<Button name="АктыУстановитьПометкуУдаления" id="249">
 										<Type>CommandBarButton</Type>
-										<CommandName>200:a2f737a8-0114-4e86-a214-45e5c213fa65</CommandName>
+										<CommandName>Form.Item.Акты.StandardCommand.SetDeletionMark</CommandName>
 										<ExtendedTooltip name="АктыУстановитьПометкуУдаленияРасширеннаяПодсказка" id="250"/>
 									</Button>
 									<Button name="АктыУдалить" id="251">
 										<Type>CommandBarButton</Type>
 										<Visible>false</Visible>
 										<Enabled>false</Enabled>
-										<CommandName>200:ec576e13-1e76-4c33-98aa-a33204514227</CommandName>
+										<CommandName>Form.Item.Акты.StandardCommand.Delete</CommandName>
 										<ExtendedTooltip name="АктыУдалитьРасширеннаяПодсказка" id="252"/>
 									</Button>
 									<Button name="АктыОбновить" id="253">
@@ -617,17 +620,17 @@
 									</Button>
 									<Button name="АктыУстановитьИнтервал" id="255">
 										<Type>CommandBarButton</Type>
-										<CommandName>200:daa306cd-a78a-4e74-a14c-739daba624cb</CommandName>
+										<CommandName>Form.Item.Акты.StandardCommand.SetDateInterval</CommandName>
 										<ExtendedTooltip name="АктыУстановитьИнтервалРасширеннаяПодсказка" id="256"/>
 									</Button>
 									<Button name="АктыПровести" id="257">
 										<Type>CommandBarButton</Type>
-										<CommandName>200:e3dd8850-fc3c-41b1-bbb3-7c66af082608</CommandName>
+										<CommandName>Form.Item.Акты.StandardCommand.Post</CommandName>
 										<ExtendedTooltip name="АктыПровестиРасширеннаяПодсказка" id="258"/>
 									</Button>
 									<Button name="АктыОтменаПроведения" id="259">
 										<Type>CommandBarButton</Type>
-										<CommandName>200:04ac7211-e74f-4776-9749-35a9282b1d52</CommandName>
+										<CommandName>Form.Item.Акты.StandardCommand.UndoPosting</CommandName>
 										<ExtendedTooltip name="АктыОтменаПроведенияРасширеннаяПодсказка" id="260"/>
 									</Button>
 									<Button name="АктыПоискПоТекущемуЗначению" id="261">
@@ -895,7 +898,7 @@
 			</Type>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
-				<DynamicDataRead>false</DynamicDataRead>
+				<DynamicDataRead>true</DynamicDataRead>
 				<QueryText>ВЫБРАТЬ
 	ДокументАктПриемкиВыполненныхРаботОказанныхУслуг.Ссылка,
 	ДокументАктПриемкиВыполненныхРаботОказанныхУслуг.ПометкаУдаления,
@@ -922,6 +925,7 @@
 	Документ.АктПриемкиВыполненныхРаботОказанныхУслуг КАК ДокументАктПриемкиВыполненныхРаботОказанныхУслуг
 ГДЕ
 	ДокументАктПриемкиВыполненныхРаботОказанныхУслуг.Договор = &amp;Договор</QueryText>
+				<MainTable>Document.АктПриемкиВыполненныхРаботОказанныхУслуг</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>

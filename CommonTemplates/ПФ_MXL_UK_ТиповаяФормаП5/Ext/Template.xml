@@ -5355,11 +5355,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ПІБ, посада</v8:content>
+							<v8:content>П.І.Б., посада</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>ПІБ, посада</v8:content>
+							<v8:content>П.І.Б., посада</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -8199,11 +8199,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(ПІБ)</v8:content>
+							<v8:content>(П.І.Б.)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>(ПІБ)</v8:content>
+							<v8:content>(П.І.Б.)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -8231,11 +8231,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(ПІБ)</v8:content>
+							<v8:content>(П.І.Б.)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>(ПІБ)</v8:content>
+							<v8:content>(П.І.Б.)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -8263,11 +8263,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(ПІБ)</v8:content>
+							<v8:content>(П.І.Б.)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>(ПІБ)</v8:content>
+							<v8:content>(П.І.Б.)</v8:content>
 						</v8:item>
 					</tl>
 				</c>

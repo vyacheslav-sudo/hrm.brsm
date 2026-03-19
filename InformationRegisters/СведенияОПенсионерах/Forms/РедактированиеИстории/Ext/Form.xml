@@ -174,6 +174,22 @@
 					<ContextMenu name="СерияСвидетельстваКонтекстноеМеню" id="52"/>
 					<ExtendedTooltip name="СерияСвидетельстваРасширеннаяПодсказка" id="53"/>
 				</InputField>
+				<InputField name="НаборЗаписейСвидетельствоНомер" id="57">
+					<DataPath>НаборЗаписей.СвидетельствоНомер</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Номер</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаборЗаписейСвидетельствоНомерКонтекстноеМеню" id="58"/>
+					<ExtendedTooltip name="НаборЗаписейСвидетельствоНомерРасширеннаяПодсказка" id="59"/>
+				</InputField>
 				<InputField name="НаборЗаписейДатаВыдачи" id="31">
 					<DataPath>НаборЗаписей.СвидетельствоДатаВыдачи</DataPath>
 					<Title>

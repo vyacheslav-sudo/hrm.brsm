@@ -90,7 +90,6 @@
 				<v8:Type>cfg:DocumentRef.Увольнение</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПереводКДругомуРаботодателю</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПеремещениеВДругоеПодразделение</v8:Type>
-				<v8:Type>cfg:DocumentRef.ПрекращениеЛьготПоНДФЛ</v8:Type>
 				<v8:Type>cfg:DocumentRef.НачислениеЗаПервуюПоловинуМесяца</v8:Type>
 				<v8:Type>cfg:DocumentRef.АктПриемкиВыполненныхРаботОказанныхУслуг</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыВБанк</v8:Type>

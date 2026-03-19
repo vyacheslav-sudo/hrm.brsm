@@ -613,7 +613,7 @@
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>uk</v8:lang>
-																			<v8:content>Тип будинку: будинок, володіння й т.п.</v8:content>
+																			<v8:content>Тип будинку: будинок, володіння і т.п.</v8:content>
 																		</v8:item>
 																	</ToolTip>
 																	<Width>11</Width>
@@ -633,11 +633,11 @@
 																	<ToolTip>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Номер дома, владения</v8:content>
+																			<v8:content>Номер дома</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>uk</v8:lang>
-																			<v8:content>Номер будинку, володіння</v8:content>
+																			<v8:content>Номер будинку</v8:content>
 																		</v8:item>
 																	</ToolTip>
 																	<Width>12</Width>
@@ -683,7 +683,7 @@
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>uk</v8:lang>
-																			<v8:content>Додатковий тип будинку: корпус, будівля й т.п.</v8:content>
+																			<v8:content>Додатковий тип будинку: корпус, будівля і т.п.</v8:content>
 																		</v8:item>
 																	</ToolTip>
 																	<Width>11</Width>
@@ -704,11 +704,11 @@
 																	<ToolTip>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Номер здания</v8:content>
+																			<v8:content>Номер корпуса</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>uk</v8:lang>
-																			<v8:content>Номер будинку</v8:content>
+																			<v8:content>Номер корпусу</v8:content>
 																		</v8:item>
 																	</ToolTip>
 																	<Width>12</Width>

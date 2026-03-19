@@ -1163,13 +1163,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>назва структурного підрозділу
-</v8:content>
+							<v8:content>(назва структурного підрозділу)</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>назва структурного підрозділу
-</v8:content>
+							<v8:content>(назва структурного підрозділу)</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2365,17 +2363,68 @@
 		<row>
 			<formatIndex>1</formatIndex>
 			<c>
+				<i>1</i>
+				<c>
+					<f>32</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(установи, організації)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>(установи, організації)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+				</c>
+			</c>
+			<c>
 				<i>12</i>
 				<c>
 					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(підпис) </v8:content>
+							<v8:content>підпис</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>(підпис) </v8:content>
+							<v8:content>підпис</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2519,11 +2568,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(підпис працівника)</v8:content>
+							<v8:content>підпис працівника</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>(підпис працівника)</v8:content>
+							<v8:content>підпис працівника</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2531,7 +2580,7 @@
 			<c>
 				<i>20</i>
 				<c>
-					<f>32</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2813,6 +2862,7 @@
 	<font faceName="Arial" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="9" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="9" bold="false" italic="false" underline="true" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<font>0</font>
@@ -3010,5 +3060,16 @@
 	</format>
 	<format>
 		<font>4</font>
+		<width>24</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<bySelectedColumns>true</bySelectedColumns>
+	</format>
+	<format>
+		<font>4</font>
+		<width>24</width>
+		<bySelectedColumns>true</bySelectedColumns>
+	</format>
+	<format>
+		<font>5</font>
 	</format>
 </document>

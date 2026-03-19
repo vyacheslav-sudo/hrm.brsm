@@ -574,7 +574,7 @@
 				<v8:AllowedLength>Variable</v8:AllowedLength>
 			</v8:StringQualifiers>
 		</valueType>
-		<value xsi:type="xs:string">общий</value>
+		<value xsi:type="xs:string">загальний</value>
 		<useRestriction>true</useRestriction>
 		<availableAsField>false</availableAsField>
 		<use>Always</use>
@@ -598,7 +598,7 @@
 				<v8:AllowedLength>Variable</v8:AllowedLength>
 			</v8:StringQualifiers>
 		</valueType>
-		<value xsi:type="xs:string">спец. учет</value>
+		<value xsi:type="xs:string">спец. облік</value>
 		<useRestriction>true</useRestriction>
 		<availableAsField>false</availableAsField>
 		<use>Always</use>

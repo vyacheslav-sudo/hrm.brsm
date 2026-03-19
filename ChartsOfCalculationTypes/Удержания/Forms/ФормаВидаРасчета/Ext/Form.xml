@@ -1145,7 +1145,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>uk</v8:lang>
-													<v8:content>Постійні показники зумовлений спосіб розрахунку</v8:content>
+													<v8:content>Постійні показники напередвизначений спосіб розрахунку</v8:content>
 												</v8:item>
 											</Title>
 											<ToolTip>
@@ -1155,7 +1155,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>uk</v8:lang>
-													<v8:content>Постійні показники зумовлений спосіб розрахунку</v8:content>
+													<v8:content>Постійні показники напередвизначений спосіб розрахунку</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ExtendedTooltip name="ПостоянныеПоказателиПредопределенныйСпособРасчетаExtendedTooltip" id="301"/>

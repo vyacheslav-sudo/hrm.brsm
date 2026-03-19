@@ -1249,6 +1249,7 @@
 											<v8:content>Аванс</v8:content>
 										</v8:item>
 									</Title>
+									<Width>30</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="СпособРасчетаАвансаКонтекстноеМеню" id="147"/>
 									<ExtendedTooltip name="СпособРасчетаАвансаExtendedTooltip" id="304"/>

@@ -323,6 +323,21 @@
 								<Event name="OnChange">СведенияОПенсионерахДатаВыдачиПриИзменении</Event>
 							</Events>
 						</InputField>
+						<InputField name="СведенияОПенсионерахСвидетельствоНомер" id="174">
+							<DataPath>СведенияОПенсионерах.СвидетельствоНомер</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер свидетельства</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>uk</v8:lang>
+									<v8:content>Номер свідоцтва</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СведенияОПенсионерахСвидетельствоНомерКонтекстноеМеню" id="175"/>
+							<ExtendedTooltip name="СведенияОПенсионерахСвидетельствоНомерРасширеннаяПодсказка" id="176"/>
+						</InputField>
 						<InputField name="СведенияОПенсионерахДатаВыдачи" id="149">
 							<DataPath>СведенияОПенсионерах.СвидетельствоДатаВыдачи</DataPath>
 							<Title>

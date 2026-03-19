@@ -287,6 +287,17 @@
 										</v8:item>
 									</Title>
 									<TitleLocation>Right</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Опция не применяется если порядок выплата по больничному листу установлен "С зарплатой"</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Опція не застосовується, якщо порядок виплати за лікарняним листом встановлено "Із зарплатою"</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="УчетнаяПолитикаПоНДФЛРазрешенаУплатаНалоговДоОплатыФССКонтекстноеМеню" id="246"/>
 									<ExtendedTooltip name="УчетнаяПолитикаПоНДФЛРазрешенаУплатаНалоговДоОплатыФССРасширеннаяПодсказка" id="247"/>
@@ -523,6 +534,7 @@
 									</ChildItems>
 								</UsualGroup>
 								<CheckBoxField name="НастройкиОрганизацийРасширеннаяОтражатьУдержаниеОтпускаКакСторноНачисления" id="248">
+									<DataPath>НастройкиОрганизацийРасширенная.ОтражатьУдержаниеОтпускаКакСторноНачисления</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>

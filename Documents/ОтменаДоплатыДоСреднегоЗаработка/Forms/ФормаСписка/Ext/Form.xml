@@ -118,6 +118,31 @@
 				<Event name="OnUpdateUserSettingSetAtServer">СписокПриОбновленииСоставаПользовательскихНастроекНаСервере</Event>
 			</Events>
 			<ChildItems>
+				<PictureField name="ЕстьФайлы" id="54">
+					<DataPath>Список.ЕстьФайлы</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть файлы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Є файли</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<HeaderPicture>
+						<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</HeaderPicture>
+					<Width>2</Width>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="56"/>
+				</PictureField>
 				<LabelField name="ДатаОтмены" id="15">
 					<DataPath>Список.ДатаОтмены</DataPath>
 					<Width>10</Width>
@@ -200,9 +225,19 @@
 				И ДокументОтменаДоплатыДоСреднегоЗаработка.ПометкаУдаления = ЛОЖЬ
 			ТОГДА ИСТИНА
 		ИНАЧЕ ЛОЖЬ
-	КОНЕЦ КАК ТребуетОбработки
+	КОНЕЦ КАК ТребуетОбработки,
+	ВЫБОР
+		КОГДА НаличиеФайлов.ЕстьФайлы ЕСТЬ NULL
+			ТОГДА 0
+		КОГДА НаличиеФайлов.ЕстьФайлы
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ЕстьФайлы
+	
 ИЗ
 	Документ.ОтменаДоплатыДоСреднегоЗаработка КАК ДокументОтменаДоплатыДоСреднегоЗаработка
+	{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
+		ПО ДокументОтменаДоплатыДоСреднегоЗаработка.Ссылка = НаличиеФайлов.ОбъектСФайлами}
 	
 </QueryText>
 				<MainTable>Document.ОтменаДоплатыДоСреднегоЗаработка</MainTable>

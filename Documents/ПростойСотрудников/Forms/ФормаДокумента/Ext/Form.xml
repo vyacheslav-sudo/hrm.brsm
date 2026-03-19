@@ -437,6 +437,94 @@
 								<Event name="OnChange">ВидРасчетаПриИзменении</Event>
 							</Events>
 						</InputField>
+						<UsualGroup name="ГруппаВидВремени" id="1080">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обозначение в табеле</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>uk</v8:lang>
+									<v8:content>Позначення в табелі</v8:content>
+								</v8:item>
+							</Title>
+							<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаВидВремениРасширеннаяПодсказка" id="1081"/>
+							<ChildItems>
+								<RadioButtonField name="РежимВводаВремени" id="1082">
+									<DataPath>Объект.РежимВводаВремени</DataPath>
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Вид времени определяется по виду простоя (автоматически), либо можно указать вручную</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Вид часу визначається за видом простою (автоматично), або можна вказати вручну</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+									<RadioButtonType>Auto</RadioButtonType>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Автоматически</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>uk</v8:lang>
+														<v8:content>Автоматично</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">0</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Вручную</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>uk</v8:lang>
+														<v8:content>Вручну</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:decimal">1</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="РежимВводаВремениКонтекстноеМеню" id="1083"/>
+									<ExtendedTooltip name="РежимВводаВремениРасширеннаяПодсказка" id="1084"/>
+									<Events>
+										<Event name="OnChange">РежимВводаВремениПриИзменении</Event>
+									</Events>
+								</RadioButtonField>
+								<InputField name="ВидВремени" id="1085">
+									<DataPath>Объект.ВидВремени</DataPath>
+									<ContextMenu name="ВидВремениКонтекстноеМеню" id="1086"/>
+									<ExtendedTooltip name="ВидВремениРасширеннаяПодсказка" id="1087"/>
+									<Events>
+										<Event name="OnChange">ВидВремениПриИзменении</Event>
+									</Events>
+								</InputField>
+								<LabelDecoration name="ВидВремениБуквы" id="1088">
+									<ContextMenu name="ВидВремениБуквыКонтекстноеМеню" id="1089"/>
+									<ExtendedTooltip name="ВидВремениБуквыРасширеннаяПодсказка" id="1090"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ГруппаУсловияПростояПересчитать" id="335">
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
@@ -1323,6 +1411,21 @@
 			<Group>Horizontal</Group>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаИсправлениеExtendedTooltip" id="270"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="1091">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Додатково</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="1092"/>
 		</UsualGroup>
 		<UsualGroup name="ГруппаКомментарийОтветственный" id="138">
 			<Group>Horizontal</Group>

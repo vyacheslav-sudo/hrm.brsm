@@ -299,4 +299,14 @@
 	<Item Period="01.07.2024" Index="1.000"/>
 	<Item Period="01.08.2024" Index="1.006"/>
 	<Item Period="01.09.2024" Index="1.015"/>
+	<Item Period="01.10.2024" Index="1.018"/>
+	<Item Period="01.11.2024" Index="1.019"/>
+	<Item Period="01.12.2024" Index="1.014"/>
+	<Item Period="01.01.2025" Index="1.012"/>
+	<Item Period="01.02.2025" Index="1.008"/>
+	<Item Period="01.03.2025" Index="1.015"/>
+	<Item Period="01.04.2025" Index="1.007"/>
+	<Item Period="01.05.2025" Index="1.013"/>
+	<Item Period="01.06.2025" Index="1.008"/>
+	<Item Period="01.07.2025" Index="0.998"/>	
 </Items>

@@ -26,28 +26,71 @@
 			<Comment/>
 			<Type>
 				<v8:Type>cfg:DocumentRef.ЛистокСообщенияДляВоенкомата</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПодтверждениеОплатыЗаявленияРасчетаВФСС</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЕдиновременноеПособиеЗаСчетФСС</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПризПодарок</v8:Type>
+				<v8:Type>cfg:DocumentRef.УдержаниеВСчетРасчетовПоПрочимОперациям</v8:Type>
 				<v8:Type>cfg:DocumentRef.ЗапланированноеВзаимодействие</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыРаздатчиком</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВыплатаБывшимСотрудникам</v8:Type>
 				<v8:Type>cfg:DocumentRef.КадровыйПеревод</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПодтверждениеВыплатЗаСчетФСС</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПереносОтпуска</v8:Type>
+				<v8:Type>cfg:DocumentRef.РаботаСверхурочно</v8:Type>
+				<v8:Type>cfg:DocumentRef.УдержаниеПрофсоюзныхВзносов</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПростойСотрудников</v8:Type>
 				<v8:Type>cfg:DocumentRef.ЗаявлениеРасчетВФСС</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИзменениеГрафикаРаботыСписком</v8:Type>
+				<v8:Type>cfg:DocumentRef.РегистрацияПереработок</v8:Type>
+				<v8:Type>cfg:DocumentRef.РаботаВВыходныеИПраздничныеДни</v8:Type>
+				<v8:Type>cfg:DocumentRef.Совмещение</v8:Type>
 				<v8:Type>cfg:DocumentRef.Отпуск</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИзменениеКвалификационногоРазряда</v8:Type>
 				<v8:Type>cfg:DocumentRef.БольничныйЛист</v8:Type>
+				<v8:Type>cfg:DocumentRef.ДоговорАвторскогоЗаказа</v8:Type>
 				<v8:Type>cfg:DocumentRef.ОплатаПоСреднемуЗаработку</v8:Type>
 				<v8:Type>cfg:DocumentRef.Премия</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтменаДоплатыДоСреднегоЗаработка</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИсполнительныйЛист</v8:Type>
 				<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
 				<v8:Type>cfg:DocumentRef.ИзменениеУсловийДоговораЗаймаСотруднику</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыПеречислением</v8:Type>
 				<v8:Type>cfg:DocumentRef.НачислениеЗарплаты</v8:Type>
 				<v8:Type>xs:string</v8:Type>
+				<v8:Type>cfg:DocumentRef.РазовоеНачисление</v8:Type>
 				<v8:Type>cfg:DocumentRef.Увольнение</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПереводКДругомуРаботодателю</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПеремещениеВДругоеПодразделение</v8:Type>
+				<v8:Type>cfg:DocumentRef.НачислениеЗаПервуюПоловинуМесяца</v8:Type>
+				<v8:Type>cfg:DocumentRef.АктПриемкиВыполненныхРаботОказанныхУслуг</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыВБанк</v8:Type>
+				<v8:Type>cfg:DocumentRef.НазначениеПодработки</v8:Type>
 				<v8:Type>cfg:DocumentRef.ОтпускБезСохраненияОплаты</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВозвратИзОтпускаПоУходуЗаРебенком</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПрогулНеявка</v8:Type>
+				<v8:Type>cfg:DocumentRef.ДоходВНатуральнойФорме</v8:Type>
+				<v8:Type>cfg:DocumentRef.ДоговорРаботыУслуги</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПриказНаДоплатуДоСреднегоЗаработка</v8:Type>
+				<v8:Type>cfg:DocumentRef.КомандировкиСотрудников</v8:Type>
+				<v8:Type>cfg:DocumentRef.КадровыйПереводСписком</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПрекращениеПодработки</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПриемНаРаботу</v8:Type>
 				<v8:Type>cfg:DocumentRef.Командировка</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПостоянноеУдержаниеВПользуТретьихЛиц</v8:Type>
+				<v8:Type>cfg:DocumentRef.УвольнениеСписком</v8:Type>
+				<v8:Type>cfg:DocumentRef.МатериальнаяПомощь</v8:Type>
+				<v8:Type>cfg:DocumentRef.ГрафикОтпусков</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИзменениеУсловийИсполнительногоЛиста</v8:Type>
+				<v8:Type>cfg:DocumentRef.КомпенсацияЗаЗадержкуЗарплаты</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтпускаСотрудников</v8:Type>
 				<v8:Type>cfg:DocumentRef.АттестацияРабочихМестДляУчетаСпецстажа</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтменаСовмещения</v8:Type>
+				<v8:Type>cfg:DocumentRef.Отгул</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтпускПоУходуЗаРебенком</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыВКассу</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПриемНаРаботуСписком</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПродлениеКонтрактаДоговора</v8:Type>
 				<v8:StringQualifiers>
 					<v8:Length>10</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -82,6 +125,151 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ЭлектронноеПисьмоИсходящее.Attribute.УдалитьПредмет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ВыдачаЗаймаСотруднику.Attribute.ДоговорЗайма</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ПогашениеЗаймаСотруднику.Attribute.ДоговорЗайма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.АктПриемкиВыполненныхРаботОказанныхУслуг.Attribute.Договор</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.БольничныйЛист.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.БольничныйЛист.Attribute.ПервичныйБольничныйЛист</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.БольничныйЛист.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.БольничныйЛист.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.БольничныйЛист.TabularSection.ПогашениеЗаймов.Attribute.ДоговорЗайма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.БольничныйЛист.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыВБанк.TabularSection.Зарплата.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыВБанк.TabularSection.Основания.Attribute.Документ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыВБанк.TabularSection.НДФЛ.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыВБанк.TabularSection.ВзносыФОТ.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыВКассу.TabularSection.Зарплата.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыВКассу.TabularSection.Основания.Attribute.Документ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыВКассу.TabularSection.НДФЛ.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыВКассу.TabularSection.ВзносыФОТ.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыПеречислением.TabularSection.Зарплата.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыПеречислением.TabularSection.Основания.Attribute.Документ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыПеречислением.TabularSection.НДФЛ.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыПеречислением.TabularSection.ВзносыФОТ.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыРаздатчиком.TabularSection.Зарплата.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыРаздатчиком.TabularSection.Основания.Attribute.Документ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыРаздатчиком.TabularSection.НДФЛ.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВедомостьНаВыплатуЗарплатыРаздатчиком.TabularSection.ВзносыФОТ.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратИзОтпускаПоУходуЗаРебенком.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратИзОтпускаПоУходуЗаРебенком.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратИзОтпускаПоУходуЗаРебенком.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратИзОтпускаПоУходуЗаРебенком.TabularSection.Льготы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ДоходВНатуральнойФорме.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ДоходВНатуральнойФорме.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ДоходВНатуральнойФорме.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЕдиновременноеПособиеЗаСчетФСС.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаявлениеРасчетВФСС.TabularSection.ПособияНаПогребение.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеГрафикаРаботыСписком.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеГрафикаРаботыСписком.TabularSection.НачисленияСотрудников.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеКвалификационногоРазряда.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеУсловийИсполнительногоЛиста.Attribute.ИсполнительныйЛист</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком.TabularSection.Льготы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПеревод.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПеревод.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПеревод.TabularSection.Льготы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПереводСписком.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПереводСписком.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КадровыйПереводСписком.TabularSection.Льготы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Командировка.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Командировка.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Командировка.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.КомандировкиСотрудников.TabularSection.Сотрудники.Attribute.Командировка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.МатериальнаяПомощь.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.МатериальнаяПомощь.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.МатериальнаяПомощь.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.МатериальнаяПомощь.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НазначениеПодработки.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НазначениеПодработки.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗаПервуюПоловинуМесяца.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗаПервуюПоловинуМесяца.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты.TabularSection.НачисленияПоДоговорам.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты.TabularSection.Льготы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеЗарплаты.TabularSection.ПособияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаПоСреднемуЗаработку.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаПоСреднемуЗаработку.Attribute.ПервичнаяОплатаПоСреднемуЗаработку</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаПоСреднемуЗаработку.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОплатаПоСреднемуЗаработку.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отгул.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отгул.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отгул.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтменаДоплатыДоСреднегоЗаработка.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтменаДоплатыДоСреднегоЗаработка.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтменаДоплатыДоСреднегоЗаработка.TabularSection.НачисленияСотрудника.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтменаСовмещения.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтменаСовмещения.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтменаСовмещения.TabularSection.НачисленияСотрудника.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отпуск.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отпуск.Attribute.ДокументЗаполнения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отпуск.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отпуск.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отпуск.TabularSection.ПогашениеЗаймов.Attribute.ДоговорЗайма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Отпуск.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускБезСохраненияОплаты.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускБезСохраненияОплаты.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускПоУходуЗаРебенком.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускПоУходуЗаРебенком.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускПоУходуЗаРебенком.TabularSection.ОплатаТруда.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускПоУходуЗаРебенком.TabularSection.ПогашениеЗаймов.Attribute.ДоговорЗайма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускПоУходуЗаРебенком.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускПоУходуЗаРебенком.TabularSection.Льготы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтпускПоУходуЗаРебенком.TabularSection.ОплатаЛьгот.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПеремещениеВДругоеПодразделение.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПостоянноеУдержаниеВПользуТретьихЛиц.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПрекращениеПодработки.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПрекращениеПодработки.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Премия.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Премия.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Премия.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Премия.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриемНаРаботу.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриемНаРаботуСписком.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПризПодарок.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПризПодарок.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриказНаДоплатуДоСреднегоЗаработка.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПриказНаДоплатуДоСреднегоЗаработка.TabularSection.НачисленияСотрудника.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПрогулНеявка.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПрогулНеявка.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПродлениеКонтрактаДоговора.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПростойСотрудников.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПростойСотрудников.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПростойСотрудников.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РазовоеНачисление.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РазовоеНачисление.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РазовоеНачисление.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РазовоеНачисление.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Совмещение.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Совмещение.TabularSection.ФОТСовмещаемый.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Совмещение.TabularSection.ФОТСовмещающегоСотрудника.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Совмещение.TabularSection.НачисленияСотрудника.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.Начисления.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.ПогашениеЗаймов.Attribute.ДоговорЗайма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.ПособияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.Льготы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.СотрудникиПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Увольнение.TabularSection.УчтенныеПриРасчетеНДФЛДокументы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.Attribute.ИсправленныйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.Начисления.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.Начисления.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.НачисленияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.НачисленияПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.НачисленияПерерасчет.Attribute.РегистраторРазовогоНачисления</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.ПогашениеЗаймов.Attribute.ДоговорЗайма</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.ПособияПерерасчет.Attribute.СторнируемыйДокумент</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.Удержания.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.Льготы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.СотрудникиПерерасчет.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УвольнениеСписком.TabularSection.УчтенныеПриРасчетеНДФЛДокументы.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УдержаниеВСчетРасчетовПоПрочимОперациям.Attribute.ДокументОснование</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УдержаниеПрофсоюзныхВзносов.Attribute.ДокументОснование</xr:Item>
 			</Content>
 			<DefaultForm/>
 			<AuxiliaryForm/>

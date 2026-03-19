@@ -112,6 +112,31 @@
 				<Event name="OnUpdateUserSettingSetAtServer">СписокПриОбновленииСоставаПользовательскихНастроекНаСервере</Event>
 			</Events>
 			<ChildItems>
+				<PictureField name="ЕстьФайлы" id="41">
+					<DataPath>Список.ЕстьФайлы</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть файлы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Є файли</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<HeaderPicture>
+						<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</HeaderPicture>
+					<Width>2</Width>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="43"/>
+				</PictureField>
 				<LabelField name="Дата" id="4">
 					<DataPath>Список.Date</DataPath>
 					<DefaultItem>true</DefaultItem>
@@ -178,8 +203,32 @@
 				<Field>Список.Ref</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
-				<ManualQuery>false</ManualQuery>
+				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ДокументПереносДанных.Ссылка,
+	ДокументПереносДанных.ПометкаУдаления,
+	ДокументПереносДанных.Номер,
+	ДокументПереносДанных.Дата,
+	ДокументПереносДанных.Проведен,
+	ДокументПереносДанных.ПериодРегистрации,
+	ДокументПереносДанных.Организация,
+	ДокументПереносДанных.Ответственный,
+	ДокументПереносДанных.Комментарий,
+	ДокументПереносДанных.НалогСОтсроченнойУплатой,
+	ДокументПереносДанных.ТаблицаРегистров,
+	ДокументПереносДанных.МоментВремени,
+	ВЫБОР
+		КОГДА НаличиеФайлов.ЕстьФайлы ЕСТЬ NULL
+			ТОГДА 0
+		КОГДА НаличиеФайлов.ЕстьФайлы
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ЕстьФайлы
+ИЗ
+	Документ.ПереносДанных КАК ДокументПереносДанных
+	{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
+		ПО ДокументПереносДанных.Ссылка = НаличиеФайлов.ОбъектСФайлами}</QueryText>
 				<MainTable>Document.ПереносДанных</MainTable>
 				<ListSettings>
 					<dcsset:filter>

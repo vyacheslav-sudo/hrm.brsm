@@ -128,36 +128,6 @@
 					<ContextMenu name="КлассУсловийТрудаКонтекстноеМеню" id="59"/>
 					<ExtendedTooltip name="КлассУсловийТрудаРасширеннаяПодсказка" id="60"/>
 				</LabelField>
-				<CheckBoxField name="ОблагаетсяЕНВД" id="40">
-					<DataPath>~Список.ОблагаетсяЕНВД</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ОблагаетсяЕНВДКонтекстноеМеню" id="41"/>
-					<ExtendedTooltip name="ОблагаетсяЕНВДРасширеннаяПодсказка" id="42"/>
-				</CheckBoxField>
-				<CheckBoxField name="ЯвляетсяДоходомФармацевта" id="43">
-					<DataPath>~Список.ЯвляетсяДоходомФармацевта</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ЯвляетсяДоходомФармацевтаКонтекстноеМеню" id="44"/>
-					<ExtendedTooltip name="ЯвляетсяДоходомФармацевтаРасширеннаяПодсказка" id="45"/>
-				</CheckBoxField>
-				<CheckBoxField name="ОблагаетсяВзносамиНаДоплатуЛетчикам" id="46">
-					<DataPath>~Список.ОблагаетсяВзносамиНаДоплатуЛетчикам</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ОблагаетсяВзносамиНаДоплатуЛетчикамКонтекстноеМеню" id="47"/>
-					<ExtendedTooltip name="ОблагаетсяВзносамиНаДоплатуЛетчикамРасширеннаяПодсказка" id="48"/>
-				</CheckBoxField>
-				<CheckBoxField name="ОблагаетсяВзносамиНаДоплатуШахтерам" id="49">
-					<DataPath>~Список.ОблагаетсяВзносамиНаДоплатуШахтерам</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ОблагаетсяВзносамиНаДоплатуШахтерамКонтекстноеМеню" id="50"/>
-					<ExtendedTooltip name="ОблагаетсяВзносамиНаДоплатуШахтерамРасширеннаяПодсказка" id="51"/>
-				</CheckBoxField>
-				<CheckBoxField name="ЯвляетсяДоходомЧленаЭкипажаСуднаПодФлагомРФ" id="52">
-					<DataPath>~Список.ЯвляетсяДоходомЧленаЭкипажаСуднаПодФлагомРФ</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ЯвляетсяДоходомЧленаЭкипажаСуднаПодФлагомРФКонтекстноеМеню" id="53"/>
-					<ExtendedTooltip name="ЯвляетсяДоходомЧленаЭкипажаСуднаПодФлагомРФРасширеннаяПодсказка" id="54"/>
-				</CheckBoxField>
 				<CheckBoxField name="ПоАктуПроверки" id="82">
 					<DataPath>Список.ПоАктуПроверки</DataPath>
 					<CheckBoxType>Auto</CheckBoxType>

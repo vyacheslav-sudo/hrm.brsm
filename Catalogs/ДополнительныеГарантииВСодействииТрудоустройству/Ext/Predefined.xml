@@ -21,7 +21,13 @@
 	<Item id="61a7142d-2ee4-423c-b76b-50a58a45f596">
 		<Name>КомуДоПенсииПоПозрастуОсталось1ОиМеньшеЛет</Name>
 		<Code>000000005</Code>
-		<Description>Лица, которым до наступления права на пенсию по возрасту осталось 10 и меньше лет (п. 5 ч.1 ст.14)</Description>
+		<Description>Лица, которым до наступления права на пенсию по возрасту осталось 10 и меньше лет (п.5 ч.1 ст.14)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bbc4b188-25dd-4619-b9e1-a8230c24ff4f">
+		<Name>ОсвобожденныеПослеЛишенияСвободыВСледствиеВоеннойАгрессии</Name>
+		<Code>000000010</Code>
+		<Description>Лица, освобожденные после лишения свободы в следствие военной агрессии против Украины (п.10 ч.1 ст.14)</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="594dd435-ee50-4214-8314-1e2e90a68f62">
@@ -36,10 +42,28 @@
 		<Description>Молодежь, закончившая обучение или после срочной службы (в теч. 6 месяцев) (п.4 ч.1 ст.14)</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="2f5ffb8a-5948-49d5-9960-152cc6b85764">
+		<Name>НеработающиеТрудоспособныеЛица</Name>
+		<Code>000000009</Code>
+		<Description>Неработающие трудоспособные лица, получающие помощь малообеспеченным семьям (п.9 ч.1 ст.14)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0c655436-c936-466f-a718-6127554ac65b">
+		<Name>ПрочиеКатегорииГраждан</Name>
+		<Code>000000011</Code>
+		<Description>Прочие категории граждан (п.11 ч.1 ст.14)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="01d660be-761f-4ba6-9d2c-68e0486d5f66">
 		<Name>РодителиРебенкаДо6_14ЛетИлиИнвалида</Name>
 		<Code>000000001</Code>
 		<Description>Родители детей до 6 (одинокие - до 14) лет или ребенка-инвалида (п.1 ч.1 ст.14)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8b1edcec-ba6a-4e92-b10c-30886e832a73">
+		<Name>УчастникиБоевыхДействий</Name>
+		<Code>000000008</Code>
+		<Description>Участники боевых действий (п.8 ч.1 ст.14)</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 </PredefinedData>

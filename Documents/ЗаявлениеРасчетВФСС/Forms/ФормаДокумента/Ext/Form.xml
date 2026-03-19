@@ -28,6 +28,11 @@
 				</ToolTip>
 				<ExtendedTooltip name="ПодменюВыгрузитьРасширеннаяПодсказка" id="335"/>
 				<ChildItems>
+					<Button name="ФормаВыгрузитьFredo2025" id="352">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ВыгрузитьFredo2025</CommandName>
+						<ExtendedTooltip name="ФормаВыгрузитьFredo2025РасширеннаяПодсказка" id="353"/>
+					</Button>
 					<Button name="ФормаВыгрузитьFredo" id="336">
 						<Type>CommandBarButton</Type>
 						<CommandName>Form.Command.ВыгрузитьFredo</CommandName>
@@ -49,10 +54,13 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="BeforeWrite">ПередЗаписью</Event>
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="Шапка" id="92">
@@ -823,6 +831,21 @@
 										<Event name="OnChange">ПособияНаПогребениеСуммаПособияПриИзменении</Event>
 									</Events>
 								</InputField>
+								<CheckBoxField name="ПособияНаПогребениеПособиеСтороннемуЛицу" id="347">
+									<DataPath>Объект.ПособияНаПогребение.ПособиеСтороннемуЛицу</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ПособияНаПогребениеПособиеСтороннемуЛицуКонтекстноеМеню" id="348"/>
+									<ExtendedTooltip name="ПособияНаПогребениеПособиеСтороннемуЛицуРасширеннаяПодсказка" id="349"/>
+								</CheckBoxField>
+								<InputField name="ПособияНаПогребениеСтороннееЛицо" id="344">
+									<DataPath>Объект.ПособияНаПогребение.СтороннееЛицо</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПособияНаПогребениеСтороннееЛицоКонтекстноеМеню" id="345"/>
+									<ExtendedTooltip name="ПособияНаПогребениеСтороннееЛицоРасширеннаяПодсказка" id="346"/>
+								</InputField>
 							</ChildItems>
 						</Table>
 						<UsualGroup name="ГруппаИтогиТаблицыПособий" id="251">
@@ -861,7 +884,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>uk</v8:lang>
-											<v8:content>Сума допомоги</v8:content>
+											<v8:content>Сума допомог</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -1246,6 +1269,21 @@
 				</Page>
 			</ChildItems>
 		</Pages>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="350">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Додатково</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="351"/>
+		</UsualGroup>
 		<UsualGroup name="ГруппаКомментарийОтветственный" id="156">
 			<Group>Vertical</Group>
 			<Representation>None</Representation>
@@ -1544,6 +1582,20 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
+					<v8:content>(до 07.11.2025) Выгрузить в "FREDO Звіт"</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>(до 07.11.2025) Вивантажити в "FREDO Звіт"</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ВыгрузкаВFredo</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ВыгрузитьFredo2025" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
 					<v8:content>Выгрузить в "FREDO Звіт"</v8:content>
 				</v8:item>
 				<v8:item>
@@ -1551,17 +1603,7 @@
 					<v8:content>Вивантажити в "FREDO Звіт"</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Выгрузить fredo</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Вивантажити fredo</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ВыгрузкаВFredo</Action>
+			<Action>ВыгрузкаВFredo2025</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
 	</Commands>

@@ -288,6 +288,8 @@
 			<Form>ПараметрыОтчета2022Кв3УФ</Form>
 			<Form>ФормаОтчета2024УФ</Form>
 			<Form>ПараметрыОтчета2024УФ</Form>
+			<Form>ФормаОтчета2025УФ</Form>
+			<Form>ПараметрыОтчета2025УФ</Form>
 			<Template>ПоказателиЗвит1С</Template>
 			<Template>СоставПоказателей2015</Template>
 			<Template>ПечатнаяФорма2015</Template>
@@ -295,8 +297,6 @@
 			<Template>ФормаОтчета2015УФ_Уведомление</Template>
 			<Template>ФормаОтчета2015УФ_СлужебныеДанные</Template>
 			<Template>ПечатнаяФорма2015УФ</Template>
-			<Template>J3001001</Template>
-			<Template>F3001001</Template>
 			<Template>СоставПоказателей2022УФ</Template>
 			<Template>ФормаОтчета2022УФ_Уведомление</Template>
 			<Template>ФормаОтчета2022УФ_СлужебныеДанные</Template>
@@ -315,6 +315,12 @@
 			<Template>F3001101</Template>
 			<Template>J3001004</Template>
 			<Template>J3001101</Template>
+			<Template>СоставПоказателей2025УФ</Template>
+			<Template>ФормаОтчета2025УФ_Уведомление</Template>
+			<Template>ФормаОтчета2025УФ_Приложение</Template>
+			<Template>ФормаОтчета2025УФ_СлужебныеДанные</Template>
+			<Template>F3001005</Template>
+			<Template>J3001005</Template>
 		</ChildObjects>
 	</Report>
 </MetaDataObject>

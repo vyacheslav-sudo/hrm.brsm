@@ -33,6 +33,7 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ПанельСправочниковЗарплата</Form>
+			<Form>ФормаДополнительныхДанных</Form>
 			<Form>Форма</Form>
 			<Command uuid="c4a83023-3af0-4a66-9c87-d45601137a5a">
 				<Properties>
@@ -48,6 +49,31 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Настройки и справочники раздела Зарплата</Comment>
+					<Group>NavigationPanelOrdinary</Group>
+					<CommandParameterType/>
+					<ParameterUseMode>Single</ParameterUseMode>
+					<ModifiesData>false</ModifiesData>
+					<Representation>Auto</Representation>
+					<ToolTip/>
+					<Picture/>
+					<Shortcut/>
+					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
+				</Properties>
+			</Command>
+			<Command uuid="5a0ce76d-acd2-4d41-ad81-bb7f569f9746">
+				<Properties>
+					<Name>РазделНормативныеВеличины</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нормативные величины для раздела Зарплата</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Нормативні величини для розділу Зарплата</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Нормативные величины для раздела Зарплата</Comment>
 					<Group>NavigationPanelOrdinary</Group>
 					<CommandParameterType/>
 					<ParameterUseMode>Single</ParameterUseMode>

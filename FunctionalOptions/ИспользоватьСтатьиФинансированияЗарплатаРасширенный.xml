@@ -10,7 +10,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Статті фінансування зарплата розширений</v8:content>
+					<v8:content>Використовувати статті фінансування зарплата розширений</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -70,6 +70,7 @@
 				<xr:Object>Document.НачислениеЗарплаты.TabularSection.РаспределениеРезультатовНачислений</xr:Object>
 				<xr:Object>Document.НачислениеЗарплаты.TabularSection.РаспределениеРезультатовУдержаний</xr:Object>
 				<xr:Object>Document.НачислениеЗарплаты.TabularSection.ПредставлениеРаспределенияРезультатовРасчета</xr:Object>
+				<xr:Object>AccumulationRegister.ОценочныеОбязательства.Dimension.СтатьяФинансирования</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

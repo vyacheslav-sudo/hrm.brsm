@@ -379,11 +379,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>[Подразделение], [Должность]</v8:content>
+							<v8:content>[ПодразделениеИДолжность]</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>[Подразделение], [Должность]</v8:content>
+							<v8:content>[ПодразделениеИДолжность]</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -884,7 +884,7 @@
 			</c>
 			<c>
 				<c>
-					<f>65</f>
+					<f>61</f>
 					<parameter>КалендарныхДней</parameter>
 				</c>
 			</c>
@@ -901,12 +901,12 @@
 			</c>
 			<c>
 				<c>
-					<f>66</f>
+					<f>65</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>67</f>
+					<f>66</f>
 				</c>
 			</c>
 			<c>
@@ -942,7 +942,7 @@
 			</c>
 			<c>
 				<c>
-					<f>68</f>
+					<f>67</f>
 				</c>
 			</c>
 		</row>
@@ -950,15 +950,15 @@
 	<rowsItem>
 		<index>20</index>
 		<row>
-			<formatIndex>69</formatIndex>
+			<formatIndex>68</formatIndex>
 			<c>
 				<c>
-					<f>70</f>
+					<f>69</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>71</f>
+					<f>70</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -973,7 +973,7 @@
 			</c>
 			<c>
 				<c>
-					<f>72</f>
+					<f>71</f>
 				</c>
 			</c>
 		</row>
@@ -989,7 +989,7 @@
 			</c>
 			<c>
 				<c>
-					<f>73</f>
+					<f>72</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1009,7 +1009,7 @@
 	<rowsItem>
 		<index>22</index>
 		<row>
-			<formatIndex>74</formatIndex>
+			<formatIndex>73</formatIndex>
 			<c>
 				<c>
 					<f>14</f>
@@ -1068,12 +1068,12 @@
 			</c>
 			<c>
 				<c>
-					<f>68</f>
+					<f>67</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>75</f>
+					<f>74</f>
 				</c>
 			</c>
 			<c>
@@ -1088,12 +1088,12 @@
 			</c>
 			<c>
 				<c>
-					<f>76</f>
+					<f>75</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>77</f>
+					<f>76</f>
 				</c>
 			</c>
 		</row>
@@ -1104,7 +1104,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>78</f>
+					<f>77</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1125,7 +1125,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>79</f>
+					<f>78</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1146,7 +1146,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>79</f>
+					<f>78</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1167,7 +1167,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>80</f>
+					<f>79</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1204,12 +1204,12 @@
 			</c>
 			<c>
 				<c>
-					<f>66</f>
+					<f>65</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>67</f>
+					<f>66</f>
 				</c>
 			</c>
 			<c>
@@ -1230,7 +1230,7 @@
 			</c>
 			<c>
 				<c>
-					<f>81</f>
+					<f>80</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1289,7 +1289,7 @@
 	<rowsItem>
 		<index>32</index>
 		<row>
-			<formatIndex>82</formatIndex>
+			<formatIndex>81</formatIndex>
 			<empty>true</empty>
 		</row>
 	</rowsItem>
@@ -1304,7 +1304,7 @@
 			</c>
 			<c>
 				<c>
-					<f>83</f>
+					<f>82</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1319,12 +1319,12 @@
 			</c>
 			<c>
 				<c>
-					<f>68</f>
+					<f>67</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>75</f>
+					<f>74</f>
 				</c>
 			</c>
 			<c>
@@ -1339,12 +1339,12 @@
 			</c>
 			<c>
 				<c>
-					<f>76</f>
+					<f>75</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>77</f>
+					<f>76</f>
 				</c>
 			</c>
 		</row>
@@ -1352,7 +1352,7 @@
 	<rowsItem>
 		<index>34</index>
 		<row>
-			<formatIndex>84</formatIndex>
+			<formatIndex>83</formatIndex>
 			<c>
 				<c>
 					<f>15</f>
@@ -1366,7 +1366,7 @@
 			</c>
 			<c>
 				<c>
-					<f>68</f>
+					<f>67</f>
 				</c>
 			</c>
 		</row>
@@ -1377,7 +1377,7 @@
 			<formatIndex>50</formatIndex>
 			<c>
 				<c>
-					<f>85</f>
+					<f>84</f>
 				</c>
 			</c>
 			<c>
@@ -1412,7 +1412,7 @@
 			</c>
 			<c>
 				<c>
-					<f>86</f>
+					<f>85</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1442,7 +1442,7 @@
 			</c>
 			<c>
 				<c>
-					<f>87</f>
+					<f>86</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1514,19 +1514,19 @@
 			</c>
 			<c>
 				<c>
-					<f>88</f>
+					<f>87</f>
 					<parameter>ПредельнаяВеличина</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>88</f>
 					<parameter>УчтеннаяСумма</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>89</f>
 					<parameter>СуммаСУчетомОграничений</parameter>
 				</c>
 			</c>
@@ -1555,7 +1555,7 @@
 			</c>
 			<c>
 				<c>
-					<f>91</f>
+					<f>90</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1576,7 +1576,7 @@
 			</c>
 			<c>
 				<c>
-					<f>92</f>
+					<f>91</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1591,13 +1591,13 @@
 			</c>
 			<c>
 				<c>
-					<f>89</f>
+					<f>88</f>
 					<parameter>УчтеннаяСумма</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>90</f>
+					<f>89</f>
 					<parameter>СуммаСУчетомОграничений</parameter>
 				</c>
 			</c>
@@ -1609,20 +1609,20 @@
 			</c>
 			<c>
 				<c>
-					<f>65</f>
+					<f>61</f>
 					<parameter>КалендарныхДней</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<leftHeader>
-		<f>94</f>
+		<f>93</f>
 	</leftHeader>
 	<leftFooter>
-		<f>94</f>
+		<f>93</f>
 	</leftFooter>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>93</defaultFormatIndex>
+	<defaultFormatIndex>92</defaultFormatIndex>
 	<height>38</height>
 	<vgRows>38</vgRows>
 	<merge>
@@ -2469,14 +2469,6 @@
 			</v8:item>
 		</format>
 		<indent>0</indent>
-	</format>
-	<format>
-		<font>0</font>
-		<border>1</border>
-		<height>0</height>
-		<width>111</width>
-		<horizontalAlignment>Right</horizontalAlignment>
-		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>0</font>

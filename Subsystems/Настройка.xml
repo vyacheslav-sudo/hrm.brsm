@@ -45,6 +45,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonCommand.ПерсональныеНастройки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.МестаРаботы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ГруппыУчетаНачисленийИУдержаний</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПанельСправочниковЗарплата</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

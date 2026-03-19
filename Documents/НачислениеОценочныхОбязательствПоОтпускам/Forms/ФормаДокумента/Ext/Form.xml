@@ -7,12 +7,14 @@
 	<Events>
 		<Event name="AfterWrite">ПослеЗаписи</Event>
 		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="BeforeClose">ПередЗакрытием</Event>
 		<Event name="BeforeWrite">ПередЗаписью</Event>
 		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаШапка" id="135">
@@ -111,6 +113,9 @@
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ОрганизацияКонтекстноеМеню" id="11"/>
 									<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="12"/>
+									<Events>
+										<Event name="OnChange">ОрганизацияПриИзменении</Event>
+									</Events>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -293,6 +298,7 @@
 				</UsualGroup>
 				<InputField name="ДоляРасходов" id="193">
 					<DataPath>Объект.ДоляРасходов</DataPath>
+					<ReadOnly>true</ReadOnly>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -310,6 +316,15 @@
 					<ContextMenu name="ДоляРасходовКонтекстноеМеню" id="194"/>
 					<ExtendedTooltip name="ДоляРасходовРасширеннаяПодсказка" id="195"/>
 				</InputField>
+				<LabelField name="ТекущийМетодНачисленияРезерваОтпусков" id="466">
+					<DataPath>ТекущийМетодНачисленияРезерваОтпусков</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<Width>26</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<TextColor>style:ТекстСправочнойНадписи</TextColor>
+					<ContextMenu name="ТекущийМетодНачисленияРезерваОтпусковКонтекстноеМеню" id="467"/>
+					<ExtendedTooltip name="ТекущийМетодНачисленияРезерваОтпусковРасширеннаяПодсказка" id="468"/>
+				</LabelField>
 			</ChildItems>
 		</UsualGroup>
 		<Pages name="Страницы" id="28">
@@ -346,6 +361,7 @@
 							<v8:content>Група оціночні зобов'язання</v8:content>
 						</v8:item>
 					</ToolTip>
+					<TitleDataPath>Объект.ОценочныеОбязательства.RowsCount</TitleDataPath>
 					<ExtendedTooltip name="ГруппаОценочныеОбязательстваРасширеннаяПодсказка" id="197"/>
 					<ChildItems>
 						<Table name="ОценочныеОбязательства" id="198">
@@ -572,6 +588,7 @@
 							<v8:content>Розрахунок зобов'язань і резервів щодо відпусток</v8:content>
 						</v8:item>
 					</Title>
+					<TitleDataPath>Объект.РасчетРезерваОтпусков.RowsCount</TitleDataPath>
 					<ExtendedTooltip name="ГруппаРасчетРезерваОтпусковРасширеннаяПодсказка" id="31"/>
 					<ChildItems>
 						<Table name="РасчетРезерваОтпусков" id="253">
@@ -582,7 +599,80 @@
 							<DataPath>Объект.РасчетРезерваОтпусков</DataPath>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="РасчетРезерваОтпусковКонтекстноеМеню" id="254"/>
-							<AutoCommandBar name="РасчетРезерваОтпусковКоманднаяПанель" id="255"/>
+							<AutoCommandBar name="РасчетРезерваОтпусковКоманднаяПанель" id="255">
+								<ChildItems>
+									<ButtonGroup name="ГуппаКнопокМетодОбязательств" id="469">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Гуппа кнопок метод обязательств</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>uk</v8:lang>
+												<v8:content>Гуппа кнопок метод зобов'язань</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Гуппа кнопок метод обязательств</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>uk</v8:lang>
+												<v8:content>Гуппа кнопок метод зобов'язань</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="ГуппаКнопокМетодОбязательствРасширеннаяПодсказка" id="470"/>
+										<ChildItems>
+											<Button name="РасчетРезерваОтпусковОткрытьСреднийЗаработок" id="479">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ОткрытьСреднийЗаработок</CommandName>
+												<ExtendedTooltip name="РасчетРезерваОтпусковОткрытьСреднийЗаработокРасширеннаяПодсказка" id="480"/>
+											</Button>
+											<Button name="РасчетРезерваОтпусковПечатьСредненгоЗаработка" id="471">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.ПечатьСреднегоЗаработка</CommandName>
+												<ExtendedTooltip name="РасчетРезерваОтпусковПечатьСредненгоЗаработкаРасширеннаяПодсказка" id="472"/>
+											</Button>
+											<Button name="РасчетРезерваОтпусковРасшифровкаОстаткаОтпусков" id="473">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.РасшифровкаОстаткаОтпусков</CommandName>
+												<ExtendedTooltip name="РасчетРезерваОтпусковРасшифровкаОстаткаОтпусковРасширеннаяПодсказка" id="474"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+									<ButtonGroup name="ГруппаКнопокНормативныйМетод" id="475">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа кнопок нормативный метод</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>uk</v8:lang>
+												<v8:content>Група кнопок нормативний метод</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа кнопок нормативный метод</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>uk</v8:lang>
+												<v8:content>Група кнопок нормативний метод</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ExtendedTooltip name="ГруппаКнопокНормативныйМетодРасширеннаяПодсказка" id="476"/>
+										<ChildItems>
+											<Button name="РасчетРезерваОтпусковРасчетныйЛисток" id="477">
+												<Type>CommandBarButton</Type>
+												<CommandName>Form.Command.РасчетныйЛисток</CommandName>
+												<ExtendedTooltip name="РасчетРезерваОтпусковРасчетныйЛистокРасширеннаяПодсказка" id="478"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</AutoCommandBar>
 							<ExtendedTooltip name="РасчетРезерваОтпусковРасширеннаяПодсказка" id="256"/>
 							<SearchStringAddition name="РасчетРезерваОтпусковСтрокаПоиска" id="257">
 								<AdditionSource>
@@ -629,6 +719,13 @@
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="РасчетРезерваОтпусковСотрудникКонтекстноеМеню" id="276"/>
 									<ExtendedTooltip name="РасчетРезерваОтпусковСотрудникРасширеннаяПодсказка" id="277"/>
+								</InputField>
+								<InputField name="РасчетРезерваОтпусковПодразделение" id="463">
+									<DataPath>Объект.РасчетРезерваОтпусков.Подразделение</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РасчетРезерваОтпусковПодразделениеКонтекстноеМеню" id="464"/>
+									<ExtendedTooltip name="РасчетРезерваОтпусковПодразделениеРасширеннаяПодсказка" id="465"/>
 								</InputField>
 								<InputField name="РасчетРезерваОтпусковФОТ" id="278">
 									<DataPath>Объект.РасчетРезерваОтпусков.ФОТ</DataPath>
@@ -1052,6 +1149,20 @@
 				</Page>
 			</ChildItems>
 		</Pages>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="461">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Додатково</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="462"/>
+		</UsualGroup>
 		<UsualGroup name="ГруппаКомментарийОтветственный" id="157">
 			<Title>
 				<v8:item>
@@ -1338,7 +1449,6 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
-			<SavedData>true</SavedData>
 		</Attribute>
 		<Attribute name="РассчитыватьДокументыПриРедактировании" id="5">
 			<Title>
@@ -1388,6 +1498,18 @@
 			<Type>
 				<v8:Type>v8:UUID</v8:Type>
 			</Type>
+		</Attribute>
+		<Attribute name="ТекущийМетодНачисленияРезерваОтпусков" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Метод начисления резерва отпусков</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.МетодыНачисленияРезервовОтпусков</v8:Type>
+			</Type>
+			<SavedData>true</SavedData>
 		</Attribute>
 	</Attributes>
 	<Commands>
@@ -1440,6 +1562,107 @@
 			</ToolTip>
 			<Action>ПересчитатьДокумент</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПечатьСреднегоЗаработка" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать среднего заработка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Друк середнього заробітку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать среднего заработка для вибранных строк</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Друк середнього заробітку для обраних рядків</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РасчетСреднегоЗаработка</Action>
+			<AssociatedTableElementId xsi:type="xs:string">РасчетРезерваОтпусков</AssociatedTableElementId>
+		</Command>
+		<Command name="РасшифровкаОстаткаОтпусков" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расшифровка остатка отпусков</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Розшифровка залишку відпусток</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать расшифровки остатка отпусков для выбранных строк</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Друк розшифровки залишку відпусток для обраних рядків</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РасшифровкаОстаткаОтпуска</Action>
+			<AssociatedTableElementId xsi:type="xs:string">РасчетРезерваОтпусков</AssociatedTableElementId>
+		</Command>
+		<Command name="РасчетныйЛисток" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчетный листок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Розрахунковий листок</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать расчетного листка для выбранных строк</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Розрахунковий листок</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РасчетныйЛисток</Action>
+			<AssociatedTableElementId xsi:type="xs:string">РасчетРезерваОтпусков</AssociatedTableElementId>
+		</Command>
+		<Command name="ОткрытьСреднийЗаработок" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открыть средний заработок</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Відкрити середній заробіток</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Посмотреть данные расчета среднего заработка в форме калькуляторе</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Подивитися дані розрахунку середнього заробітку у формі калькуляторі</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Use>
+				<xr:Common>true</xr:Common>
+				<xr:Value name="Role.ПолныеПрава">true</xr:Value>
+			</Use>
+			<Action>ОткрытьСреднийЗаработок</Action>
+			<CurrentRowUse>Use</CurrentRowUse>
+			<AssociatedTableElementId xsi:type="xs:string">РасчетРезерваОтпусков</AssociatedTableElementId>
 		</Command>
 	</Commands>
 </Form>

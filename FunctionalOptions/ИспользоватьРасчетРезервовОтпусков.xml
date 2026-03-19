@@ -18,6 +18,7 @@
 			<PrivilegedGetMode>true</PrivilegedGetMode>
 			<Content>
 				<xr:Object>Document.НачислениеОценочныхОбязательствПоОтпускам</xr:Object>
+				<xr:Object>Report.СправкаРасчетРезервыОтпусков</xr:Object>
 			</Content>
 		</Properties>
 	</FunctionalOption>

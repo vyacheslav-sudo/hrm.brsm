@@ -771,6 +771,62 @@
 				</v8:item>
 			</title>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Мобилизация</dataPath>
+			<field>Мобилизация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мобилизация</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Мобілізація</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МобилизацияБезОплаты</dataPath>
+			<field>МобилизацияБезОплаты</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мобилизация без оплаты</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Мобілізація без оплати</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПриостановкаТрудовогоДоговора</dataPath>
+			<field>ПриостановкаТрудовогоДоговора</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приостановка трудового договора</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Призупинення трудового договору</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтпускНеоплачиваемыйНаВремяВоенногоПоложения</dataPath>
+			<field>ОтпускНеоплачиваемыйНаВремяВоенногоПоложения</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отпуск неоплачиваемый на время военного положения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Відпустка неоплачувана на час воєнного стану</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ДАТАВРЕМЯ(1, 1, 1) КАК Период
@@ -993,8 +1049,8 @@
 	КадроваяИсторияСотрудниковСрезПоследних.Сотрудник КАК Сотрудник,
 	КадроваяИсторияСотрудниковСрезПоследних.ФизическоеЛицо КАК ФизическоеЛицо,
 	КадроваяИсторияСотрудниковСрезПоследних.ВидЗанятости КАК ВидЗанятости,
-	КадроваяИсторияСотрудниковСрезПоследних.ВидДоговора КАК ВидДоговора,  
-	КадроваяИсторияСотрудниковСрезПоследних.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем, 
+	КадроваяИсторияСотрудниковСрезПоследних.ВидДоговора КАК ВидДоговора,
+	КадроваяИсторияСотрудниковСрезПоследних.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем,
 	КадроваяИсторияСотрудниковСрезПоследних.КоличествоСтавок КАК КоличествоСтавок,
 	ВЫБОР
 		КОГДА КадроваяИсторияСотрудниковСрезПоследних.ПериодЗаписи &gt;= &amp;НачалоПериода
@@ -1009,7 +1065,7 @@
 ГДЕ
 	КадроваяИсторияСотрудниковСрезПоследних.ВидСобытия &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВидыКадровыхСобытий.Увольнение)
 	И (КадроваяИсторияСотрудников.ВидСобытия &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВидыКадровыхСобытий.Увольнение)
-			ИЛИ КадроваяИсторияСотрудников.ВидСобытия ЕСТЬ NULL )
+			ИЛИ КадроваяИсторияСотрудников.ВидСобытия ЕСТЬ NULL)
 {ГДЕ
 	КадроваяИсторияСотрудниковСрезПоследних.Организация.*,
 	КадроваяИсторияСотрудниковСрезПоследних.Подразделение.*,
@@ -1030,7 +1086,7 @@
 	КадроваяИсторияСотрудников.ДолжностьПоШтатномуРасписанию,
 	КадроваяИсторияСотрудников.Сотрудник,
 	КадроваяИсторияСотрудников.ФизическоеЛицо,
-	КадроваяИсторияСотрудников.ВидЗанятости, 
+	КадроваяИсторияСотрудников.ВидЗанятости,
 	КадроваяИсторияСотрудников.ВидДоговора,
 	КадроваяИсторияСотрудников.РаботаСНефиксированнымРабочимВременем,
 	КадроваяИсторияСотрудников.КоличествоСтавок,
@@ -1129,7 +1185,7 @@
 	ГрафикиРаботыСотрудников.КоэффициентНеполнойНедели КАК КоэффициентНеполнойНедели,
 	ГрафикиРаботыСотрудников.ГрафикРаботы КАК ГрафикРаботы,
 	МИНИМУМ(ВЫБОР
-			КОГДА ГрафикиРаботыСотрудниковСлед.Период ЕСТЬ NULL 
+			КОГДА ГрафикиРаботыСотрудниковСлед.Период ЕСТЬ NULL
 				ТОГДА &amp;КонецПериода
 			ИНАЧЕ ДОБАВИТЬКДАТЕ(ГрафикиРаботыСотрудниковСлед.Период, ДЕНЬ, -1)
 		КОНЕЦ) КАК КонецИнтервала
@@ -1258,7 +1314,7 @@
 		КОГДА ДатыИзмененияСостоянийСотрудников.УволенВПериоде
 				И ДатыИзмененияСостоянийСотрудников.Период = &amp;НачалоПериода
 			ТОГДА &amp;НачалоПериода
-		КОГДА ДатыИзмененияСостоянийСотрудниковБудущее.Период ЕСТЬ NULL 
+		КОГДА ДатыИзмененияСостоянийСотрудниковБудущее.Период ЕСТЬ NULL
 			ТОГДА &amp;КонецПериода
 		КОГДА ДатыИзмененияСостоянийСотрудниковБудущее.УволенВПериоде
 			ТОГДА ДатыИзмененияСостоянийСотрудниковБудущее.Период
@@ -1328,9 +1384,9 @@
 	ПодразделенияСотрудников.ДолжностьПоШтатномуРасписанию КАК ДолжностьПоШтатномуРасписанию,
 	ПодразделенияСотрудников.Сотрудник КАК Сотрудник,
 	ПодразделенияСотрудников.ФизическоеЛицо КАК ФизическоеЛицо,
-	ПодразделенияСотрудников.ВидЗанятости КАК ВидЗанятости,  
-	ПодразделенияСотрудников.ВидДоговора КАК ВидДоговора,  
-	ПодразделенияСотрудников.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем, 
+	ПодразделенияСотрудников.ВидЗанятости КАК ВидЗанятости,
+	ПодразделенияСотрудников.ВидДоговора КАК ВидДоговора,
+	ПодразделенияСотрудников.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем,
 	ПодразделенияСотрудников.КоличествоСтавок КАК КоличествоСтавок,
 	СведенияОбИнвалидности.Инвалидность КАК Инвалидность,
 	СведенияОЛицахСДополнительнымиГарантиями.НаличиеГарантий КАК НаличиеГарантий,
@@ -1363,9 +1419,9 @@
 	СостоянияСотрудниковПоПериоду.ДолжностьПоШтатномуРасписанию КАК ДолжностьПоШтатномуРасписанию,
 	СостоянияСотрудниковПоПериоду.Сотрудник КАК Сотрудник,
 	СостоянияСотрудниковПоПериоду.ФизическоеЛицо КАК ФизическоеЛицо,
-	СостоянияСотрудниковПоПериоду.ВидЗанятости КАК ВидЗанятости,  
-	СостоянияСотрудниковПоПериоду.ВидДоговора КАК ВидДоговора, 
-	СостоянияСотрудниковПоПериоду.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем, 
+	СостоянияСотрудниковПоПериоду.ВидЗанятости КАК ВидЗанятости,
+	СостоянияСотрудниковПоПериоду.ВидДоговора КАК ВидДоговора,
+	СостоянияСотрудниковПоПериоду.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем,
 	СостоянияСотрудниковПоПериоду.КоличествоСтавок КАК КоличествоСтавок,
 	СостоянияСотрудниковПоПериоду.Инвалидность КАК Инвалидность,
 	СостоянияСотрудниковПоПериоду.НаличиеГарантий КАК НаличиеГарантий,
@@ -1475,7 +1531,7 @@
 	СостоянияСотрудниковПоДням.ДолжностьПоШтатномуРасписанию КАК ДолжностьПоШтатномуРасписанию,
 	СостоянияСотрудниковПоДням.Сотрудник КАК Сотрудник,
 	СостоянияСотрудниковПоДням.ФизическоеЛицо КАК ФизическоеЛицо,
-	СостоянияСотрудниковПоДням.ВидЗанятости КАК ВидЗанятости,   
+	СостоянияСотрудниковПоДням.ВидЗанятости КАК ВидЗанятости,
 	СостоянияСотрудниковПоДням.ВидДоговора КАК ВидДоговора,
 	СостоянияСотрудниковПоДням.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем,
 	ЛОЖЬ КАК ЭтоДоговорГПХ,
@@ -1500,8 +1556,8 @@
 	NULL,
 	ДоговораГПХПоДням.Сотрудник,
 	ДоговораГПХПоДням.ФизическоеЛицо,
-	ЗНАЧЕНИЕ(Перечисление.ВидыОсобыхНачисленийИУдержаний.ДоговорРаботыУслуги),    
-	ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ПустаяСсылка),      
+	ЗНАЧЕНИЕ(Перечисление.ВидыОсобыхНачисленийИУдержаний.ДоговорРаботыУслуги),
+	ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ПустаяСсылка),
 	ЛОЖЬ,
 	ИСТИНА,
 	ДоговораГПХПоДням.Инвалидность,
@@ -1516,7 +1572,7 @@
 			И ДоговораГПХПоДням.Организация = СостоянияСотрудниковПоДням.Организация
 			И (СостоянияСотрудниковПоДням.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятости.ОсновноеМестоРаботы))
 ГДЕ
-	СостоянияСотрудниковПоДням.Сотрудник ЕСТЬ NULL 
+	СостоянияСотрудниковПоДням.Сотрудник ЕСТЬ NULL
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -1553,7 +1609,7 @@
 	СотрудникиПоДнямПополненныеДоговорамиГПХ.ДолжностьПоШтатномуРасписанию КАК ДолжностьПоШтатномуРасписанию,
 	СотрудникиПоДнямСокращенная.Сотрудник КАК Сотрудник,
 	СотрудникиПоДнямСокращенная.ФизическоеЛицо КАК ФизическоеЛицо,
-	СотрудникиПоДнямПополненныеДоговорамиГПХ.ВидЗанятости КАК ВидЗанятости,   
+	СотрудникиПоДнямПополненныеДоговорамиГПХ.ВидЗанятости КАК ВидЗанятости,
 	СотрудникиПоДнямПополненныеДоговорамиГПХ.ВидДоговора КАК ВидДоговора,
 	СотрудникиПоДнямПополненныеДоговорамиГПХ.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем,
 	СотрудникиПоДнямПополненныеДоговорамиГПХ.Инвалидность КАК Инвалидность,
@@ -1582,20 +1638,24 @@
 	КОНЕЦ КАК НормаДней,
 	1 КАК СписочнаяЧисленность,
 	ВЫБОР
-		КОГДА СостоянияСотрудников.Состояние ЕСТЬ NULL 
+		КОГДА СостоянияСотрудников.Состояние ЕСТЬ NULL
 			ТОГДА 0
 		КОГДА СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.ОтпускПоБеременностиИРодам)
 			ТОГДА 0
 		КОГДА СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.ОтпускПоУходуЗаРебенком)
 			ТОГДА 0
-		КОГДА СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.Мобилизация)
+		КОГДА &amp;ИсключатьПериодыПоПравилам1ПВ
+				И СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.Мобилизация)
 			ТОГДА 0
-		КОГДА СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.МобилизацияБезОплаты)
+		КОГДА &amp;ИсключатьПериодыПоПравилам1ПВ
+				И СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.МобилизацияБезОплаты)
 			ТОГДА 0
-		КОГДА СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.ПриостановкаТрудовогоДоговора)
+		КОГДА &amp;ИсключатьПериодыПоПравилам1ПВ
+				И СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.ПриостановкаТрудовогоДоговора)
 			ТОГДА 0
-		КОГДА СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.ОтпускНеоплачиваемыйНаВремяВоенногоПоложения)
-			ТОГДА 0			
+		КОГДА &amp;ИсключатьПериодыПоПравилам1ПВ
+				И СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.ОтпускНеоплачиваемыйНаВремяВоенногоПоложения)
+			ТОГДА 0
 		ИНАЧЕ 1
 	КОНЕЦ КАК СреднесписочнаяЧисленность,
 	ВЫБОР
@@ -1608,6 +1668,30 @@
 			ТОГДА 1
 		ИНАЧЕ 0
 	КОНЕЦ КАК ОтпускПоУходуЗаРебенком,
+	ВЫБОР
+		КОГДА &amp;ИсключатьПериодыПоПравилам1ПВ
+				И СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.Мобилизация)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК Мобилизация,
+	ВЫБОР
+		КОГДА &amp;ИсключатьПериодыПоПравилам1ПВ
+				И СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.МобилизацияБезОплаты)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК МобилизацияБезОплаты,
+	ВЫБОР
+		КОГДА &amp;ИсключатьПериодыПоПравилам1ПВ
+				И СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.ПриостановкаТрудовогоДоговора)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ПриостановкаТрудовогоДоговора,
+	ВЫБОР
+		КОГДА &amp;ИсключатьПериодыПоПравилам1ПВ
+				И СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.ОтпускНеоплачиваемыйНаВремяВоенногоПоложения)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ОтпускНеоплачиваемыйНаВремяВоенногоПоложения,
 	ВЫБОР
 		КОГДА СостоянияСотрудников.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияСотрудника.ПростойПоВинеРаботника)
 			ТОГДА 1
@@ -1772,6 +1856,26 @@
 		КОНЕЦ) КАК ОтпускПоУходуЗаРебенком,
 	СУММА(ВЫБОР
 			КОГДА ЧисленностьПоРабочимДням.ПериодДень МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+				ТОГДА ЧисленностьПоРабочимДням.Мобилизация
+			ИНАЧЕ NULL
+		КОНЕЦ) КАК Мобилизация,
+	СУММА(ВЫБОР
+			КОГДА ЧисленностьПоРабочимДням.ПериодДень МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+				ТОГДА ЧисленностьПоРабочимДням.МобилизацияБезОплаты
+			ИНАЧЕ NULL
+		КОНЕЦ) КАК МобилизацияБезОплаты,
+	СУММА(ВЫБОР
+			КОГДА ЧисленностьПоРабочимДням.ПериодДень МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+				ТОГДА ЧисленностьПоРабочимДням.ПриостановкаТрудовогоДоговора
+			ИНАЧЕ NULL
+		КОНЕЦ) КАК ПриостановкаТрудовогоДоговора,
+	СУММА(ВЫБОР
+			КОГДА ЧисленностьПоРабочимДням.ПериодДень МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+				ТОГДА ЧисленностьПоРабочимДням.ОтпускНеоплачиваемыйНаВремяВоенногоПоложения
+			ИНАЧЕ NULL
+		КОНЕЦ) КАК ОтпускНеоплачиваемыйНаВремяВоенногоПоложения,
+	СУММА(ВЫБОР
+			КОГДА ЧисленностьПоРабочимДням.ПериодДень МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
 				ТОГДА ЧисленностьПоРабочимДням.ПростойПоВинеРаботника
 			ИНАЧЕ NULL
 		КОНЕЦ) КАК ПростойПоВинеРаботника,
@@ -1817,7 +1921,7 @@
 	ЧисленностьЗаПериод.ОсновнаяДолжностьПоШтатномуРасписанию КАК ОсновнаяДолжностьПоШтатномуРасписанию,
 	ЧисленностьЗаПериод.Сотрудник КАК Сотрудник,
 	ЧисленностьЗаПериод.ВидЗанятости КАК ВидЗанятости,
-	ЧисленностьЗаПериод.ВидДоговора КАК ВидДоговора,   
+	ЧисленностьЗаПериод.ВидДоговора КАК ВидДоговора,
 	ЧисленностьЗаПериод.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем,
 	СУММА(ЧисленностьЗаПериод.НормаДней) КАК НормаДней,
 	СУММА(ЧисленностьЗаПериод.НормаЧасов) КАК НормаЧасов,
@@ -1835,6 +1939,10 @@
 	СУММА(ЧисленностьЗаПериод.СреднесписочнаяЧисленностьЛицСГарантиямиЗаМесяцНеИнвалиды) КАК СреднесписочнаяЧисленностьЛицСГарантиямиЗаМесяцНеИнвалиды,
 	СУММА(ЧисленностьЗаПериод.ОтпускПоБеременностиИРодам) КАК ОтпускПоБеременностиИРодам,
 	СУММА(ЧисленностьЗаПериод.ОтпускПоУходуЗаРебенком) КАК ОтпускПоУходуЗаРебенком,
+	СУММА(ЧисленностьЗаПериод.Мобилизация) КАК Мобилизация,
+	СУММА(ЧисленностьЗаПериод.МобилизацияБезОплаты) КАК МобилизацияБезОплаты,
+	СУММА(ЧисленностьЗаПериод.ПриостановкаТрудовогоДоговора) КАК ПриостановкаТрудовогоДоговора,
+	СУММА(ЧисленностьЗаПериод.ОтпускНеоплачиваемыйНаВремяВоенногоПоложения) КАК ОтпускНеоплачиваемыйНаВремяВоенногоПоложения,
 	СУММА(ЧисленностьЗаПериод.ПростойПоВинеРаботника) КАК ПростойПоВинеРаботника,
 	СУММА(ЧисленностьЗаПериод.ПростойПоВинеРаботодателя) КАК ПростойПоВинеРаботодателя,
 	СУММА(ЧисленностьЗаПериод.ПростойПоНезависящимПричинам) КАК ПростойПоНезависящимПричинам,
@@ -1919,8 +2027,8 @@
 		ИНАЧЕ РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(&amp;НачалоПериода, МЕСЯЦ), КОНЕЦПЕРИОДА(&amp;КонецПериода, МЕСЯЦ), МЕСЯЦ) + 1
 	КОНЕЦ КАК СреднесписочнаяЧисленность,
 	ВЫБОР
-		КОГДА (ИтоговыеДанные.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятости.Совместительство) 
-			И ИтоговыеДанные.ВидДоговора &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ГигКонтракт))
+		КОГДА ИтоговыеДанные.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятости.Совместительство)
+				И ИтоговыеДанные.ВидДоговора &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ГигКонтракт)
 			ТОГДА ЕСТЬNULL(ИтоговыеДанные.СреднесписочнаяЧисленностьЗаМесяц, 0)
 		ИНАЧЕ 0
 	КОНЕЦ / ВЫБОР
@@ -1930,8 +2038,8 @@
 		ИНАЧЕ РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(&amp;НачалоПериода, МЕСЯЦ), КОНЕЦПЕРИОДА(&amp;КонецПериода, МЕСЯЦ), МЕСЯЦ) + 1
 	КОНЕЦ КАК СреднесписочнаяЧисленностьВнешнихСовместителей,
 	ВЫБОР
-		КОГДА (ИтоговыеДанные.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятости.Совместительство) 
-			И ИтоговыеДанные.ВидДоговора = ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ГигКонтракт))
+		КОГДА ИтоговыеДанные.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыЗанятости.Совместительство)
+				И ИтоговыеДанные.ВидДоговора = ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ГигКонтракт)
 			ТОГДА ЕСТЬNULL(ИтоговыеДанные.СреднесписочнаяЧисленностьЗаМесяц, 0)
 		ИНАЧЕ 0
 	КОНЕЦ / ВЫБОР
@@ -1940,7 +2048,6 @@
 			ТОГДА 1
 		ИНАЧЕ РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(&amp;НачалоПериода, МЕСЯЦ), КОНЕЦПЕРИОДА(&amp;КонецПериода, МЕСЯЦ), МЕСЯЦ) + 1
 	КОНЕЦ КАК СреднесписочнаяЧисленностьРаботниковПоГигКонтракту,
-
 	ВЫБОР
 		КОГДА ИтоговыеДанные.ВидЗанятости = ЗНАЧЕНИЕ(Перечисление.ВидыОсобыхНачисленийИУдержаний.ДоговорРаботыУслуги)
 			ТОГДА ЕСТЬNULL(ИтоговыеДанные.СписочнаяЧисленностьЗаМесяц, 0)
@@ -2010,6 +2117,10 @@
 	0 КАК КоэффициентТекучести,
 	ИтоговыеДанные.ОтпускПоБеременностиИРодам КАК ОтпускПоБеременностиИРодам,
 	ИтоговыеДанные.ОтпускПоУходуЗаРебенком КАК ОтпускПоУходуЗаРебенком,
+    ИтоговыеДанные.Мобилизация КАК Мобилизация,
+ 	ИтоговыеДанные.МобилизацияБезОплаты КАК МобилизацияБезОплаты,  
+    ИтоговыеДанные.ПриостановкаТрудовогоДоговора КАК ПриостановкаТрудовогоДоговора,
+	ИтоговыеДанные.ОтпускНеоплачиваемыйНаВремяВоенногоПоложения КАК ОтпускНеоплачиваемыйНаВремяВоенногоПоложения,
 	ИтоговыеДанные.ПростойПоВинеРаботника КАК ПростойПоВинеРаботника,
 	ИтоговыеДанные.ПростойПоВинеРаботодателя КАК ПростойПоВинеРаботодателя,
 	ИтоговыеДанные.ПростойПоНезависящимПричинам КАК ПростойПоНезависящимПричинам,
@@ -2026,9 +2137,9 @@
 	ОсновнаяДолжность.*,
 	Сотрудник.*,
 	ВидЗанятости.*,
-	ВидДоговора.*,		
+	ВидДоговора.*,
 	РаботаСНефиксированнымРабочимВременем,
-    НормаДней,
+	НормаДней,
 	НормаЧасов,
 	СписочнаяЧисленностьЗаМесяц,
 	СреднесписочнаяЧисленностьЗаМесяц,
@@ -2039,6 +2150,10 @@
 	СреднесписочнаяЧисленностьЛицСГарантиямиЗаМесяцНеИнвалиды,
 	ОтпускПоБеременностиИРодам,
 	ОтпускПоУходуЗаРебенком,
+	Мобилизация,
+	МобилизацияБезОплаты,
+	ПриостановкаТрудовогоДоговора,
+	ОтпускНеоплачиваемыйНаВремяВоенногоПоложения,
 	ПростойПоВинеРаботника,
 	ПростойПоВинеРаботодателя,
 	ПростойПоНезависящимПричинам,
@@ -2055,7 +2170,7 @@
 	ИтоговыеДанные.Должность.*,
 	ИтоговыеДанные.ОсновнаяДолжность.*,
 	ИтоговыеДанные.Сотрудник.*,
-	ИтоговыеДанные.ВидЗанятости.*,       
+	ИтоговыеДанные.ВидЗанятости.*,
 	ИтоговыеДанные.ВидДоговора.*,
 	ИтоговыеДанные.РаботаСНефиксированнымРабочимВременем,
 	ИтоговыеДанные.НормаДней,
@@ -2069,6 +2184,10 @@
 	ИтоговыеДанные.СреднесписочнаяЧисленностьЛицСГарантиямиЗаМесяцНеИнвалиды,
 	ИтоговыеДанные.ОтпускПоБеременностиИРодам,
 	ИтоговыеДанные.ОтпускПоУходуЗаРебенком,
+	ИтоговыеДанные.Мобилизация,
+	ИтоговыеДанные.МобилизацияБезОплаты,
+	ИтоговыеДанные.ПриостановкаТрудовогоДоговора,
+	ИтоговыеДанные.ОтпускНеоплачиваемыйНаВремяВоенногоПоложения,
 	ИтоговыеДанные.ПростойПоВинеРаботника,
 	ИтоговыеДанные.ПростойПоВинеРаботодателя,
 	ИтоговыеДанные.ПростойПоНезависящимПричинам,
@@ -2359,6 +2478,22 @@
 		<dataPath>СреднесписочнаяЧисленностьРаботниковПоГигКонтракту</dataPath>
 		<expression>Сумма(СреднесписочнаяЧисленностьРаботниковПоГигКонтракту)</expression>
 	</totalField>
+	<totalField>
+		<dataPath>Мобилизация</dataPath>
+		<expression>Сумма(Мобилизация)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>МобилизацияБезОплаты</dataPath>
+		<expression>Сумма(МобилизацияБезОплаты)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПриостановкаТрудовогоДоговора</dataPath>
+		<expression>Сумма(ПриостановкаТрудовогоДоговора)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОтпускНеоплачиваемыйНаВремяВоенногоПоложения</dataPath>
+		<expression>Сумма(ОтпускНеоплачиваемыйНаВремяВоенногоПоложения)</expression>
+	</totalField>
 	<parameter>
 		<name>ПериодОтчета</name>
 		<title xsi:type="v8:LocalStringType">
@@ -2482,6 +2617,25 @@
 		</valueType>
 		<value xsi:type="xs:boolean">false</value>
 		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ИсключатьПериодыПоПравилам1ПВ</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исключать периоды по правилам 1-ПВ</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>uk</v8:lang>
+				<v8:content>Виключати періоди за правилами 1-ПВ</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">true</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
 	</parameter>
 	<nestedSchema>
 		<name>Отчет1</name>
@@ -4218,6 +4372,18 @@
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Мобилизация</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>Мобілізація</v8:content>
+							</v8:item>
+						</dcsat:value>
+					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветТекста</dcscor:parameter>
@@ -4282,6 +4448,9 @@
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">Мобилизация</dcsat:value>
+					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
@@ -4513,7 +4682,23 @@
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Мобилизация без оплаты</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>Мобілізація без оплати</v8:content>
+							</v8:item>
+						</dcsat:value>
+					</dcsat:item>
 					<dcsat:appearance>
+						<dcscor:item>
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
@@ -4521,6 +4706,14 @@
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Отступ</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">2</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Размещение</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Wrap</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
@@ -4535,34 +4728,22 @@
 				<dcsat:tableCell>
 					<dcsat:appearance>
 						<dcscor:item>
-							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-						</dcscor:item>
-						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ОбъединятьПоГоризонтали</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
 					<dcsat:appearance>
 						<dcscor:item>
-							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-						</dcscor:item>
-						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
 						</dcscor:item>
@@ -4570,9 +4751,16 @@
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
 						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ОбъединятьПоГоризонтали</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">МобилизацияБезОплаты</dcsat:value>
+					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
@@ -4593,6 +4781,14 @@
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Отступ</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">3</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Right</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
@@ -4796,7 +4992,23 @@
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Приостановка трудового договора</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>Призупинення трудового договору</v8:content>
+							</v8:item>
+						</dcsat:value>
+					</dcsat:item>
 					<dcsat:appearance>
+						<dcscor:item>
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
@@ -4804,6 +5016,14 @@
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Отступ</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">2</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Размещение</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Wrap</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
@@ -4818,34 +5038,22 @@
 				<dcsat:tableCell>
 					<dcsat:appearance>
 						<dcscor:item>
-							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-						</dcscor:item>
-						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ОбъединятьПоГоризонтали</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
 					<dcsat:appearance>
 						<dcscor:item>
-							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-						</dcscor:item>
-						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
 						</dcscor:item>
@@ -4853,9 +5061,16 @@
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
 						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ОбъединятьПоГоризонтали</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">ПриостановкаТрудовогоДоговора</dcsat:value>
+					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
@@ -4876,6 +5091,14 @@
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Отступ</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">3</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Right</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
@@ -5079,7 +5302,23 @@
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отпуск неоплачиваемый на время военного положения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>Відпустка неоплачувана на час воєнного стану</v8:content>
+							</v8:item>
+						</dcsat:value>
+					</dcsat:item>
 					<dcsat:appearance>
+						<dcscor:item>
+							<dcscor:parameter>ЦветТекста</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Color">#4D4D4D</dcscor:value>
+						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
@@ -5087,6 +5326,14 @@
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Отступ</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">2</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Размещение</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Wrap</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
@@ -5101,34 +5348,22 @@
 				<dcsat:tableCell>
 					<dcsat:appearance>
 						<dcscor:item>
-							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-						</dcscor:item>
-						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ОбъединятьПоГоризонтали</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
 						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
 					<dcsat:appearance>
 						<dcscor:item>
-							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Color">#FFFFFF</dcscor:value>
-						</dcscor:item>
-						<dcscor:item>
-							<dcscor:parameter>Шрифт</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
-						</dcscor:item>
-						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
 						</dcscor:item>
@@ -5136,9 +5371,16 @@
 							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
 							<dcscor:value xsi:type="xs:decimal">8.625</dcscor:value>
 						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ОбъединятьПоГоризонтали</dcscor:parameter>
+							<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+						</dcscor:item>
 					</dcsat:appearance>
 				</dcsat:tableCell>
 				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="dcscor:Parameter">ОтпускНеоплачиваемыйНаВремяВоенногоПоложения</dcsat:value>
+					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
 							<dcscor:parameter>ЦветГраницы</dcscor:parameter>
@@ -5159,6 +5401,14 @@
 						<dcscor:item>
 							<dcscor:parameter>Шрифт</dcscor:parameter>
 							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>Отступ</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">3</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Right</dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
@@ -6185,6 +6435,22 @@
 			<dcsat:name>СреднесписочнаяЧисленностьЛицСГарантиямиНеИнвалиды</dcsat:name>
 			<dcsat:expression>СреднесписочнаяЧисленностьЛицСГарантиямиНеИнвалиды/(РАЗНОСТЬДАТ(НАЧАЛОПЕРИОДА(&amp;НачалоПериода, "МЕСЯЦ"), НАЧАЛОПЕРИОДА(&amp;КонецПериода, "МЕСЯЦ"), "МЕСЯЦ") + 1)</dcsat:expression>
 		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>Мобилизация</dcsat:name>
+			<dcsat:expression>Мобилизация</dcsat:expression>
+		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>ПриостановкаТрудовогоДоговора</dcsat:name>
+			<dcsat:expression>ПриостановкаТрудовогоДоговора</dcsat:expression>
+		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>ОтпускНеоплачиваемыйНаВремяВоенногоПоложения</dcsat:name>
+			<dcsat:expression>ОтпускНеоплачиваемыйНаВремяВоенногоПоложения</dcsat:expression>
+		</parameter>
+		<parameter xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:ExpressionAreaTemplateParameter">
+			<dcsat:name>МобилизацияБезОплаты</dcsat:name>
+			<dcsat:expression>МобилизацияБезОплаты</dcsat:expression>
+		</parameter>
 	</template>
 	<groupTemplate>
 		<groupName>ОрганизацияГруппировка</groupName>
@@ -6490,6 +6756,58 @@
 							</v8:item>
 						</dcsset:lwsTitle>
 					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Мобилизация</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Мобилизация</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>Мобілізація</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>МобилизацияБезОплаты</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Мобилизация без оплаты</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>Мобілізація без оплати</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ОтпускНеоплачиваемыйНаВремяВоенногоПоложения</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отпуск неоплачиваемый на время военного положения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>Відпустка неоплачувана на час воєнного стану</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПриостановкаТрудовогоДоговора</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Приостановка трудового договора</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>Призупинення трудового договору</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
 					<dcsset:placement>Auto</dcsset:placement>
 				</dcsset:item>
 			</dcsset:selection>
@@ -6535,6 +6853,11 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>СНачалаГода</dcscor:parameter>
 					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ИсключатьПериодыПоПравилам1ПВ</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">true</dcscor:value>
+					<dcsset:userSettingID>4b2860bf-0085-4b13-ba60-43a569be7eb2</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:order>

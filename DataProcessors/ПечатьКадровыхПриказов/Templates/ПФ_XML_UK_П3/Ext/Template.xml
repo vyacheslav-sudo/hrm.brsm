@@ -975,7 +975,7 @@
 				<i>1</i>
 				<c>
 					<f>17</f>
-					<parameter>ПодразделениеРаботника</parameter>
+					<parameter>Подразделение</parameter>
 				</c>
 			</c>
 		</row>
@@ -1760,7 +1760,36 @@
 				</c>
 			</c>
 			<c>
-				<i>14</i>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>3</f>
+				</c>
+			</c>
+			<c>
 				<c>
 					<f>1</f>
 					<tl>
@@ -1777,7 +1806,7 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>22</f>
 					<parameter>РабочийГодПо</parameter>
 				</c>
 			</c>
@@ -1793,7 +1822,7 @@
 	<rowsItem>
 		<index>27</index>
 		<row>
-			<formatIndex>22</formatIndex>
+			<formatIndex>23</formatIndex>
 			<c>
 				<i>1</i>
 				<c>
@@ -1944,7 +1973,7 @@
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>21</f>
 					<parameter>ДатаНачалаВсего</parameter>
 				</c>
 			</c>
@@ -1995,7 +2024,7 @@
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>21</f>
 					<parameter>ДатаОкончанияВсего</parameter>
 				</c>
 			</c>
@@ -2189,17 +2218,68 @@
 		<row>
 			<formatIndex>1</formatIndex>
 			<c>
+				<i>1</i>
+				<c>
+					<f>30</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>(установи, організації)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>(установи, організації)</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
 				<i>12</i>
 				<c>
 					<f>18</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(підпис) </v8:content>
+							<v8:content>підпис</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>(підпис) </v8:content>
+							<v8:content>підпис</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2334,11 +2414,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(підпис) </v8:content>
+							<v8:content>підпис</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>(підпис) </v8:content>
+							<v8:content>підпис</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2482,11 +2562,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>(підпис працівника)</v8:content>
+							<v8:content>підпис працівника</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>(підпис працівника)</v8:content>
+							<v8:content>підпис працівника</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2494,7 +2574,7 @@
 			<c>
 				<i>20</i>
 				<c>
-					<f>30</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -2803,6 +2883,7 @@
 	<font faceName="Arial" height="9" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="8" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="9" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<font faceName="Arial" height="9" bold="false" italic="false" underline="true" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<font>0</font>
@@ -2913,37 +2994,37 @@
 	<format>
 		<font>1</font>
 		<bottomBorder>0</bottomBorder>
+		<width>24</width>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ДФ=dd.MM.yyyy; ДП=' '</v8:content>
+				<v8:content>Л=uk_UA; ДЛФ=DD; ДП=' '</v8:content>
 			</v8:item>
 			<v8:item>
 				<v8:lang>uk</v8:lang>
-				<v8:content>ДФ=dd.MM.yyyy; ДП=' '</v8:content>
+				<v8:content>Л=uk_UA; ДЛФ=DD; ДП=' '</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>1</font>
+		<bottomBorder>0</bottomBorder>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Л=uk_UA; ДЛФ=DD; ДП=' '</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>uk</v8:lang>
+				<v8:content>Л=uk_UA; ДЛФ=DD; ДП=' '</v8:content>
 			</v8:item>
 		</format>
 	</format>
 	<format>
 		<font>0</font>
 		<height>30</height>
-	</format>
-	<format>
-		<font>1</font>
-		<bottomBorder>0</bottomBorder>
-		<width>24</width>
-		<fillType>Parameter</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ДФ=dd.MM.yyyy; ДП=' '</v8:content>
-			</v8:item>
-			<v8:item>
-				<v8:lang>uk</v8:lang>
-				<v8:content>ДФ=dd.MM.yyyy; ДП=' '</v8:content>
-			</v8:item>
-		</format>
 	</format>
 	<format>
 		<font>0</font>
@@ -2990,5 +3071,16 @@
 	</format>
 	<format>
 		<font>4</font>
+		<width>24</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<bySelectedColumns>true</bySelectedColumns>
+	</format>
+	<format>
+		<font>4</font>
+		<width>24</width>
+		<bySelectedColumns>true</bySelectedColumns>
+	</format>
+	<format>
+		<font>5</font>
 	</format>
 </document>

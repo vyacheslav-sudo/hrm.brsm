@@ -128,22 +128,6 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="35b0e082-e711-4c0f-a8d4-7ca4de52b2bc">
-				<Properties>
-					<Name>ОценочныеОбязательстваПоВзносамФССНСиПЗ</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Оценочные обязательства по взносам в ФСС от НС и ПЗ</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Оціночні зобов'язання за внесками до ФСС від НВ та ПЗ</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

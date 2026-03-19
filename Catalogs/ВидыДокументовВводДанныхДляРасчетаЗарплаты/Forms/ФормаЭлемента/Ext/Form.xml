@@ -1758,6 +1758,20 @@
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
+						<UsualGroup name="ГруппаДополнительныеРеквизиты" id="412">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительно</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>uk</v8:lang>
+									<v8:content>Додатково</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="413"/>
+						</UsualGroup>
 						<CheckBoxField name="НеИспользуется" id="328">
 							<DataPath>Объект.НеИспользуется</DataPath>
 							<TitleLocation>Right</TitleLocation>

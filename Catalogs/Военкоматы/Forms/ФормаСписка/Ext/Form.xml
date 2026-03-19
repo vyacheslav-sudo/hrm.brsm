@@ -121,6 +121,14 @@
 					<ContextMenu name="АдресКонтекстноеМеню" id="30"/>
 					<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="31"/>
 				</LabelField>
+				<LabelField name="Ссылка" id="32">
+					<DataPath>Список.Ref</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="34"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

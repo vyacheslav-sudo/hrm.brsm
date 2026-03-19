@@ -126,6 +126,14 @@
 					<ContextMenu name="КатегорияСтажаКонтекстноеМеню" id="29"/>
 					<ExtendedTooltip name="КатегорияСтажаРасширеннаяПодсказка" id="30"/>
 				</LabelField>
+				<LabelField name="Ссылка" id="35">
+					<DataPath>Список.Ref</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="37"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

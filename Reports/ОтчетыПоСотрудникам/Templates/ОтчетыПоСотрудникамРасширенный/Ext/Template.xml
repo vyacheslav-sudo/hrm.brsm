@@ -739,90 +739,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1Квалификация</dataPath>
-			<field>Образование1Квалификация</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 квалификация</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта кваліфікація 1</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1Специальность</dataPath>
-			<field>Образование1Специальность</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 специальность</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 1 спеціальність</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1УчебноеЗаведение</dataPath>
-			<field>Образование1УчебноеЗаведение</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 учебное заведение</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 1 навчальний заклад</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2Квалификация</dataPath>
-			<field>Образование2Квалификация</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 квалификация</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта кваліфікація 2</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2Специальность</dataPath>
-			<field>Образование2Специальность</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 специальность</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 2 спеціальність</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2УчебноеЗаведение</dataPath>
-			<field>Образование2УчебноеЗаведение</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 учебное заведение</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 2 навчальний заклад</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ЛичныеДанные.Стажи.ОбщийСтажДней</dataPath>
 			<field>ОбщийСтажДней</field>
 			<title xsi:type="v8:LocalStringType">
@@ -1075,20 +991,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1ВидОбразования</dataPath>
-			<field>Образование1ВидОбразования</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 вид образования</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 1 вид освіти</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>РабочееМесто.ПриказОПриемеДатаЗавершенияТрудовогоДоговора</dataPath>
 			<field>ПриказОПриемеДатаЗавершенияТрудовогоДоговора</field>
 			<title xsi:type="v8:LocalStringType">
@@ -1113,48 +1015,6 @@
 				<v8:item>
 					<v8:lang>uk</v8:lang>
 					<v8:content>Надбавка</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.ВысшееОбразованиеУчебноеЗаведение</dataPath>
-			<field>ВысшееОбразованиеУчебноеЗаведение</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Высшее образование учебное заведение</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Вища освіта навчальний заклад</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.ИмеетИзобретения</dataPath>
-			<field>ИмеетИзобретения</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Имеет изобретения</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Має винаходи</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.ИмеетНаучныеТруды</dataPath>
-			<field>ИмеетНаучныеТруды</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Имеет научные труды</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Має наукові праці</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -1253,160 +1113,6 @@
 				<v8:item>
 					<v8:lang>uk</v8:lang>
 					<v8:content>Вчений ступінь</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченаяСтепень.УченаяСтепеньДатаПрисуждения</dataPath>
-			<field>УченаяСтепеньДатаПрисуждения</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дата присуждения</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Дата присудження</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченаяСтепень.УченаяСтепеньДипломСерияНомер</dataPath>
-			<field>УченаяСтепеньДипломСерияНомер</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Диплом серия номер</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Диплом серія номер</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченаяСтепень.УченаяСтепеньДиссертационныйСовет</dataPath>
-			<field>УченаяСтепеньДиссертационныйСовет</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Диссертационный совет</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Дисертаційна рада</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченаяСтепень.УченаяСтепеньОрганизация</dataPath>
-			<field>УченаяСтепеньОрганизация</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Организация</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Організація</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченаяСтепень.УченаяСтепеньОтрасльНауки</dataPath>
-			<field>УченаяСтепеньОтрасльНауки</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Отрасль науки</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Галузь науки</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченоеЗвание.УченоеЗвание</dataPath>
-			<field>УченоеЗвание</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Ученое звание</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Вчене звання</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченоеЗвание.УченоеЗваниеАттестатНомер</dataPath>
-			<field>УченоеЗваниеАттестатНомер</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Аттестат номер</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Атестат номер</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченоеЗвание.УченоеЗваниеАттестатСерия</dataPath>
-			<field>УченоеЗваниеАттестатСерия</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Аттестат серия</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Атестат серія</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченоеЗвание.УченоеЗваниеДатаПрисвоения</dataPath>
-			<field>УченоеЗваниеДатаПрисвоения</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дата присвоения</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Дата присвоєння</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченоеЗвание.УченоеЗваниеОрганизация</dataPath>
-			<field>УченоеЗваниеОрганизация</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Организация</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Організація</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.УченоеЗвание.УченоеЗваниеСпециальность</dataPath>
-			<field>УченоеЗваниеСпециальность</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Специальность</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Спеціальність</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -1533,202 +1239,6 @@
 				<v8:item>
 					<v8:lang>uk</v8:lang>
 					<v8:content>Після вузівська освіта серія</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.ВысшееОбразованиеНачало</dataPath>
-			<field>ВысшееОбразованиеНачало</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Высшее образование начало</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Вища освіта початок</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.ВысшееОбразованиеОкончание</dataPath>
-			<field>ВысшееОбразованиеОкончание</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Высшее образование окончание</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Вища освіта закінчення</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1ВидДокумента</dataPath>
-			<field>Образование1ВидДокумента</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 вид документа</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 1 вид документа</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1ДатаВыдачи</dataPath>
-			<field>Образование1ДатаВыдачи</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 дата выдачи</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 1 дата видачі</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1Начало</dataPath>
-			<field>Образование1Начало</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 начало</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 1 початок</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1Номер</dataPath>
-			<field>Образование1Номер</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 номер</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 1 номер</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1Окончание</dataPath>
-			<field>Образование1Окончание</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 окончание</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 1 закінчення</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование1Серия</dataPath>
-			<field>Образование1Серия</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 1 серия</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 1 серія</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2ВидДокумента</dataPath>
-			<field>Образование2ВидДокумента</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 вид документа</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 2 вид документа</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2ДатаВыдачи</dataPath>
-			<field>Образование2ДатаВыдачи</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 дата выдачи</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 2 дата видачі</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2Начало</dataPath>
-			<field>Образование2Начало</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 начало</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 2 початок</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2Номер</dataPath>
-			<field>Образование2Номер</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 номер</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 2 номер</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2Окончание</dataPath>
-			<field>Образование2Окончание</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 окончание</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта закінчення 2</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2Серия</dataPath>
-			<field>Образование2Серия</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 серия</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 2 серія</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -2123,34 +1633,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование2ВидОбразования</dataPath>
-			<field>Образование2ВидОбразования</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование 2 вид образования</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта 2 вид освіти</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.ПочетноеЗвание</dataPath>
-			<field>ПочетноеЗвание</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Почетное звание</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Почесне звання</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>РабочееМесто.ДатаОкончания</dataPath>
 			<field>ДатаОкончания</field>
 			<title xsi:type="v8:LocalStringType">
@@ -2179,20 +1661,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>РабочееМесто.ДолжностьПредставителяНанимателя</dataPath>
-			<field>ДолжностьПредставителяНанимателя</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Должность представителя нанимателя</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Посада представника наймача</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ЛичныеДанные.ВладеемыеПрофессии</dataPath>
 			<field>Профессии</field>
 			<title xsi:type="v8:LocalStringType">
@@ -2203,34 +1671,6 @@
 				<v8:item>
 					<v8:lang>uk</v8:lang>
 					<v8:content>Професії, якими володіє</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>РабочееМесто.ПредставительНанимателя</dataPath>
-			<field>ПредставительНанимателя</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Представитель нанимателя</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Представник наймача</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Награды</dataPath>
-			<field>Награды</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Награды</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Нагороди</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -2291,20 +1731,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.ПолученныеОбразования</dataPath>
-			<field>ПолученныеОбразования</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Полученные образования</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Отримані освіти</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ЛичныеДанные.ТрудоваяДеятельность</dataPath>
 			<field>ТрудоваяДеятельность</field>
 			<title xsi:type="v8:LocalStringType">
@@ -2361,20 +1787,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>РабочееМесто.ВидАктаГосоргана</dataPath>
-			<field>ВидАктаГосоргана</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Вид акта госоргана</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Вид акта держоргану</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>РабочееМесто.ИныеУсловияДоговора</dataPath>
 			<field>ИныеУсловияДоговора</field>
 			<title xsi:type="v8:LocalStringType">
@@ -2413,20 +1825,6 @@
 				<v8:item>
 					<v8:lang>uk</v8:lang>
 					<v8:content>Особисті дані.Документи</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>РабочееМесто.ОснованиеПредставителя</dataPath>
-			<field>ОснованиеПредставителя</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Основание представителя</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Підстава представника</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -2860,20 +2258,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>РабочееМесто.ТерриторияРегистратор</dataPath>
-			<field>ТерриторияРегистратор</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Территория регистратор</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Територія реєстратор</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ЛичныеДанные.ВоинскийУчет.ВоинскийУчетЗабронированОрганизациейРегистратор</dataPath>
 			<field>ВоинскийУчетЗабронированОрганизациейРегистратор</field>
 			<title xsi:type="v8:LocalStringType">
@@ -2916,20 +2300,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>РабочееМесто.ТерриторияПериодЗаписи</dataPath>
-			<field>ТерриторияПериодЗаписи</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Территория период записи</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Територія період запису</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ЛичныеДанные.ВоинскийУчет.ВоинскийУчетЗабронированОрганизациейПериодРегистрации</dataPath>
 			<field>ВоинскийУчетЗабронированОрганизациейПериодРегистрации</field>
 			<title xsi:type="v8:LocalStringType">
@@ -2940,20 +2310,6 @@
 				<v8:item>
 					<v8:lang>uk</v8:lang>
 					<v8:content>Заброньовано організацією період реєстрації</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>РабочееМесто.Территория</dataPath>
-			<field>Территория</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Территория</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Територія</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -3099,20 +2455,6 @@
 			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ЛичныеДанные.Образования.Образование</dataPath>
-			<field>Образование</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Образование</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Освіта</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ЛичныеДанные.КонтактнаяИнформация.EMailПредставление</dataPath>
 			<field>EMailПредставление</field>
 			<title xsi:type="v8:LocalStringType">
@@ -3244,11 +2586,11 @@
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Реквизиты военного билета</v8:content>
+					<v8:content>Реквизиты ВУД</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Реквізити військового квитка</v8:content>
+					<v8:content>Реквізити ВОД</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -3305,6 +2647,76 @@
 				<v8:item>
 					<v8:lang>uk</v8:lang>
 					<v8:content>Робота з нефіксованим робочим часом</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.Образования.Образование</dataPath>
+			<field>ВидОбразования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вид образования</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Вид освіти</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ВоинскийУчет.ВоинскийУчетСрокОтсрочки</dataPath>
+			<field>ВоинскийУчетСрокОтсрочки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок отсрочки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Термін відстрочки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ВоинскийУчет.ВоинскийУчетОснованиеОтсрочки</dataPath>
+			<field>ВоинскийУчетОснованиеОтсрочки</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основание отсрочки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Підстава відстрочки</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ВоинскийУчет.ВоинскийУчетНомерЗаписиВРеестреВоеннообязанных</dataPath>
+			<field>ВоинскийУчетНомерЗаписиВРеестреВоеннообязанных</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер записи в реестре военнообязанных</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Номер запису у реєстрі військовозобов'язаних</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЛичныеДанные.ВоинскийУчет.ГруппаУчетаКарточкиВоинскогоУчета</dataPath>
+			<field>ВоинскийУчетГруппаУчетаКарточкиВоинскогоУчета</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа учета карточки воинского учета</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Група обліку картки військового обліку</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -3460,7 +2872,11 @@
 	"" КАК ВоинскийУчетРеквизитыВоенногоБилета,
 	ДАТАВРЕМЯ(1, 1, 1) КАК ВоинскийУчетЗабронированОрганизациейПериодРегистрации,
 	ЗНАЧЕНИЕ(Документ.БронированиеГражданПребывающихВЗапасе.ПустаяСсылка) КАК ВоинскийУчетЗабронированОрганизациейРегистратор,
-	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК ВоинскийУчетЗабронированОрганизацией,
+	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка) КАК ВоинскийУчетЗабронированОрганизацией,  
+	ДАТАВРЕМЯ(1, 1, 1) КАК ВоинскийУчетСрокОтсрочки, 
+	"" КАК ВоинскийУчетОснованиеОтсрочки,
+	"" КАК ВоинскийУчетНомерЗаписиВРеестреВоеннообязанных,
+	ЗНАЧЕНИЕ(Перечисление.ГруппыУчетаКарточкиВоинскогоУчета) КАК ВоинскийУчетГруппаУчетаКарточкиВоинскогоУчета,
 	ЗНАЧЕНИЕ(Справочник.УчебныеЗаведения.ПустаяСсылка) КАК ПослеВузовскоеОбразованиеУчебноеЗаведение,
 	ЗНАЧЕНИЕ(Справочник.ВидыОбразованияФизическихЛиц.ПустаяСсылка) КАК ПослеВузовскоеОбразованиеВидОбразования,
 	ЗНАЧЕНИЕ(Справочник.ВидыОбразованияФизическихЛиц.ПустаяСсылка) КАК ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования,
@@ -3472,48 +2888,9 @@
 	ДАТАВРЕМЯ(1, 1, 1) КАК ПослеВузовскоеОбразованиеДатаВыдачи,
 	ЗНАЧЕНИЕ(Справочник.КлассификаторСпециальностейПоОбразованию.ПустаяСсылка) КАК ПослеВузовскоеОбразованиеСпециальность,
 	"" КАК ПослеВузовскоеОбразованиеКвалификация,
-	ЗНАЧЕНИЕ(Справочник.УчебныеЗаведения.ПустаяСсылка) КАК Образование1УчебноеЗаведение,
-	ЗНАЧЕНИЕ(Справочник.ВидыОбразованияФизическихЛиц.ПустаяСсылка) КАК Образование1ВидОбразования,
-	ДАТАВРЕМЯ(1, 1, 1) КАК Образование1Начало,
-	ДАТАВРЕМЯ(1, 1, 1) КАК Образование1Окончание,
-	ЗНАЧЕНИЕ(Справочник.КлассификаторСпециальностейПоОбразованию.ПустаяСсылка) КАК Образование1Специальность,
-	ЗНАЧЕНИЕ(Справочник.ВидыДокументовОбОбразовании.ПустаяСсылка) КАК Образование1ВидДокумента,
-	"" КАК Образование1Серия,
-	"" КАК Образование1Номер,
-	ДАТАВРЕМЯ(1, 1, 1) КАК Образование1ДатаВыдачи,
-	"" КАК Образование1Квалификация,
-	ЗНАЧЕНИЕ(Справочник.УчебныеЗаведения.ПустаяСсылка) КАК Образование2УчебноеЗаведение,
-	ЗНАЧЕНИЕ(Справочник.ВидыОбразованияФизическихЛиц.ПустаяСсылка) КАК Образование2ВидОбразования,
-	ДАТАВРЕМЯ(1, 1, 1) КАК Образование2Начало,
-	ДАТАВРЕМЯ(1, 1, 1) КАК Образование2Окончание,
-	ЗНАЧЕНИЕ(Справочник.КлассификаторСпециальностейПоОбразованию.ПустаяСсылка) КАК Образование2Специальность,
-	ЗНАЧЕНИЕ(Справочник.ВидыДокументовОбОбразовании.ПустаяСсылка) КАК Образование2ВидДокумента,
-	"" КАК Образование2Серия,
-	"" КАК Образование2Номер,
-	ДАТАВРЕМЯ(1, 1, 1) КАК Образование2ДатаВыдачи,
-	"" КАК Образование2Квалификация,
-	ЗНАЧЕНИЕ(Справочник.УчебныеЗаведения.ПустаяСсылка) КАК ВысшееОбразованиеУчебноеЗаведение,
-	ДАТАВРЕМЯ(1, 1, 1) КАК ВысшееОбразованиеНачало,
-	ДАТАВРЕМЯ(1, 1, 1) КАК ВысшееОбразованиеОкончание,
 	ЗНАЧЕНИЕ(Справочник.УченыеСтепени.ПустаяСсылка) КАК УченаяСтепень,
-	"" КАК УченаяСтепеньОтрасльНауки,
-	ДАТАВРЕМЯ(1, 1, 1) КАК УченаяСтепеньДатаПрисуждения,
-	"" КАК УченаяСтепеньДиссертационныйСовет,
-	"" КАК УченаяСтепеньДипломСерияНомер,
-	"" КАК УченаяСтепеньОрганизация,
-	ЗНАЧЕНИЕ(Справочник.УченыеЗвания.ПустаяСсылка) КАК УченоеЗвание,
-	"" КАК УченоеЗваниеАттестатСерия,
-	"" КАК УченоеЗваниеАттестатНомер,
-	ДАТАВРЕМЯ(1, 1, 1) КАК УченоеЗваниеДатаПрисвоения,
-	"" КАК УченоеЗваниеОрганизация,
-	ЗНАЧЕНИЕ(Справочник.КлассификаторСпециальностейПоОбразованию.ПустаяСсылка) КАК УченоеЗваниеСпециальность,
-	ЛОЖЬ КАК ИмеетНаучныеТруды,
-	ЛОЖЬ КАК ИмеетИзобретения,
-	ЗНАЧЕНИЕ(Справочник.Награды.ПустаяСсылка) КАК ПочетноеЗвание,
 	ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ПустаяСсылка) КАК ВидДоговора,
 	ЗНАЧЕНИЕ(Перечисление.ВидыДоговоровССотрудниками.ПустаяСсылка) КАК ТекущийВидДоговора,
-	"" КАК ПолученныеОбразования,
-	"" КАК Награды,
 	"" КАК Документы,
 	"" КАК ЗнанияЯзыков,
 	"" КАК Профессии,
@@ -3523,10 +2900,6 @@
 	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаДоговораКонтракта,
 	"" КАК НомерДоговораКонтракта,
 	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаНачала,
-	ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка) КАК ПредставительНанимателя,
-	ЗНАЧЕНИЕ(Справочник.Должности.ПустаяСсылка) КАК ДолжностьПредставителяНанимателя,
-	"" КАК ОснованиеПредставителя,
-	"" КАК ВидАктаГосоргана,
 	ДАТАВРЕМЯ(1, 1, 1) КАК ДатаОкончания,
 	ЛОЖЬ КАК СрочныйДоговор,
 	"" КАК СрокЗаключенияДоговора,
@@ -3546,9 +2919,6 @@
 	ДАТАВРЕМЯ(1, 1, 1) КАК ИнвалидностьДатаВыдачи,
 	"" КАК ИнвалидностьГруппа,
 	ИСТИНА КАК Пенсионер,
-	ДАТАВРЕМЯ(1, 1, 1) КАК ТерриторияПериодЗаписи,
-	ЗНАЧЕНИЕ(Документ.ПриемНаРаботу.ПустаяСсылка) КАК ТерриторияРегистратор,
-	ЗНАЧЕНИЕ(Справочник.ТерриторииВыполненияРабот.ПустаяСсылка) КАК Территория,
 	ЛОЖЬ КАК РаботаСНефиксированнымРабочимВременем
 ПОМЕСТИТЬ Представления_КадровыеДанныеСотрудников
 ИЗ
@@ -3713,45 +3083,6 @@
 	NULL,
 	NULL,
 	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
 	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка),
 	NULL,
 	&amp;ПустаяКасса,
@@ -3765,9 +3096,6 @@
 	NULL,
 	NULL,
 	NULL,
-	NULL,
-	NULL,
-	NULL, 
 	NULL,
 	NULL
 
@@ -3928,51 +3256,9 @@
 	NULL,
 	NULL,
 	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
 	ЗНАЧЕНИЕ(Справочник.ПодразделенияОрганизаций.ПустаяСсылка),
 	NULL,
 	&amp;ПустаяКасса,
-	NULL,
-	NULL,
-	NULL,
 	NULL,
 	NULL,
 	NULL,
@@ -4108,46 +3394,7 @@
 	NULL,
 	NULL,
 	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
-	NULL,
+	NULL,    
 	NULL,
 	NULL,
 	NULL,
@@ -4196,10 +3443,28 @@
 	NULL,
 	NULL,
 	NULL,
-	NULL,
-	NULL,
-	NULL,
 	NULL
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	ЗНАЧЕНИЕ(Справочник.ВидыОбразованияФизическихЛиц.ПустаяСсылка) КАК Образование1ВидОбразования,
+	ЗНАЧЕНИЕ(Справочник.Сотрудники.ПустаяСсылка) КАК Сотрудник,
+	ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка) КАК ФизическоеЛицо
+ПОМЕСТИТЬ Представления_КадровыеДанныеСотрудников_Образование
+ИЗ
+	ВТСотрудники КАК ВТСотрудники
+ГДЕ
+	"ТолькоРазрешенные" = ИСТИНА
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	Представления_КадровыеДанныеСотрудников.Образование1ВидОбразования КАК ВидОбразования,
+	Представления_КадровыеДанныеСотрудников.ФизическоеЛицо КАК ФизическоеЛицо
+ПОМЕСТИТЬ ВТВидыОбразования
+ИЗ
+	Представления_КадровыеДанныеСотрудников_Образование КАК Представления_КадровыеДанныеСотрудников
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -4335,6 +3600,10 @@
 	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизациейПериодРегистрации КАК ВоинскийУчетЗабронированОрганизациейПериодРегистрации,
 	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизациейРегистратор КАК ВоинскийУчетЗабронированОрганизациейРегистратор,
 	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизацией КАК ВоинскийУчетЗабронированОрганизацией,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетСрокОтсрочки КАК ВоинскийУчетСрокОтсрочки, 
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетОснованиеОтсрочки КАК ВоинскийУчетОснованиеОтсрочки, 
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетНомерЗаписиВРеестреВоеннообязанных КАК ВоинскийУчетНомерЗаписиВРеестреВоеннообязанных,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетГруппаУчетаКарточкиВоинскогоУчета КАК ВоинскийУчетГруппаУчетаКарточкиВоинскогоУчета, 
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеУчебноеЗаведение КАК ПослеВузовскоеОбразованиеУчебноеЗаведение,
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидОбразования КАК ПослеВузовскоеОбразованиеВидОбразования,
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования КАК ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования,
@@ -4346,49 +3615,9 @@
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеДатаВыдачи КАК ПослеВузовскоеОбразованиеДатаВыдачи,
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеСпециальность КАК ПослеВузовскоеОбразованиеСпециальность,
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеКвалификация КАК ПослеВузовскоеОбразованиеКвалификация,
-	Представления_КадровыеДанныеСотрудников.Образование1ВидОбразования КАК Образование,
-	Представления_КадровыеДанныеСотрудников.Образование1УчебноеЗаведение КАК Образование1УчебноеЗаведение,
-	Представления_КадровыеДанныеСотрудников.Образование1ВидОбразования,
-	Представления_КадровыеДанныеСотрудников.Образование1Начало КАК Образование1Начало,
-	Представления_КадровыеДанныеСотрудников.Образование1Окончание КАК Образование1Окончание,
-	Представления_КадровыеДанныеСотрудников.Образование1Специальность КАК Образование1Специальность,
-	Представления_КадровыеДанныеСотрудников.Образование1ВидДокумента КАК Образование1ВидДокумента,
-	Представления_КадровыеДанныеСотрудников.Образование1Серия КАК Образование1Серия,
-	Представления_КадровыеДанныеСотрудников.Образование1Номер КАК Образование1Номер,
-	Представления_КадровыеДанныеСотрудников.Образование1ДатаВыдачи КАК Образование1ДатаВыдачи,
-	Представления_КадровыеДанныеСотрудников.Образование1Квалификация КАК Образование1Квалификация,
-	Представления_КадровыеДанныеСотрудников.Образование2УчебноеЗаведение КАК Образование2УчебноеЗаведение,
-	Представления_КадровыеДанныеСотрудников.Образование2ВидОбразования КАК Образование2ВидОбразования,
-	Представления_КадровыеДанныеСотрудников.Образование2Начало КАК Образование2Начало,
-	Представления_КадровыеДанныеСотрудников.Образование2Окончание КАК Образование2Окончание,
-	Представления_КадровыеДанныеСотрудников.Образование2Специальность КАК Образование2Специальность,
-	Представления_КадровыеДанныеСотрудников.Образование2ВидДокумента КАК Образование2ВидДокумента,
-	Представления_КадровыеДанныеСотрудников.Образование2Серия КАК Образование2Серия,
-	Представления_КадровыеДанныеСотрудников.Образование2Номер КАК Образование2Номер,
-	Представления_КадровыеДанныеСотрудников.Образование2ДатаВыдачи КАК Образование2ДатаВыдачи,
-	Представления_КадровыеДанныеСотрудников.Образование2Квалификация КАК Образование2Квалификация,
-	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеУчебноеЗаведение КАК ВысшееОбразованиеУчебноеЗаведение,
-	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеНачало КАК ВысшееОбразованиеНачало,
-	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеОкончание КАК ВысшееОбразованиеОкончание,
 	Представления_КадровыеДанныеСотрудников.УченаяСтепень КАК УченаяСтепень,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньОтрасльНауки КАК УченаяСтепеньОтрасльНауки,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДатаПрисуждения КАК УченаяСтепеньДатаПрисуждения,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДиссертационныйСовет КАК УченаяСтепеньДиссертационныйСовет,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДипломСерияНомер КАК УченаяСтепеньДипломСерияНомер,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньОрганизация КАК УченаяСтепеньОрганизация,
-	Представления_КадровыеДанныеСотрудников.УченоеЗвание КАК УченоеЗвание,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеАттестатСерия КАК УченоеЗваниеАттестатСерия,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеАттестатНомер КАК УченоеЗваниеАттестатНомер,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеДатаПрисвоения КАК УченоеЗваниеДатаПрисвоения,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеОрганизация КАК УченоеЗваниеОрганизация,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеСпециальность КАК УченоеЗваниеСпециальность,
-	Представления_КадровыеДанныеСотрудников.ИмеетНаучныеТруды КАК ИмеетНаучныеТруды,
-	Представления_КадровыеДанныеСотрудников.ИмеетИзобретения КАК ИмеетИзобретения,
-	Представления_КадровыеДанныеСотрудников.ПочетноеЗвание КАК ПочетноеЗвание,
 	Представления_КадровыеДанныеСотрудников.ВидДоговора КАК ВидДоговора,
 	Представления_КадровыеДанныеСотрудников.ТекущийВидДоговора КАК ТекущийВидДоговора,
-	Представления_КадровыеДанныеСотрудников.ПолученныеОбразования КАК ПолученныеОбразования,
-	Представления_КадровыеДанныеСотрудников.Награды КАК Награды,
 	Представления_КадровыеДанныеСотрудников.Документы КАК Документы,
 	Представления_КадровыеДанныеСотрудников.ЗнанияЯзыков КАК ЗнанияЯзыков,
 	Представления_КадровыеДанныеСотрудников.Профессии КАК Профессии,
@@ -4398,10 +3627,6 @@
 	Представления_КадровыеДанныеСотрудников.ДатаДоговораКонтракта КАК ДатаДоговораКонтракта,
 	Представления_КадровыеДанныеСотрудников.НомерДоговораКонтракта КАК НомерДоговораКонтракта,
 	Представления_КадровыеДанныеСотрудников.ДатаНачала КАК ДатаНачала,
-	Представления_КадровыеДанныеСотрудников.ПредставительНанимателя КАК ПредставительНанимателя,
-	Представления_КадровыеДанныеСотрудников.ДолжностьПредставителяНанимателя КАК ДолжностьПредставителяНанимателя,
-	Представления_КадровыеДанныеСотрудников.ОснованиеПредставителя КАК ОснованиеПредставителя,
-	Представления_КадровыеДанныеСотрудников.ВидАктаГосоргана КАК ВидАктаГосоргана,
 	Представления_КадровыеДанныеСотрудников.ДатаОкончания КАК ДатаОкончания,
 	Представления_КадровыеДанныеСотрудников.СрочныйДоговор КАК СрочныйДоговор,
 	Представления_КадровыеДанныеСотрудников.СрокЗаключенияДоговора КАК СрокЗаключенияДоговора,
@@ -4421,10 +3646,8 @@
 	Представления_КадровыеДанныеСотрудников.ИнвалидностьДатаВыдачи КАК ИнвалидностьДатаВыдачи,
 	Представления_КадровыеДанныеСотрудников.ИнвалидностьГруппа КАК ИнвалидностьГруппа,
 	Представления_КадровыеДанныеСотрудников.Пенсионер КАК Пенсионер,
-	Представления_КадровыеДанныеСотрудников.ТерриторияПериодЗаписи КАК ТерриторияПериодЗаписи,
-	Представления_КадровыеДанныеСотрудников.ТерриторияРегистратор КАК ТерриторияРегистратор,
-	Представления_КадровыеДанныеСотрудников.Территория КАК Территория,
-	Представления_КадровыеДанныеСотрудников.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем
+	Представления_КадровыеДанныеСотрудников.РаботаСНефиксированнымРабочимВременем КАК РаботаСНефиксированнымРабочимВременем,
+	Образования.ВидОбразования КАК ВидОбразования
 {ВЫБРАТЬ
 	Сотрудник.*,
 	ФизическоеЛицо.*,
@@ -4549,6 +3772,10 @@
 	ВоинскийУчетЗабронированОрганизациейПериодРегистрации,
 	ВоинскийУчетЗабронированОрганизациейРегистратор.*,
 	ВоинскийУчетЗабронированОрганизацией.*,
+	ВоинскийУчетСрокОтсрочки,
+	ВоинскийУчетОснованиеОтсрочки,
+	ВоинскийУчетНомерЗаписиВРеестреВоеннообязанных,
+	ВоинскийУчетГруппаУчетаКарточкиВоинскогоУчета.*,
 	ПослеВузовскоеОбразованиеУчебноеЗаведение.*,
 	ПослеВузовскоеОбразованиеВидОбразования.*,
 	ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования.*,
@@ -4560,48 +3787,10 @@
 	ПослеВузовскоеОбразованиеДатаВыдачи,
 	ПослеВузовскоеОбразованиеСпециальность.*,
 	ПослеВузовскоеОбразованиеКвалификация,
-	Образование1УчебноеЗаведение.*,
-	Образование.*,
-	Образование1Начало,
-	Образование1Окончание,
-	Образование1Специальность.*,
-	Образование1ВидДокумента.*,
-	Образование1Серия,
-	Образование1Номер,
-	Образование1ДатаВыдачи,
-	Образование1Квалификация,
-	Образование2УчебноеЗаведение.*,
-	Образование2ВидОбразования.*,
-	Образование2Начало,
-	Образование2Окончание,
-	Образование2Специальность.*,
-	Образование2ВидДокумента.*,
-	Образование2Серия,
-	Образование2Номер,
-	Образование2ДатаВыдачи,
-	Образование2Квалификация,
-	ВысшееОбразованиеУчебноеЗаведение.*,
-	ВысшееОбразованиеНачало,
-	ВысшееОбразованиеОкончание,
+	ВидОбразования.*,
 	УченаяСтепень.*,
-	УченаяСтепеньОтрасльНауки,
-	УченаяСтепеньДатаПрисуждения,
-	УченаяСтепеньДиссертационныйСовет,
-	УченаяСтепеньДипломСерияНомер,
-	УченаяСтепеньОрганизация,
-	УченоеЗвание.*,
-	УченоеЗваниеАттестатСерия,
-	УченоеЗваниеАттестатНомер,
-	УченоеЗваниеДатаПрисвоения,
-	УченоеЗваниеОрганизация,
-	УченоеЗваниеСпециальность.*,
-	ИмеетНаучныеТруды,
-	ИмеетИзобретения,
-	ПочетноеЗвание.*,
 	ВидДоговора.*,
 	ТекущийВидДоговора.*,
-	ПолученныеОбразования,
-	Награды,
 	Документы,
 	ЗнанияЯзыков,
 	Профессии,
@@ -4611,10 +3800,6 @@
 	ДатаДоговораКонтракта,
 	НомерДоговораКонтракта,
 	ДатаНачала,
-	ПредставительНанимателя.*,
-	ДолжностьПредставителяНанимателя.*,
-	ОснованиеПредставителя,
-	ВидАктаГосоргана,
 	ДатаОкончания,
 	СрочныйДоговор,
 	СрокЗаключенияДоговора,
@@ -4634,12 +3819,11 @@
 	ИнвалидностьДатаВыдачи,
 	ИнвалидностьГруппа,
 	Пенсионер,
-	ТерриторияПериодЗаписи,
-	ТерриторияРегистратор.*,
-	Территория.*,
 	РаботаСНефиксированнымРабочимВременем}
 ИЗ
 	Представления_КадровыеДанныеСотрудников КАК Представления_КадровыеДанныеСотрудников
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТВидыОбразования КАК Образования
+		ПО Представления_КадровыеДанныеСотрудников.ФизическоеЛицо = Образования.ФизическоеЛицо
 {ГДЕ
 	Представления_КадровыеДанныеСотрудников.Сотрудник.*,
 	Представления_КадровыеДанныеСотрудников.ФизическоеЛицо.*,
@@ -4771,7 +3955,11 @@
 		КОНЕЦ).* КАК ВоинскийУчетОтметкаОСнятиеСУчета,
 	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизациейПериодРегистрации,
 	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизациейРегистратор.*,
-	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизацией.*,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетЗабронированОрганизацией.*, 
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетСрокОтсрочки, 
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетОснованиеОтсрочки, 
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетНомерЗаписиВРеестреВоеннообязанных,
+	Представления_КадровыеДанныеСотрудников.ВоинскийУчетГруппаУчетаКарточкиВоинскогоУчета.*, 
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеУчебноеЗаведение.*,
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидОбразования.*,
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеВидПослевузовскогоОбразования.*,
@@ -4783,48 +3971,10 @@
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеДатаВыдачи,
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеСпециальность.*,
 	Представления_КадровыеДанныеСотрудников.ПослеВузовскоеОбразованиеКвалификация,
-	Представления_КадровыеДанныеСотрудников.Образование1УчебноеЗаведение.*,
-	Представления_КадровыеДанныеСотрудников.Образование1ВидОбразования.*,
-	Представления_КадровыеДанныеСотрудников.Образование1Начало,
-	Представления_КадровыеДанныеСотрудников.Образование1Окончание,
-	Представления_КадровыеДанныеСотрудников.Образование1Специальность.*,
-	Представления_КадровыеДанныеСотрудников.Образование1ВидДокумента.*,
-	Представления_КадровыеДанныеСотрудников.Образование1Серия,
-	Представления_КадровыеДанныеСотрудников.Образование1Номер,
-	Представления_КадровыеДанныеСотрудников.Образование1ДатаВыдачи,
-	Представления_КадровыеДанныеСотрудников.Образование1Квалификация,
-	Представления_КадровыеДанныеСотрудников.Образование2УчебноеЗаведение.*,
-	Представления_КадровыеДанныеСотрудников.Образование2ВидОбразования.*,
-	Представления_КадровыеДанныеСотрудников.Образование2Начало,
-	Представления_КадровыеДанныеСотрудников.Образование2Окончание,
-	Представления_КадровыеДанныеСотрудников.Образование2Специальность.*,
-	Представления_КадровыеДанныеСотрудников.Образование2ВидДокумента.*,
-	Представления_КадровыеДанныеСотрудников.Образование2Серия,
-	Представления_КадровыеДанныеСотрудников.Образование2Номер,
-	Представления_КадровыеДанныеСотрудников.Образование2ДатаВыдачи,
-	Представления_КадровыеДанныеСотрудников.Образование2Квалификация,
-	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеУчебноеЗаведение.*,
-	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеНачало,
-	Представления_КадровыеДанныеСотрудников.ВысшееОбразованиеОкончание,
+	Образования.ВидОбразования.*,
 	Представления_КадровыеДанныеСотрудников.УченаяСтепень.*,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньОтрасльНауки,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДатаПрисуждения,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДиссертационныйСовет,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньДипломСерияНомер,
-	Представления_КадровыеДанныеСотрудников.УченаяСтепеньОрганизация,
-	Представления_КадровыеДанныеСотрудников.УченоеЗвание.*,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеАттестатСерия,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеАттестатНомер,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеДатаПрисвоения,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеОрганизация,
-	Представления_КадровыеДанныеСотрудников.УченоеЗваниеСпециальность.*,
-	Представления_КадровыеДанныеСотрудников.ИмеетНаучныеТруды,
-	Представления_КадровыеДанныеСотрудников.ИмеетИзобретения,
-	Представления_КадровыеДанныеСотрудников.ПочетноеЗвание.*,
 	Представления_КадровыеДанныеСотрудников.ВидДоговора.*,
 	Представления_КадровыеДанныеСотрудников.ТекущийВидДоговора.*,
-	Представления_КадровыеДанныеСотрудников.ПолученныеОбразования,
-	Представления_КадровыеДанныеСотрудников.Награды,
 	Представления_КадровыеДанныеСотрудников.Документы,
 	Представления_КадровыеДанныеСотрудников.ЗнанияЯзыков,
 	Представления_КадровыеДанныеСотрудников.Профессии,
@@ -4834,10 +3984,6 @@
 	Представления_КадровыеДанныеСотрудников.ДатаДоговораКонтракта,
 	Представления_КадровыеДанныеСотрудников.НомерДоговораКонтракта,
 	Представления_КадровыеДанныеСотрудников.ДатаНачала,
-	Представления_КадровыеДанныеСотрудников.ПредставительНанимателя.*,
-	Представления_КадровыеДанныеСотрудников.ДолжностьПредставителяНанимателя.*,
-	Представления_КадровыеДанныеСотрудников.ОснованиеПредставителя,
-	Представления_КадровыеДанныеСотрудников.ВидАктаГосоргана,
 	Представления_КадровыеДанныеСотрудников.ДатаОкончания,
 	Представления_КадровыеДанныеСотрудников.СрочныйДоговор,
 	Представления_КадровыеДанныеСотрудников.СрокЗаключенияДоговора,
@@ -4857,9 +4003,6 @@
 	Представления_КадровыеДанныеСотрудников.ИнвалидностьДатаВыдачи,
 	Представления_КадровыеДанныеСотрудников.ИнвалидностьГруппа,
 	Представления_КадровыеДанныеСотрудников.Пенсионер,
-	Представления_КадровыеДанныеСотрудников.ТерриторияПериодЗаписи,
-	Представления_КадровыеДанныеСотрудников.ТерриторияРегистратор.*,
-	Представления_КадровыеДанныеСотрудников.Территория.*,
 	Представления_КадровыеДанныеСотрудников.РаботаСНефиксированнымРабочимВременем}</query>
 	</dataSet>
 	<dataSet xsi:type="DataSetQuery">
@@ -5290,12 +4433,12 @@
 		Конец
 Конец</dcsset:detailExpression>
 					<dcsset:detailExpressionPresentation>Выбор
-	Когда РазностьДат([Дата рождения], [Параметры.Дата], "ГОД") &gt; 1000
+	Когда РазностьДат([Дата рождения], [Параметри.Дата], "ГОД") &gt; 1000
 		Тогда Null
 	Иначе Выбор
-			Когда РазностьДат(НачалоПериода([Дата рождения], "ГОД"), [Дата рождения], "ДЕНЬ") - РазностьДат(НачалоПериода([Параметры.Дата], "ГОД"), [Параметры.Дата], "ДЕНЬ") &lt; 0
-				Тогда РазностьДат(НачалоПериода([Дата рождения], "ГОД"), [Дата рождения], "ДЕНЬ") - РазностьДат(НачалоПериода([Параметры.Дата], "ГОД"), [Параметры.Дата], "ДЕНЬ") + 365
-			Иначе РазностьДат(НачалоПериода([Дата рождения], "ГОД"), [Дата рождения], "ДЕНЬ") - РазностьДат(НачалоПериода([Параметры.Дата], "ГОД"), [Параметры.Дата], "ДЕНЬ")
+			Когда РазностьДат(НачалоПериода([Дата рождения], "ГОД"), [Дата рождения], "ДЕНЬ") - РазностьДат(НачалоПериода([Параметри.Дата], "ГОД"), [Параметри.Дата], "ДЕНЬ") &lt; 0
+				Тогда РазностьДат(НачалоПериода([Дата рождения], "ГОД"), [Дата рождения], "ДЕНЬ") - РазностьДат(НачалоПериода([Параметри.Дата], "ГОД"), [Параметри.Дата], "ДЕНЬ") + 365
+			Иначе РазностьДат(НачалоПериода([Дата рождения], "ГОД"), [Дата рождения], "ДЕНЬ") - РазностьДат(НачалоПериода([Параметри.Дата], "ГОД"), [Параметри.Дата], "ДЕНЬ")
 		Конец
 Конец</dcsset:detailExpressionPresentation>
 					<dcsset:totalExpression/>
@@ -5928,13 +5071,13 @@
 					<dcsset:detailExpressionPresentation>Выбор
 	Когда [Дата рождения] &lt;&gt; ДатаВремя(1, 1, 1)
 		Тогда Выбор
-				Когда (РазностьДат([Дата рождения], [Параметры.Дата], "год") + Выбор
-						Когда ДобавитьКДате([Дата рождения], "МЕСЯЦ", РазностьДат([Дата рождения], [Параметры.Дата], "ГОД") * 12) &lt; [Параметры.Дата]
+				Когда (РазностьДат([Дата рождения], [Параметри.Дата], "год") + Выбор
+						Когда ДобавитьКДате([Дата рождения], "МЕСЯЦ", РазностьДат([Дата рождения], [Параметри.Дата], "ГОД") * 12) &lt; [Параметри.Дата]
 							Тогда 1
 						Иначе 0
 					Конец) % 5 = 0
-					Тогда РазностьДат([Дата рождения], [Параметры.Дата], "год") + Выбор
-							Когда ДобавитьКДате([Дата рождения], "МЕСЯЦ", РазностьДат([Дата рождения], [Параметры.Дата], "ГОД") * 12) &lt; [Параметры.Дата]
+					Тогда РазностьДат([Дата рождения], [Параметри.Дата], "год") + Выбор
+							Когда ДобавитьКДате([Дата рождения], "МЕСЯЦ", РазностьДат([Дата рождения], [Параметри.Дата], "ГОД") * 12) &lt; [Параметри.Дата]
 								Тогда 1
 							Иначе 0
 						Конец
@@ -5969,8 +5112,8 @@
 					<dcsset:detailExpressionPresentation>Выбор
 	Когда [Дата рождения] = ДатаВремя(1, 1, 1)
 		Тогда Null
-	Иначе ДобавитьКДате([Дата рождения], "МЕСЯЦ", РазностьДат([Дата рождения], [Параметры.Дата], "ГОД") * 12 + Выбор
-				Когда ДобавитьКДате([Дата рождения], "МЕСЯЦ", РазностьДат([Дата рождения], [Параметры.Дата], "ГОД") * 12) &lt; [Параметры.Дата]
+	Иначе ДобавитьКДате([Дата рождения], "МЕСЯЦ", РазностьДат([Дата рождения], [Параметри.Дата], "ГОД") * 12 + Выбор
+				Когда ДобавитьКДате([Дата рождения], "МЕСЯЦ", РазностьДат([Дата рождения], [Параметри.Дата], "ГОД") * 12) &lt; [Параметри.Дата]
 					Тогда 12
 				Иначе 0
 			Конец)
@@ -7460,57 +6603,6 @@
 						<dcsset:field>ЛичныеДанные.Образования.ПослеВузовскоеОбразованиеСпециальность.Код</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование1ВидОбразования</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование1Окончание</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование1ВидДокумента</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование1Серия</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование1Номер</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование1Квалификация</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование1Специальность</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование1Специальность.Код</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование1УчебноеЗаведение</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование2ВидДокумента</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование2Окончание</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование2Серия</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование2Номер</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование2Квалификация</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование2Специальность</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование2Специальность.Код</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование2УчебноеЗаведение</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>РабочееМесто.ТрудовойДоговорНомер</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -7518,12 +6610,6 @@
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>ЛичныеДанные.ФизическоеЛицо</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование</dcsset:field>
-					</dcsset:item>
-					<dcsset:item xsi:type="dcsset:SelectedItemField">
-						<dcsset:field>ЛичныеДанные.Образования.Образование.Код</dcsset:field>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>ПользовательскиеПоля.Поле5</dcsset:field>
@@ -7560,6 +6646,9 @@
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:SelectedItemField">
 						<dcsset:field>ЛичныеДанные.ВоинскийУчет.ВоинскийУчетРеквизитыВоенногоБилета</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ЛичныеДанные.Образования.Образование</dcsset:field>
 					</dcsset:item>
 				</dcsset:selection>
 			</dcsset:item>

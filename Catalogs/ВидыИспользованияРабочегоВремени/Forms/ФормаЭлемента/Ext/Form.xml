@@ -65,6 +65,34 @@
 				<Event name="OnChange">ОсновноеВремяПриИзменении</Event>
 			</Events>
 		</InputField>
+		<InputField name="КолонкаНевыходов" id="26">
+			<DataPath>Объект.КолонкаНевыходов</DataPath>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Если не укзана - определяется автоматически</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Якщо не вказана - визначається автоматично</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ToolTipRepresentation>Button</ToolTipRepresentation>
+			<EditFormat>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧН=</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>ЧН=</v8:content>
+				</v8:item>
+			</EditFormat>
+			<MinValue xsi:type="xs:decimal">0</MinValue>
+			<MaxValue xsi:type="xs:decimal">12</MaxValue>
+			<ContextMenu name="КолонкаНевыходовКонтекстноеМеню" id="27"/>
+			<ExtendedTooltip name="КолонкаНевыходовРасширеннаяПодсказка" id="28"/>
+		</InputField>
 		<CheckBoxField name="УважительнаяПричинаДляБольничных" id="23">
 			<DataPath>Объект.УважительнаяПричинаДляБольничных</DataPath>
 			<ToolTip>

@@ -432,7 +432,7 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
-				<Page name="СтраницаПФРФССФОМС" id="139">
+				<Page name="СтраницаФСС" id="139">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -443,20 +443,10 @@
 							<v8:content>Страхові внески</v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Страница ПФРФССФОМС</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Сторінка ПФРФССФОМС</v8:content>
-						</v8:item>
-					</ToolTip>
 					<Group>Horizontal</Group>
-					<ExtendedTooltip name="СтраницаПФРФССФОМСExtendedTooltip" id="267"/>
+					<ExtendedTooltip name="СтраницаФССРасширеннаяПодсказка" id="267"/>
 					<ChildItems>
-						<UsualGroup name="ГруппаПФР_ФСС_ФОМС" id="140">
+						<UsualGroup name="ГруппаФСС" id="140">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -479,9 +469,9 @@
 							</ToolTip>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
-							<ExtendedTooltip name="ГруппаПФР_ФСС_ФОМСExtendedTooltip" id="268"/>
+							<ExtendedTooltip name="ГруппаФССРасширеннаяПодсказка" id="268"/>
 							<ChildItems>
-								<Table name="ПФР_ФСС_ФОМС" id="141">
+								<Table name="ФСС" id="141">
 									<Representation>List</Representation>
 									<CommandBarLocation>None</CommandBarLocation>
 									<ReadOnly>true</ReadOnly>
@@ -490,8 +480,8 @@
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<FileDragMode>AsFile</FileDragMode>
-									<DataPath>ПФР_ФСС_ФОМС</DataPath>
-									<RowPictureDataPath>ПФР_ФСС_ФОМС.ТолькоПросмотр</RowPictureDataPath>
+									<DataPath>ФСС</DataPath>
+									<RowPictureDataPath>ФСС.ТолькоПросмотр</RowPictureDataPath>
 									<RowsPicture>
 										<xr:Ref>CommonPicture.СостоянияДоступностиВидовРасчета</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -514,17 +504,17 @@
 									<ViewStatusLocation>None</ViewStatusLocation>
 									<SearchControlLocation>None</SearchControlLocation>
 									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="ПФР_ФСС_ФОМСКонтекстноеМеню" id="142">
+									<ContextMenu name="ФССКонтекстноеМеню" id="142">
 										<ChildItems>
-											<Button name="ПФР_ФСС_ФОМСКонтекстноеМенюВывестиСписок" id="203">
+											<Button name="ФССКонтекстноеМенюВывестиСписок" id="203">
 												<Type>CommandBarButton</Type>
-												<CommandName>Form.Item.ПФР_ФСС_ФОМС.StandardCommand.OutputList</CommandName>
-												<ExtendedTooltip name="ПФР_ФСС_ФОМСКонтекстноеМенюВывестиСписокExtendedTooltip" id="270"/>
+												<CommandName>Form.Item.ФСС.StandardCommand.OutputList</CommandName>
+												<ExtendedTooltip name="ФССКонтекстноеМенюВывестиСписокРасширеннаяПодсказка" id="270"/>
 											</Button>
 										</ChildItems>
 									</ContextMenu>
-									<AutoCommandBar name="ПФР_ФСС_ФОМСКоманднаяПанель" id="143"/>
-									<ExtendedTooltip name="ПФР_ФСС_ФОМСExtendedTooltip" id="271">
+									<AutoCommandBar name="ФССКоманднаяПанель" id="143"/>
+									<ExtendedTooltip name="ФССРасширеннаяПодсказка" id="271">
 										<Height>2</Height>
 										<Title formatted="false">
 											<v8:item>
@@ -537,53 +527,53 @@
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
-									<SearchStringAddition name="ПФР_ФСС_ФОМССтрокаПоиска" id="334">
+									<SearchStringAddition name="ФСССтрокаПоиска" id="334">
 										<AdditionSource>
-											<Item>ПФР_ФСС_ФОМС</Item>
+											<Item>ФСС</Item>
 											<Type>SearchStringRepresentation</Type>
 										</AdditionSource>
-										<ContextMenu name="ПФР_ФСС_ФОМССтрокаПоискаКонтекстноеМеню" id="335"/>
-										<ExtendedTooltip name="ПФР_ФСС_ФОМССтрокаПоискаРасширеннаяПодсказка" id="336"/>
+										<ContextMenu name="ФСССтрокаПоискаКонтекстноеМеню" id="335"/>
+										<ExtendedTooltip name="ФСССтрокаПоискаРасширеннаяПодсказка" id="336"/>
 									</SearchStringAddition>
-									<ViewStatusAddition name="ПФР_ФСС_ФОМССостояниеПросмотра" id="337">
+									<ViewStatusAddition name="ФСССостояниеПросмотра" id="337">
 										<AdditionSource>
-											<Item>ПФР_ФСС_ФОМС</Item>
+											<Item>ФСС</Item>
 											<Type>ViewStatusRepresentation</Type>
 										</AdditionSource>
-										<ContextMenu name="ПФР_ФСС_ФОМССостояниеПросмотраКонтекстноеМеню" id="338"/>
-										<ExtendedTooltip name="ПФР_ФСС_ФОМССостояниеПросмотраРасширеннаяПодсказка" id="339"/>
+										<ContextMenu name="ФСССостояниеПросмотраКонтекстноеМеню" id="338"/>
+										<ExtendedTooltip name="ФСССостояниеПросмотраРасширеннаяПодсказка" id="339"/>
 									</ViewStatusAddition>
-									<SearchControlAddition name="ПФР_ФСС_ФОМСУправлениеПоиском" id="340">
+									<SearchControlAddition name="ФССУправлениеПоиском" id="340">
 										<AdditionSource>
-											<Item>ПФР_ФСС_ФОМС</Item>
+											<Item>ФСС</Item>
 											<Type>SearchControl</Type>
 										</AdditionSource>
-										<ContextMenu name="ПФР_ФСС_ФОМСУправлениеПоискомКонтекстноеМеню" id="341"/>
-										<ExtendedTooltip name="ПФР_ФСС_ФОМСУправлениеПоискомРасширеннаяПодсказка" id="342"/>
+										<ContextMenu name="ФССУправлениеПоискомКонтекстноеМеню" id="341"/>
+										<ExtendedTooltip name="ФССУправлениеПоискомРасширеннаяПодсказка" id="342"/>
 									</SearchControlAddition>
 									<Events>
-										<Event name="Selection">ПФР_ФСС_ФОМСВыбор</Event>
+										<Event name="Selection">ФССВыбор</Event>
 									</Events>
 									<ChildItems>
-										<InputField name="ПФР_ФСС_ФОМСВидРасчета" id="144">
-											<DataPath>ПФР_ФСС_ФОМС.ВидРасчета</DataPath>
+										<InputField name="ФССВидРасчета" id="144">
+											<DataPath>ФСС.ВидРасчета</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ПФР_ФСС_ФОМСВидРасчетаКонтекстноеМеню" id="145"/>
-											<ExtendedTooltip name="ПФР_ФСС_ФОМСВидРасчетаExtendedTooltip" id="272"/>
+											<ContextMenu name="ФССВидРасчетаКонтекстноеМеню" id="145"/>
+											<ExtendedTooltip name="ФССВидРасчетаРасширеннаяПодсказка" id="272"/>
 										</InputField>
-										<InputField name="ПФР_ФСС_ФОМСКодДоходаСтраховыеВзносы" id="192">
-											<DataPath>ПФР_ФСС_ФОМС.ВидЕСВ</DataPath>
+										<InputField name="ФССКодДоходаСтраховыеВзносы" id="192">
+											<DataPath>ФСС.ВидЕСВ</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ПФР_ФСС_ФОМСКодДоходаСтраховыеВзносыКонтекстноеМеню" id="193"/>
-											<ExtendedTooltip name="ПФР_ФСС_ФОМСКодДоходаСтраховыеВзносыExtendedTooltip" id="273"/>
+											<ContextMenu name="ФССКодДоходаСтраховыеВзносыКонтекстноеМеню" id="193"/>
+											<ExtendedTooltip name="ФССКодДоходаСтраховыеВзносыРасширеннаяПодсказка" id="273"/>
 										</InputField>
 									</ChildItems>
 								</Table>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="ГруппаНеПФР_НеФСС_НеФОМС" id="167">
+						<UsualGroup name="ГруппаНеФСС" id="167">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -606,9 +596,9 @@
 							</ToolTip>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
-							<ExtendedTooltip name="ГруппаНеПФР_НеФСС_НеФОМСExtendedTooltip" id="274"/>
+							<ExtendedTooltip name="ГруппаНеФССРасширеннаяПодсказка" id="274"/>
 							<ChildItems>
-								<Table name="НеПФР_НеФСС_НеФОМС" id="183">
+								<Table name="НеФСС" id="183">
 									<Representation>List</Representation>
 									<CommandBarLocation>None</CommandBarLocation>
 									<ReadOnly>true</ReadOnly>
@@ -617,8 +607,8 @@
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<FileDragMode>AsFile</FileDragMode>
-									<DataPath>НеПФР_НеФСС_НеФОМС</DataPath>
-									<RowPictureDataPath>НеПФР_НеФСС_НеФОМС.ТолькоПросмотр</RowPictureDataPath>
+									<DataPath>НеФСС</DataPath>
+									<RowPictureDataPath>НеФСС.ТолькоПросмотр</RowPictureDataPath>
 									<RowsPicture>
 										<xr:Ref>CommonPicture.СостоянияДоступностиВидовРасчета</xr:Ref>
 										<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -641,17 +631,17 @@
 									<ViewStatusLocation>None</ViewStatusLocation>
 									<SearchControlLocation>None</SearchControlLocation>
 									<RowFilter xsi:nil="true"/>
-									<ContextMenu name="НеПФР_НеФСС_НеФОМСКонтекстноеМеню" id="184">
+									<ContextMenu name="НеФССКонтекстноеМеню" id="184">
 										<ChildItems>
-											<Button name="НеПФР_НеФСС_НеФОМСКонтекстноеМенюВывестиСписок" id="204">
+											<Button name="НеФССКонтекстноеМенюВывестиСписок" id="204">
 												<Type>CommandBarButton</Type>
-												<CommandName>Form.Item.НеПФР_НеФСС_НеФОМС.StandardCommand.OutputList</CommandName>
-												<ExtendedTooltip name="НеПФР_НеФСС_НеФОМСКонтекстноеМенюВывестиСписокExtendedTooltip" id="276"/>
+												<CommandName>Form.Item.НеФСС.StandardCommand.OutputList</CommandName>
+												<ExtendedTooltip name="НеФССКонтекстноеМенюВывестиСписокРасширеннаяПодсказка" id="276"/>
 											</Button>
 										</ChildItems>
 									</ContextMenu>
-									<AutoCommandBar name="НеПФР_НеФСС_НеФОМСКоманднаяПанель" id="185"/>
-									<ExtendedTooltip name="НеПФР_НеФСС_НеФОМСExtendedTooltip" id="277">
+									<AutoCommandBar name="НеФССКоманднаяПанель" id="185"/>
+									<ExtendedTooltip name="НеФССРасширеннаяПодсказка" id="277">
 										<Height>2</Height>
 										<Title formatted="false">
 											<v8:item>
@@ -664,47 +654,47 @@
 											</v8:item>
 										</Title>
 									</ExtendedTooltip>
-									<SearchStringAddition name="НеПФР_НеФСС_НеФОМССтрокаПоиска" id="343">
+									<SearchStringAddition name="НеФСССтрокаПоиска" id="343">
 										<AdditionSource>
-											<Item>НеПФР_НеФСС_НеФОМС</Item>
+											<Item>НеФСС</Item>
 											<Type>SearchStringRepresentation</Type>
 										</AdditionSource>
-										<ContextMenu name="НеПФР_НеФСС_НеФОМССтрокаПоискаКонтекстноеМеню" id="344"/>
-										<ExtendedTooltip name="НеПФР_НеФСС_НеФОМССтрокаПоискаРасширеннаяПодсказка" id="345"/>
+										<ContextMenu name="НеФСССтрокаПоискаКонтекстноеМеню" id="344"/>
+										<ExtendedTooltip name="НеФСССтрокаПоискаРасширеннаяПодсказка" id="345"/>
 									</SearchStringAddition>
-									<ViewStatusAddition name="НеПФР_НеФСС_НеФОМССостояниеПросмотра" id="346">
+									<ViewStatusAddition name="НеФСССостояниеПросмотра" id="346">
 										<AdditionSource>
-											<Item>НеПФР_НеФСС_НеФОМС</Item>
+											<Item>НеФСС</Item>
 											<Type>ViewStatusRepresentation</Type>
 										</AdditionSource>
-										<ContextMenu name="НеПФР_НеФСС_НеФОМССостояниеПросмотраКонтекстноеМеню" id="347"/>
-										<ExtendedTooltip name="НеПФР_НеФСС_НеФОМССостояниеПросмотраРасширеннаяПодсказка" id="348"/>
+										<ContextMenu name="НеФСССостояниеПросмотраКонтекстноеМеню" id="347"/>
+										<ExtendedTooltip name="НеФСССостояниеПросмотраРасширеннаяПодсказка" id="348"/>
 									</ViewStatusAddition>
-									<SearchControlAddition name="НеПФР_НеФСС_НеФОМСУправлениеПоиском" id="349">
+									<SearchControlAddition name="НеФССУправлениеПоиском" id="349">
 										<AdditionSource>
-											<Item>НеПФР_НеФСС_НеФОМС</Item>
+											<Item>НеФСС</Item>
 											<Type>SearchControl</Type>
 										</AdditionSource>
-										<ContextMenu name="НеПФР_НеФСС_НеФОМСУправлениеПоискомКонтекстноеМеню" id="350"/>
-										<ExtendedTooltip name="НеПФР_НеФСС_НеФОМСУправлениеПоискомРасширеннаяПодсказка" id="351"/>
+										<ContextMenu name="НеФССУправлениеПоискомКонтекстноеМеню" id="350"/>
+										<ExtendedTooltip name="НеФССУправлениеПоискомРасширеннаяПодсказка" id="351"/>
 									</SearchControlAddition>
 									<Events>
-										<Event name="Selection">НеПФР_НеФСС_НеФОМСВыбор</Event>
+										<Event name="Selection">НеФССВыбор</Event>
 									</Events>
 									<ChildItems>
-										<InputField name="НеПФР_НеФСС_НеФОМСВидРасчета" id="186">
-											<DataPath>НеПФР_НеФСС_НеФОМС.ВидРасчета</DataPath>
+										<InputField name="НеФССВидРасчета" id="186">
+											<DataPath>НеФСС.ВидРасчета</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="НеПФР_НеФСС_НеФОМСВидРасчетаКонтекстноеМеню" id="187"/>
-											<ExtendedTooltip name="НеПФР_НеФСС_НеФОМСВидРасчетаExtendedTooltip" id="278"/>
+											<ContextMenu name="НеФССВидРасчетаКонтекстноеМеню" id="187"/>
+											<ExtendedTooltip name="НеФССВидРасчетаРасширеннаяПодсказка" id="278"/>
 										</InputField>
-										<InputField name="НеПФР_НеФСС_НеФОМСКодДоходаСтраховыеВзносы" id="194">
-											<DataPath>НеПФР_НеФСС_НеФОМС.ВидЕСВ</DataPath>
+										<InputField name="НеФССКодДоходаСтраховыеВзносы" id="194">
+											<DataPath>НеФСС.ВидЕСВ</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="НеПФР_НеФСС_НеФОМСКодДоходаСтраховыеВзносыКонтекстноеМеню" id="195"/>
-											<ExtendedTooltip name="НеПФР_НеФСС_НеФОМСКодДоходаСтраховыеВзносыExtendedTooltip" id="279"/>
+											<ContextMenu name="НеФССКодДоходаСтраховыеВзносыКонтекстноеМеню" id="195"/>
+											<ExtendedTooltip name="НеФССКодДоходаСтраховыеВзносыРасширеннаяПодсказка" id="279"/>
 										</InputField>
 									</ChildItems>
 								</Table>
@@ -2020,15 +2010,15 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="ПФР_ФСС_ФОМС" id="12">
+		<Attribute name="ФСС" id="12">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>ПФР ФСС ФОМС</v8:content>
+					<v8:content>ФСС</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>ПФР ФСС, ФОМС</v8:content>
+					<v8:content>ФСС</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2103,15 +2093,15 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="НеПФР_НеФСС_НеФОМС" id="19">
+		<Attribute name="НеФСС" id="19">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Не ПФР не ФСС не ФОМС</v8:content>
+					<v8:content>Не ФСС</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Не ПФР не ФСС не ФОМС</v8:content>
+					<v8:content>Не ФСС</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

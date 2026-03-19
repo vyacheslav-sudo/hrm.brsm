@@ -712,8 +712,8 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>uk</v8:lang>
-											<v8:content>Коротке представлення властивості, що
-виводиться у формах редагування його значення.</v8:content>
+											<v8:content>Коротке представлення властивості, яке
+виводиться у формах редагування її значення.</v8:content>
 										</v8:item>
 									</ToolTip>
 									<Wrap>false</Wrap>
@@ -821,7 +821,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>uk</v8:lang>
-													<v8:content>У реквізиті будуть указуватися дані обраного типу. Наприклад, текст, дата, число й т.п.</v8:content>
+													<v8:content>У реквізиті будуть зазначатися дані обраного типу. Наприклад, текст, дата, число і т.п.</v8:content>
 												</v8:item>
 											</ToolTip>
 											<ToolTipRepresentation>Button</ToolTipRepresentation>

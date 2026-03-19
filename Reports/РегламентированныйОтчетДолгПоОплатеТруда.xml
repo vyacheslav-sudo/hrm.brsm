@@ -280,9 +280,12 @@
 			</Attribute>
 			<Form>ОсновнаяФорма</Form>
 			<Form>ФормаОтчета2021УФ</Form>
+			<Form>ФормаОтчета2025УФ</Form>
 			<Template>ПоказателиЗвит1С</Template>
 			<Template>ФормаОтчета2021УФ_ДолгПоОплате</Template>
 			<Template>СоставПоказателей2021</Template>
+			<Template>ФормаОтчета2025УФ_ДолгПоОплате</Template>
+			<Template>СоставПоказателей2025</Template>
 		</ChildObjects>
 	</Report>
 </MetaDataObject>

@@ -110,6 +110,31 @@
 				<Event name="OnUpdateUserSettingSetAtServer">СписокПриОбновленииСоставаПользовательскихНастроекНаСервере</Event>
 			</Events>
 			<ChildItems>
+				<PictureField name="ЕстьФайлы" id="40">
+					<DataPath>Список.ЕстьФайлы</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть файлы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Є файли</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<HeaderPicture>
+						<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</HeaderPicture>
+					<Width>2</Width>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="42"/>
+				</PictureField>
 				<LabelField name="Дата" id="7">
 					<DataPath>Список.Date</DataPath>
 					<DefaultItem>true</DefaultItem>
@@ -157,8 +182,33 @@
 				<Field>Список.Ref</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
-				<ManualQuery>false</ManualQuery>
+				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ДокументОтпускаСотрудников.Ссылка,
+	ДокументОтпускаСотрудников.ПометкаУдаления,
+	ДокументОтпускаСотрудников.Номер,
+	ДокументОтпускаСотрудников.Дата,
+	ДокументОтпускаСотрудников.Проведен,
+	ДокументОтпускаСотрудников.Организация,
+	ДокументОтпускаСотрудников.КраткийСоставДокумента,
+	ДокументОтпускаСотрудников.Руководитель,
+	ДокументОтпускаСотрудников.ДолжностьРуководителя,
+	ДокументОтпускаСотрудников.Ответственный,
+	ДокументОтпускаСотрудников.Комментарий,
+	ДокументОтпускаСотрудников.Сотрудники,
+	ДокументОтпускаСотрудников.МоментВремени,
+	ВЫБОР
+		КОГДА НаличиеФайлов.ЕстьФайлы ЕСТЬ NULL
+			ТОГДА 0
+		КОГДА НаличиеФайлов.ЕстьФайлы
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ЕстьФайлы
+ИЗ
+	Документ.ОтпускаСотрудников КАК ДокументОтпускаСотрудников
+	{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
+		ПО ДокументОтпускаСотрудников.Ссылка = НаличиеФайлов.ОбъектСФайлами}</QueryText>
 				<MainTable>Document.ОтпускаСотрудников</MainTable>
 				<ListSettings>
 					<dcsset:filter>

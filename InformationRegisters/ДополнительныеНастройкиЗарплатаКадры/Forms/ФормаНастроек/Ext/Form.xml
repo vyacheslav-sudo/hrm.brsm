@@ -252,6 +252,25 @@
 						</Title>
 					</ExtendedTooltip>
 				</CheckBoxField>
+				<CheckBoxField name="ИспользоватьКомпактнуюФормуЗарплатныхВедомостей" id="59">
+					<DataPath>Запись.ИспользоватьКомпактнуюФормуЗарплатныхВедомостей</DataPath>
+					<TitleLocation>Right</TitleLocation>
+					<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИспользоватьКомпактнуюФормуЗарплатныхВедомостейКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="ИспользоватьКомпактнуюФормуЗарплатныхВедомостейРасширеннаяПодсказка" id="61">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>В печатных формах ведомостей на выплату зарплаты не будут выводиться дополнительные пустые строки.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>uk</v8:lang>
+								<v8:content>У друкованих формах відомостей на виплату зарплати не будуть виводитися додаткові порожні рядки.</v8:content>
+							</v8:item>
+						</Title>
+					</ExtendedTooltip>
+				</CheckBoxField>
 			</ChildItems>
 		</UsualGroup>
 	</ChildItems>

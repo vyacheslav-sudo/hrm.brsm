@@ -80,6 +80,14 @@
 		<CommandBar name="КоманднаяПанельФормы" id="43">
 			<CommandSource>Form</CommandSource>
 			<ExtendedTooltip name="КоманднаяПанельФормыРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<Button name="ФормаОбщаяКомандаСвязанныеДокументы" id="61">
+					<Type>CommandBarButton</Type>
+					<CommandName>CommonCommand.СвязанныеДокументы</CommandName>
+					<DataPath>Items.Список.CurrentData.Ref</DataPath>
+					<ExtendedTooltip name="ФормаОбщаяКомандаСвязанныеДокументыРасширеннаяПодсказка" id="62"/>
+				</Button>
+			</ChildItems>
 		</CommandBar>
 		<Table name="Список" id="1">
 			<Representation>List</Representation>

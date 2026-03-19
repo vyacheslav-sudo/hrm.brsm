@@ -79,6 +79,12 @@
 			<CommandSource>Form</CommandSource>
 			<ExtendedTooltip name="КоманднаяПанельФормыРасширеннаяПодсказка" id="50"/>
 			<ChildItems>
+				<Button name="ФормаОбщаяКомандаСвязанныеДокументы" id="64">
+					<Type>CommandBarButton</Type>
+					<CommandName>CommonCommand.СвязанныеДокументы</CommandName>
+					<DataPath>Items.Список.CurrentData.Ref</DataPath>
+					<ExtendedTooltip name="ФормаОбщаяКомандаСвязанныеДокументыРасширеннаяПодсказка" id="65"/>
+				</Button>
 				<Button name="ФормаУтвердить" id="22">
 					<Type>CommandBarButton</Type>
 					<CommandName>Form.Command.Утвердить</CommandName>

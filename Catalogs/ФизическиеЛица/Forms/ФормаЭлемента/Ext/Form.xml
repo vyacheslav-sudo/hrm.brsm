@@ -352,7 +352,6 @@
 													</Title>
 													<ToolTipRepresentation>Button</ToolTipRepresentation>
 													<Width>8</Width>
-													<ChoiceButton>false</ChoiceButton>
 													<ContextMenu name="ФизлицоДатаРожденияКонтекстноеМеню" id="186"/>
 													<ExtendedTooltip name="ФизлицоДатаРожденияExtendedTooltip" id="419"/>
 													<Events>
@@ -710,7 +709,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>uk</v8:lang>
-											<v8:content>Документ, що засвідчує особу</v8:content>
+											<v8:content>Документ, що посвідчує особу</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>

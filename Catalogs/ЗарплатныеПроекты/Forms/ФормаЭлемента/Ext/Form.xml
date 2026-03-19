@@ -32,29 +32,19 @@
 				<Event name="OnChange">БанкПриИзменении</Event>
 			</Events>
 		</InputField>
-		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="11">
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="85">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Дополнительные данные</v8:content>
+					<v8:content>Дополнительно</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Додаткові дані</v8:content>
+					<v8:content>Додатково</v8:content>
 				</v8:item>
 			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Группа дополнительные реквизиты</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Група додаткові реквізити</v8:content>
-				</v8:item>
-			</ToolTip>
 			<Group>Vertical</Group>
-			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="93"/>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="86"/>
 		</UsualGroup>
 		<InputField name="Наименование" id="3">
 			<DataPath>Объект.Description</DataPath>

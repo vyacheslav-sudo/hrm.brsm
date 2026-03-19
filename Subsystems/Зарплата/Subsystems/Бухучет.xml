@@ -21,6 +21,8 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.РаспределениеОсновногоЗаработка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтражениеЗарплатыВФинансовомУчете</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.СправкаРасчетРезервыОтпусков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НачислениеОценочныхОбязательствПоОтпускам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

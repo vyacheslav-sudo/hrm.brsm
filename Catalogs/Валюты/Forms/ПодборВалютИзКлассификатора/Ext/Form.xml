@@ -171,11 +171,11 @@
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Курс валюты может быть загружен с сайта finance.ua</v8:content>
+							<v8:content>Курс валюты может быть загружен из сети Интернет</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Курс валюти може бути завантажений з сайту finance.ua</v8:content>
+							<v8:content>Курс валюти може бути завантажений з мережі Інтернет</v8:content>
 						</v8:item>
 					</ToolTip>
 					<HeaderPicture>

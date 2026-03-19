@@ -1884,6 +1884,7 @@
 														</v8:item>
 													</Title>
 													<TitleLocation>None</TitleLocation>
+													<Width>30</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="СпособРасчетаАвансаКонтекстноеМеню" id="197"/>
 													<ExtendedTooltip name="СпособРасчетаАвансаExtendedTooltip" id="405"/>

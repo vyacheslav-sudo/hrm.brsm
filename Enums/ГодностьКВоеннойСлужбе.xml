@@ -112,33 +112,17 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="28bc90be-2e62-4201-b15e-47d815727799">
+			<EnumValue uuid="f407c3e6-6f14-4f58-bde9-3ba41a896325">
 				<Properties>
-					<Name>ГоденСОграничениями</Name>
+					<Name>ГоденТЦК</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ограниченно годен к военной службе</v8:content>
+							<v8:content>Годен для службы в в/ч обеспечения, ТЦК и СП, НЦ</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Обмежено придатний до військової служби</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="e9ed7fc5-e398-4e1f-82f7-59ca613b5d4f">
-				<Properties>
-					<Name>ОграниченноГоден</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Не годен в мирное время, ограниченно годен в военное время</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>uk</v8:lang>
-							<v8:content>Непридатний у мирний час, обмежено придатний у воєнний час</v8:content>
+							<v8:content>Придатний для служби у в/ч забезпечення, ТЦК і СП, НЦ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -171,6 +155,38 @@
 						<v8:item>
 							<v8:lang>uk</v8:lang>
 							<v8:content>Не придатний до військової служби</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="28bc90be-2e62-4201-b15e-47d815727799">
+				<Properties>
+					<Name>ГоденСОграничениями</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ограниченно годен к военной службе</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Обмежено придатний до військової служби</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e9ed7fc5-e398-4e1f-82f7-59ca613b5d4f">
+				<Properties>
+					<Name>ОграниченноГоден</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не годен в мирное время, ограниченно годен в военное время</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Непридатний у мирний час, обмежено придатний у воєнний час</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

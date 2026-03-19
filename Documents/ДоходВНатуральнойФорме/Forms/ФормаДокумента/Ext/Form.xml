@@ -189,6 +189,14 @@
 								<Event name="OnChange">ОрганизацияПриИзменении</Event>
 							</Events>
 						</InputField>
+						<InputField name="Подразделение" id="1099">
+							<DataPath>Объект.Подразделение</DataPath>
+							<ContextMenu name="ПодразделениеКонтекстноеМеню" id="1100"/>
+							<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="1101"/>
+							<Events>
+								<Event name="OnChange">ПодразделениеПриИзменении</Event>
+							</Events>
+						</InputField>
 						<InputField name="Начисление" id="11">
 							<DataPath>Объект.Начисление</DataPath>
 							<ContextMenu name="НачислениеКонтекстноеМеню" id="12"/>
@@ -1062,6 +1070,21 @@
 			<Group>Horizontal</Group>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаИсправлениеExtendedTooltip" id="135"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="1097">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Додатково</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="1098"/>
 		</UsualGroup>
 		<UsualGroup name="ГруппаКомментарийОтветственный" id="47">
 			<Group>Horizontal</Group>

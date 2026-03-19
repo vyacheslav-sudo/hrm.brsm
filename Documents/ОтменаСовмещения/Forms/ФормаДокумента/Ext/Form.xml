@@ -105,7 +105,7 @@
 									<v8:content>Суміщення</v8:content>
 								</v8:item>
 							</Title>
-							<HorizontalStretch>false</HorizontalStretch>
+							<HorizontalStretch>true</HorizontalStretch>
 							<ContextMenu name="ДокументОснованиеКонтекстноеМеню" id="40"/>
 							<ExtendedTooltip name="ДокументОснованиеРасширеннаяПодсказка" id="41"/>
 							<Events>
@@ -301,31 +301,6 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="РасчетчикГруппаРасширеннаяПодсказка" id="43"/>
 		</UsualGroup>
-		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="70">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дополнительные реквизиты</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Додаткові реквізити</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дополнительные реквизиты</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Додаткові реквізити</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="71"/>
-		</UsualGroup>
 		<UsualGroup name="ПодписиГруппа" id="56">
 			<Title>
 				<v8:item>
@@ -370,6 +345,20 @@
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="70">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Додатково</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="71"/>
 		</UsualGroup>
 		<UsualGroup name="ГруппаКомментария" id="37">
 			<Title>

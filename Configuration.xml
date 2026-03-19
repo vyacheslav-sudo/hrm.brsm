@@ -57,7 +57,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>NetHelp</Vendor>
-			<Version>3.0.5.6</Version>
+			<Version>3.0.8.3</Version>
 			<UpdateCatalogAddress>http://downloads.bas-soft.eu/tmplts/</UpdateCatalogAddress>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>true</UseManagedFormInOrdinaryApplication>
@@ -231,11 +231,11 @@
 			<Copyright>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Copyright © NetHelp JAROCKI PIOTR, 2017-2024. All rights reserved</v8:content>
+					<v8:content>Copyright © NetHelp JAROCKI PIOTR, 2017-2025. All rights reserved</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Copyright © NetHelp JAROCKI PIOTR, 2017-2024. All rights reserved</v8:content>
+					<v8:content>Copyright © NetHelp JAROCKI PIOTR, 2017-2025. All rights reserved</v8:content>
 				</v8:item>
 			</Copyright>
 			<VendorInformationAddress/>
@@ -4240,6 +4240,7 @@
 			<Report>СостояниеШтатногоРасписания</Report>
 			<Report>СостоянияСотрудников</Report>
 			<Report>СпискиПерсональногоВоинскогоУчета</Report>
+			<Report>СправкаРасчетРезервыОтпусков</Report>
 			<Report>СравнениеПлановыхИФактическихНачислений</Report>
 			<Report>СтажиСотрудников</Report>
 			<Report>СтажиСотрудниковПоДаннымПФУ</Report>

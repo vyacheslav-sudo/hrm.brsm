@@ -305,6 +305,8 @@
 			<Form>ФормаОтчета2023КвУФ</Form>
 			<Form>ФормаОтчета2024МесУФ</Form>
 			<Form>ФормаОтчета2024КвУФ</Form>
+			<Form>ФормаОтчета2025МесУФ</Form>
+			<Form>ФормаОтчета2025КвУФ</Form>
 			<Template>ПоказателиЗвит1С</Template>
 			<Template>СоставПоказателей2011Кв</Template>
 			<Template>СоставПоказателей2012Кв</Template>
@@ -342,6 +344,10 @@
 			<Template>СоставПоказателей2024Мес</Template>
 			<Template>ФормаОтчета2024КвУФ_ОтчетПоТруду</Template>
 			<Template>СоставПоказателей2024Кв</Template>
+			<Template>ФормаОтчета2025МесУФ_ОтчетПоТрудуМес</Template>
+			<Template>СоставПоказателей2025Мес</Template>
+			<Template>ФормаОтчета2025КвУФ_ОтчетПоТруду</Template>
+			<Template>СоставПоказателей2025Кв</Template>
 		</ChildObjects>
 	</Report>
 </MetaDataObject>

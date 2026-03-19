@@ -117,6 +117,14 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="8"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="9"/>
 				</LabelField>
+				<LabelField name="Ссылка" id="29">
+					<DataPath>Список.Ref</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="31"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 		<CheckBoxField name="ПоказыватьНедействительныхПользователей" id="22">

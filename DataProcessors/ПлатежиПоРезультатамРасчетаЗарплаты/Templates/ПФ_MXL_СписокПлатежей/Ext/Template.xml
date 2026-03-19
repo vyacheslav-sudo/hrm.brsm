@@ -960,11 +960,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Регистрация в налоговом органе</v8:content>
+							<v8:content>Налог</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Реєстрація в податковому органі</v8:content>
+							<v8:content>Податок</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1001,7 +1001,7 @@
 			<c>
 				<c>
 					<f>40</f>
-					<parameter>НалоговыйОрган</parameter>
+					<parameter>Вид</parameter>
 				</c>
 			</c>
 			<c>
@@ -1099,11 +1099,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Вид обязательного страхования</v8:content>
+							<v8:content>Налог</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>Вид обов'язкового страхування</v8:content>
+							<v8:content>Податок</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1144,7 +1144,7 @@
 			<c>
 				<c>
 					<f>40</f>
-					<parameter>ВидСтрахования</parameter>
+					<parameter>Налог</parameter>
 				</c>
 			</c>
 			<c>

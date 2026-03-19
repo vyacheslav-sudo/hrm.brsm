@@ -35,27 +35,72 @@
 			<CommandParameterType>
 				<v8:Type>cfg:DocumentRef.ЛистокСообщенияДляВоенкомата</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПодтверждениеОплатыЗаявленияРасчетаВФСС</v8:Type>
+				<v8:Type>cfg:DocumentRef.ЕдиновременноеПособиеЗаСчетФСС</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИзменениеУсловийОплатыОтпускаПоУходуЗаРебенком</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПризПодарок</v8:Type>
+				<v8:Type>cfg:DocumentRef.УдержаниеВСчетРасчетовПоПрочимОперациям</v8:Type>
 				<v8:Type>cfg:DocumentRef.ДепонированиеЗарплаты</v8:Type>
 				<v8:Type>cfg:DocumentRef.СписаниеДепонированнойЗарплаты</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыРаздатчиком</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВыплатаБывшимСотрудникам</v8:Type>
 				<v8:Type>cfg:DocumentRef.КадровыйПеревод</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПодтверждениеВыплатЗаСчетФСС</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПереносОтпуска</v8:Type>
+				<v8:Type>cfg:DocumentRef.РаботаСверхурочно</v8:Type>
+				<v8:Type>cfg:DocumentRef.УдержаниеПрофсоюзныхВзносов</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПростойСотрудников</v8:Type>
 				<v8:Type>cfg:DocumentRef.ЗаявлениеРасчетВФСС</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИзменениеГрафикаРаботыСписком</v8:Type>
+				<v8:Type>cfg:DocumentRef.РегистрацияПереработок</v8:Type>
+				<v8:Type>cfg:DocumentRef.РаботаВВыходныеИПраздничныеДни</v8:Type>
+				<v8:Type>cfg:DocumentRef.Совмещение</v8:Type>
 				<v8:Type>cfg:DocumentRef.Отпуск</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИзменениеКвалификационногоРазряда</v8:Type>
 				<v8:Type>cfg:DocumentRef.БольничныйЛист</v8:Type>
+				<v8:Type>cfg:DocumentRef.ДоговорАвторскогоЗаказа</v8:Type>
 				<v8:Type>cfg:DocumentRef.ОплатаПоСреднемуЗаработку</v8:Type>
+				<v8:Type>cfg:DocumentRef.Премия</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтменаДоплатыДоСреднегоЗаработка</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИсполнительныйЛист</v8:Type>
 				<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
 				<v8:Type>cfg:DocumentRef.ИзменениеУсловийДоговораЗаймаСотруднику</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыПеречислением</v8:Type>
 				<v8:Type>cfg:DocumentRef.НачислениеЗарплаты</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВыплатаДепонированнойЗарплаты</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВыдачаЗаймаСотруднику</v8:Type>
+				<v8:Type>cfg:DocumentRef.РазовоеНачисление</v8:Type>
 				<v8:Type>cfg:DocumentRef.Увольнение</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПереводКДругомуРаботодателю</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПеремещениеВДругоеПодразделение</v8:Type>
+				<v8:Type>cfg:DocumentRef.НачислениеЗаПервуюПоловинуМесяца</v8:Type>
+				<v8:Type>cfg:DocumentRef.АктПриемкиВыполненныхРаботОказанныхУслуг</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыВБанк</v8:Type>
+				<v8:Type>cfg:DocumentRef.НазначениеПодработки</v8:Type>
 				<v8:Type>cfg:DocumentRef.ОтпускБезСохраненияОплаты</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВозвратИзОтпускаПоУходуЗаРебенком</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПрогулНеявка</v8:Type>
+				<v8:Type>cfg:DocumentRef.ДоходВНатуральнойФорме</v8:Type>
+				<v8:Type>cfg:DocumentRef.ДоговорРаботыУслуги</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПриказНаДоплатуДоСреднегоЗаработка</v8:Type>
+				<v8:Type>cfg:DocumentRef.КомандировкиСотрудников</v8:Type>
+				<v8:Type>cfg:DocumentRef.КадровыйПереводСписком</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПрекращениеПодработки</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПриемНаРаботу</v8:Type>
+				<v8:Type>cfg:DocumentRef.Командировка</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПостоянноеУдержаниеВПользуТретьихЛиц</v8:Type>
+				<v8:Type>cfg:DocumentRef.УвольнениеСписком</v8:Type>
+				<v8:Type>cfg:DocumentRef.МатериальнаяПомощь</v8:Type>
+				<v8:Type>cfg:DocumentRef.ГрафикОтпусков</v8:Type>
+				<v8:Type>cfg:DocumentRef.ИзменениеУсловийИсполнительногоЛиста</v8:Type>
+				<v8:Type>cfg:DocumentRef.КомпенсацияЗаЗадержкуЗарплаты</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтпускаСотрудников</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтменаСовмещения</v8:Type>
 				<v8:Type>cfg:DocumentRef.ПогашениеЗаймаСотруднику</v8:Type>
+				<v8:Type>cfg:DocumentRef.Отгул</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОтпускПоУходуЗаРебенком</v8:Type>
 				<v8:Type>cfg:DocumentRef.ВедомостьНаВыплатуЗарплатыВКассу</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПриемНаРаботуСписком</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПродлениеКонтрактаДоговора</v8:Type>
 			</CommandParameterType>
 			<ParameterUseMode>Single</ParameterUseMode>
 			<ModifiesData>false</ModifiesData>

@@ -400,17 +400,10 @@
 					<ChildItems>
 						<Button name="ОтразитьЗарплатуВБухучете" id="40">
 							<Type>Hyperlink</Type>
-							<Width>13</Width>
+							<Width>16</Width>
 							<Height>2</Height>
 							<CommandName>Form.Command.ОтразитьЗарплатуВБухучете</CommandName>
 							<ExtendedTooltip name="ОтразитьЗарплатуВБухучетеExtendedTooltip" id="216"/>
-						</Button>
-						<Button name="ОтразитьЗарплатуВБухучетеБюджетныхУчреждений" id="274">
-							<Type>Hyperlink</Type>
-							<Width>13</Width>
-							<Height>2</Height>
-							<CommandName>Form.Command.ОтразитьЗарплатуВБухучетеБюджетныхУчреждений</CommandName>
-							<ExtendedTooltip name="ОтразитьЗарплатуВБухучетеБюджетныхУчрежденийРасширеннаяПодсказка" id="275"/>
 						</Button>
 					</ChildItems>
 				</UsualGroup>

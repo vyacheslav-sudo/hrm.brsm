@@ -1037,6 +1037,21 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаИсправлениеРасширеннаяПодсказка" id="315"/>
 		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="1098">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Додатково</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="1099"/>
+		</UsualGroup>
 		<UsualGroup name="ГруппаКомментарийОтветственный" id="149">
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>

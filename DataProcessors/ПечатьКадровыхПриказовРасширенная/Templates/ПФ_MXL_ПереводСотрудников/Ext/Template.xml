@@ -944,7 +944,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>колишнє</v8:content>
+							<v8:content>попередній</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -979,7 +979,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>нове</v8:content>
+							<v8:content>новий</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -1014,7 +1014,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>колишня</v8:content>
+							<v8:content>попередня</v8:content>
 						</v8:item>
 					</tl>
 				</c>

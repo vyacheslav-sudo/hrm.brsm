@@ -8829,11 +8829,11 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ПІБ</v8:content>
+							<v8:content>П.І.Б.</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>uk</v8:lang>
-							<v8:content>ПІБ</v8:content>
+							<v8:content>П.І.Б.</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -19548,11 +19548,11 @@
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>ДФ='дд ММ гггг'</v8:content>
+				<v8:content>ДФ=dd.MM.yyyy</v8:content>
 			</v8:item>
 			<v8:item>
 				<v8:lang>uk</v8:lang>
-				<v8:content>ДФ='дд ММ гггг'</v8:content>
+				<v8:content>ДФ=dd.MM.yyyy</v8:content>
 			</v8:item>
 		</format>
 	</format>

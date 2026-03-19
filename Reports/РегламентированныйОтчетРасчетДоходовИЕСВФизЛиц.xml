@@ -589,11 +589,55 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="a40a4d8e-2796-4216-9db0-f73644d1f1b5">
+				<Properties>
+					<Name>РасчетЧисленностиКакВ1ПВ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчет численности как в 1-ПВ</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Розрахунок чисельності як в 1-ПВ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
 			<Form>ОсновнаяФорма</Form>
 			<Form>ФормаОтчета2021УФ</Form>
 			<Form>ПараметрыОтчета2021УФ</Form>
 			<Form>ФормаОтчета2023Кв3УФ</Form>
 			<Form>ПараметрыОтчета2023Кв3УФ</Form>
+			<Form>ФормаОтчета2025УФ</Form>
+			<Form>ПараметрыОтчета2025УФ</Form>
 			<Template>ПоказателиЗвит1С</Template>
 			<Template>СоставПоказателей2021УФ</Template>
 			<Template>ФормаОтчета2021УФ_Декларация</Template>
@@ -619,6 +663,12 @@
 			<Template>ФормаОтчета2023Кв3УФ_Таблица61</Template>
 			<Template>ФормаОтчета2023Кв3УФ_Таблица62</Template>
 			<Template>ФормаОтчета2023Кв3УФ_Таблица63</Template>
+			<Template>СоставПоказателей2025УФ</Template>
+			<Template>ФормаОтчета2025УФ_Декларация</Template>
+			<Template>ФормаОтчета2025УФ_Таблица11</Template>
+			<Template>ФормаОтчета2025УФ_Таблица41</Template>
+			<Template>ФормаОтчета2025УФ_Таблица5</Template>
+			<Template>ФормаОтчета2025УФ_Таблица61</Template>
 		</ChildObjects>
 	</Report>
 </MetaDataObject>

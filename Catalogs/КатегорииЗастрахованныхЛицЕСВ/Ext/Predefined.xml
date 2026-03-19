@@ -150,6 +150,24 @@
 		<Description>Работник в отпуске по беременности и родам (УТОГ, УТОС)</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="96347cf1-8cee-457e-9919-efee12ce0549">
+		<Name>РаботникИнвалидПоГигКонтракту</Name>
+		<Code/>
+		<Description>Работник инвалид по гиг-контракту</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4ca4845e-55de-4445-83aa-e310165d5c04">
+		<Name>РаботникИнвалидПоГигКонтрактуДекретные</Name>
+		<Code/>
+		<Description>Работник инвалид по гиг-контракту в отпуске по беременности и родам</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e767ce98-abe8-4c75-8e8b-0c61cdf7c27f">
+		<Name>РаботникИнвалидПоГигКонтрактуБольничный</Name>
+		<Code/>
+		<Description>Работник инвалид по гиг-контракту на больничном</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="572ca15d-4637-4407-90d1-b1d49e512955">
 		<Name>РаботникБольничный</Name>
 		<Code/>

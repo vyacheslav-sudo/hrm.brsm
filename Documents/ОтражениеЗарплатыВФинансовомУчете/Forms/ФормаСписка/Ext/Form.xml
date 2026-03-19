@@ -95,6 +95,34 @@
 					</ButtonGroup>
 				</ChildItems>
 			</Popup>
+			<SearchStringAddition name="СтрокаПоиска" id="52">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Строка поиска</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="СтрокаПоискаКонтекстноеМеню" id="53"/>
+				<ExtendedTooltip name="СтрокаПоискаРасширеннаяПодсказка" id="54"/>
+			</SearchStringAddition>
+			<SearchControlAddition name="УправлениеПоиском" id="55">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Управление поиском</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="УправлениеПоискомКонтекстноеМеню" id="56"/>
+				<ExtendedTooltip name="УправлениеПоискомРасширеннаяПодсказка" id="57"/>
+			</SearchControlAddition>
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
@@ -202,6 +230,31 @@
 				<Event name="OnActivateRow">СписокПриАктивизацииСтроки</Event>
 			</Events>
 			<ChildItems>
+				<PictureField name="ЕстьФайлы" id="49">
+					<DataPath>Список.ЕстьФайлы</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть файлы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Є файли</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<HeaderPicture>
+						<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</HeaderPicture>
+					<Width>2</Width>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="51"/>
+				</PictureField>
 				<LabelField name="Номер" id="10">
 					<DataPath>Список.Number</DataPath>
 					<Width>10</Width>
@@ -260,8 +313,31 @@
 				<Field>Список.Ref</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
-				<ManualQuery>false</ManualQuery>
+				<ManualQuery>true</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ДокументОтражениеЗарплатыВФинансовомУчете.Ссылка,
+	ДокументОтражениеЗарплатыВФинансовомУчете.ПометкаУдаления,
+	ДокументОтражениеЗарплатыВФинансовомУчете.Номер,
+	ДокументОтражениеЗарплатыВФинансовомУчете.Дата,
+	ДокументОтражениеЗарплатыВФинансовомУчете.Проведен,
+	ДокументОтражениеЗарплатыВФинансовомУчете.ПериодРегистрации,
+	ДокументОтражениеЗарплатыВФинансовомУчете.Организация,
+	ДокументОтражениеЗарплатыВФинансовомУчете.КраткийСоставДокумента,
+	ДокументОтражениеЗарплатыВФинансовомУчете.Ответственный,
+	ДокументОтражениеЗарплатыВФинансовомУчете.Комментарий,
+	ДокументОтражениеЗарплатыВФинансовомУчете.МоментВремени,
+	ВЫБОР
+		КОГДА НаличиеФайлов.ЕстьФайлы ЕСТЬ NULL
+			ТОГДА 0
+		КОГДА НаличиеФайлов.ЕстьФайлы
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ЕстьФайлы
+ИЗ
+	Документ.ОтражениеЗарплатыВФинансовомУчете КАК ДокументОтражениеЗарплатыВФинансовомУчете
+	{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
+		ПО ДокументОтражениеЗарплатыВФинансовомУчете.Ссылка = НаличиеФайлов.ОбъектСФайлами}</QueryText>
 				<MainTable>Document.ОтражениеЗарплатыВФинансовомУчете</MainTable>
 				<ListSettings>
 					<dcsset:filter>

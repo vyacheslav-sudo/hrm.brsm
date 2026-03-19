@@ -255,7 +255,7 @@
 						<v8:item>
 							<v8:lang>uk</v8:lang>
 							<v8:content>Означає, що в групі доступу не вказано
-значень доступу, а за замовчуванням всі дозволені.</v8:content>
+значень доступу, а по умовчанню всі дозволені.</v8:content>
 						</v8:item>
 					</ToolTip>
 					<MarkNegatives>false</MarkNegatives>

@@ -168,12 +168,6 @@
 					<ContextMenu name="ГоловнаяОрганизацияКонтекстноеМеню" id="26"/>
 					<ExtendedTooltip name="ГоловнаяОрганизацияРасширеннаяПодсказка" id="27"/>
 				</LabelField>
-				<CheckBoxField name="ИсточникДоходаЗаПределамиРФ" id="43">
-					<DataPath>~Список.ИсточникДоходаЗаПределамиРФ</DataPath>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ИсточникДоходаЗаПределамиРФКонтекстноеМеню" id="44"/>
-					<ExtendedTooltip name="ИсточникДоходаЗаПределамиРФРасширеннаяПодсказка" id="45"/>
-				</CheckBoxField>
 				<LabelField name="СтатьяФинансирования" id="91">
 					<DataPath>Список.СтатьяФинансирования</DataPath>
 					<ContextMenu name="СтатьяФинансированияКонтекстноеМеню" id="92"/>

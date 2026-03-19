@@ -143,20 +143,19 @@
 			<ContextMenu name="ГруппаДоступаКонтекстноеМеню" id="53"/>
 			<ExtendedTooltip name="ГруппаДоступаExtendedTooltip" id="68"/>
 		</InputField>
-		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="51">
-			<ToolTip>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="80">
+			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа дополнительные реквизиты</v8:content>
+					<v8:content>Дополнительно</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Група додаткові реквізити</v8:content>
+					<v8:content>Додатково</v8:content>
 				</v8:item>
-			</ToolTip>
+			</Title>
 			<Group>Vertical</Group>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="69"/>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="81"/>
 		</UsualGroup>
 		<UsualGroup name="ГруппаКонтактнаяИнформация" id="50">
 			<Title>
@@ -199,7 +198,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Необхідно повідомлення</v8:content>
+					<v8:content>Необхідне сповіщення</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

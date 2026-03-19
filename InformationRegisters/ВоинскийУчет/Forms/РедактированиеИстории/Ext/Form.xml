@@ -205,6 +205,18 @@
 					<ContextMenu name="НаборЗаписейСпецУчетКонтекстноеМеню" id="86"/>
 					<ExtendedTooltip name="НаборЗаписейСпецУчетРасширеннаяПодсказка" id="87"/>
 				</InputField>
+				<InputField name="НаборЗаписейСрокОтсрочки" id="115">
+					<DataPath>НаборЗаписей.СрокОтсрочки</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаборЗаписейСрокОтсрочкиКонтекстноеМеню" id="116"/>
+					<ExtendedTooltip name="НаборЗаписейСрокОтсрочкиРасширеннаяПодсказка" id="117"/>
+				</InputField>
+				<InputField name="НаборЗаписейОснованиеОтсрочки" id="118">
+					<DataPath>НаборЗаписей.ОснованиеОтсрочки</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаборЗаписейОснованиеОтсрочкиКонтекстноеМеню" id="119"/>
+					<ExtendedTooltip name="НаборЗаписейОснованиеОтсрочкиРасширеннаяПодсказка" id="120"/>
+				</InputField>
 				<CheckBoxField name="НаборЗаписейНаличиеМобпредписания" id="31">
 					<DataPath>НаборЗаписей.НаличиеМобпредписания</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -212,6 +224,12 @@
 					<ContextMenu name="НаборЗаписейНаличиеМобпредписанияКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="НаборЗаписейНаличиеМобпредписанияExtendedTooltip" id="65"/>
 				</CheckBoxField>
+				<InputField name="НаборЗаписейДатаВыдачиМобпредписания" id="112">
+					<DataPath>НаборЗаписей.ДатаВыдачиМобпредписания</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаборЗаписейДатаВыдачиМобпредписанияКонтекстноеМеню" id="113"/>
+					<ExtendedTooltip name="НаборЗаписейДатаВыдачиМобпредписанияРасширеннаяПодсказка" id="114"/>
+				</InputField>
 				<InputField name="НаборЗаписейНомерКомандыПартии" id="33">
 					<DataPath>НаборЗаписей.НомерКомандыПартии</DataPath>
 					<EditMode>EnterOnInput</EditMode>
@@ -247,6 +265,19 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="НаборЗаписейНомерЗаписиВРеестреВоеннообязанныхКонтекстноеМеню" id="107"/>
 					<ExtendedTooltip name="НаборЗаписейНомерЗаписиВРеестреВоеннообязанныхРасширеннаяПодсказка" id="108"/>
+				</InputField>
+				<CheckBoxField name="НаборЗаписейПроходитВоеннуюСлужбу" id="121">
+					<DataPath>НаборЗаписей.ПроходитВоеннуюСлужбу</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="НаборЗаписейПроходитВоеннуюСлужбуКонтекстноеМеню" id="122"/>
+					<ExtendedTooltip name="НаборЗаписейПроходитВоеннуюСлужбуРасширеннаяПодсказка" id="123"/>
+				</CheckBoxField>
+				<InputField name="НаборЗаписейАдресУчета" id="124">
+					<DataPath>НаборЗаписей.АдресУчета</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаборЗаписейАдресУчетаКонтекстноеМеню" id="125"/>
+					<ExtendedTooltip name="НаборЗаписейАдресУчетаРасширеннаяПодсказка" id="126"/>
 				</InputField>
 			</ChildItems>
 		</Table>

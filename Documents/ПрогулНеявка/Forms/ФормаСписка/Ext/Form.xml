@@ -119,6 +119,31 @@
 				<Event name="OnUpdateUserSettingSetAtServer">СписокПриОбновленииСоставаПользовательскихНастроекНаСервере</Event>
 			</Events>
 			<ChildItems>
+				<PictureField name="ЕстьФайлы" id="61">
+					<DataPath>Список.ЕстьФайлы</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть файлы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Є файли</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>None</TitleLocation>
+					<HeaderPicture>
+						<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</HeaderPicture>
+					<Width>2</Width>
+					<ValuesPicture>
+						<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</ValuesPicture>
+					<ContextMenu name="ЕстьФайлыКонтекстноеМеню" id="62"/>
+					<ExtendedTooltip name="ЕстьФайлыРасширеннаяПодсказка" id="63"/>
+				</PictureField>
 				<LabelField name="ПериодРегистрации" id="20">
 					<DataPath>Список.ПериодРегистрации</DataPath>
 					<Title>
@@ -201,6 +226,13 @@
 					<ContextMenu name="КомментарийКонтекстноеМеню" id="15"/>
 					<ExtendedTooltip name="КомментарийExtendedTooltip" id="43"/>
 				</LabelField>
+				<CheckBoxField name="ТребуетОбработки" id="31">
+					<DataPath>Список.ТребуетОбработки</DataPath>
+					<Visible>false</Visible>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТребуетОбработкиКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ТребуетОбработкиExtendedTooltip" id="45"/>
+				</CheckBoxField>
 				<LabelField name="Ссылка" id="8">
 					<DataPath>Список.Ref</DataPath>
 					<UserVisible>
@@ -209,13 +241,6 @@
 					<ContextMenu name="СсылкаКонтекстноеМеню" id="9"/>
 					<ExtendedTooltip name="СсылкаExtendedTooltip" id="44"/>
 				</LabelField>
-				<CheckBoxField name="ТребуетОбработки" id="31">
-					<DataPath>Список.ТребуетОбработки</DataPath>
-					<Visible>false</Visible>
-					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="ТребуетОбработкиКонтекстноеМеню" id="32"/>
-					<ExtendedTooltip name="ТребуетОбработкиExtendedTooltip" id="45"/>
-				</CheckBoxField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -253,9 +278,18 @@
 				И ДокументПрогулНеявка.ПометкаУдаления = ЛОЖЬ
 			ТОГДА ИСТИНА
 		ИНАЧЕ ЛОЖЬ
-	КОНЕЦ КАК ТребуетОбработки
+	КОНЕЦ КАК ТребуетОбработки,
+	ВЫБОР
+		КОГДА НаличиеФайлов.ЕстьФайлы ЕСТЬ NULL
+			ТОГДА 0
+		КОГДА НаличиеФайлов.ЕстьФайлы
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК ЕстьФайлы
 ИЗ
-	Документ.ПрогулНеявка КАК ДокументПрогулНеявка</QueryText>
+	Документ.ПрогулНеявка КАК ДокументПрогулНеявка
+	{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
+		ПО ДокументПрогулНеявка.Ссылка = НаличиеФайлов.ОбъектСФайлами}</QueryText>
 				<MainTable>Document.ПрогулНеявка</MainTable>
 				<ListSettings>
 					<dcsset:filter>

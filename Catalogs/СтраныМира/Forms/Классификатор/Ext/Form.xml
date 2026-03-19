@@ -240,6 +240,12 @@
 					<ContextMenu name="КлассификаторНаименованиеПолноеКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="КлассификаторНаименованиеПолноеExtendedTooltip" id="68"/>
 				</InputField>
+				<InputField name="КлассификаторМеждународноеНаименование" id="84">
+					<DataPath>Классификатор.МеждународноеНаименование</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КлассификаторМеждународноеНаименованиеКонтекстноеМеню" id="85"/>
+					<ExtendedTooltip name="КлассификаторМеждународноеНаименованиеРасширеннаяПодсказка" id="86"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
@@ -375,6 +381,25 @@
 							<v8:FractionDigits>0</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="МеждународноеНаименование" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Международное наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>uk</v8:lang>
+							<v8:content>Міжнародне найменування</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
 					</Type>
 				</Column>
 			</Columns>

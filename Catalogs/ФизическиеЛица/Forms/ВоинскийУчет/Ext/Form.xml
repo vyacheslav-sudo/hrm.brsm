@@ -86,11 +86,11 @@
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Данные военного билета</v8:content>
+											<v8:content>Данные военно-учетного документа</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>uk</v8:lang>
-											<v8:content>Дані військового квитка</v8:content>
+											<v8:content>Дані військово-облікового документа</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -182,15 +182,39 @@
 											<ContextMenu name="ВоинскийУчетВоенкоматФМПКонтекстноеМеню" id="69"/>
 											<ExtendedTooltip name="ВоинскийУчетВоенкоматФМПРасширеннаяПодсказка" id="70"/>
 										</InputField>
-										<InputField name="ВоинскийУчетСпецУчет" id="71">
-											<DataPath>ВоинскийУчет.СпецУчет</DataPath>
-											<ContextMenu name="ВоинскийУчетСпецУчетКонтекстноеМеню" id="72"/>
-											<ExtendedTooltip name="ВоинскийУчетСпецУчетРасширеннаяПодсказка" id="73"/>
-										</InputField>
 										<InputField name="ВоинскийУчетРеквизитыВоенногоБилета" id="97">
 											<DataPath>ВоинскийУчет.РеквизитыВоенногоБилета</DataPath>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Серия (при наличии) и номер военно-учетного
+документа, кем и когда выдано (время и дата формирования для электронного документа)</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>uk</v8:lang>
+													<v8:content>Серія (за наявності) та номер військово-облікового
+документа, ким і коли видано (час і дата формування для електронного документа)</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
 											<ContextMenu name="ВоинскийУчетРеквизитыВоенногоБилетаКонтекстноеМеню" id="98"/>
 											<ExtendedTooltip name="ВоинскийУчетРеквизитыВоенногоБилетаРасширеннаяПодсказка" id="99"/>
+										</InputField>
+										<InputField name="ВоинскийУчетАдресУчета" id="112">
+											<DataPath>ВоинскийУчет.АдресУчета</DataPath>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Адрес учета следует указать, если адрес в ВУД не совпадает с адресом фактического проживания (регистрации)</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>uk</v8:lang>
+													<v8:content>Адресу обліку слід зазначити, якщо адреса у ВОД не збігається з адресою фактичного проживання (реєстрації)</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<ContextMenu name="ВоинскийУчетАдресУчетаКонтекстноеМеню" id="113"/>
+											<ExtendedTooltip name="ВоинскийУчетАдресУчетаРасширеннаяПодсказка" id="114"/>
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
@@ -225,6 +249,13 @@
 												<Event name="OnChange">ВоинскийУчетОтношениеКВоинскомуУчетуПриИзменении</Event>
 											</Events>
 										</InputField>
+										<CheckBoxField name="ВоинскийУчетПроходитВоеннуюСлужбу" id="109">
+											<DataPath>ВоинскийУчет.ПроходитВоеннуюСлужбу</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ВоинскийУчетПроходитВоеннуюСлужбуКонтекстноеМеню" id="110"/>
+											<ExtendedTooltip name="ВоинскийУчетПроходитВоеннуюСлужбуРасширеннаяПодсказка" id="111"/>
+										</CheckBoxField>
 										<CheckBoxField name="ВоинскийУчетНаличиеМобпредписания" id="21">
 											<DataPath>ВоинскийУчет.НаличиеМобпредписания</DataPath>
 											<TitleLocation>Right</TitleLocation>
@@ -235,6 +266,11 @@
 												<Event name="OnChange">ВоинскийУчетНаличиеМобпредписанияПриИзменении</Event>
 											</Events>
 										</CheckBoxField>
+										<InputField name="ВоинскийУчетДатаВыдачиМобпредписания" id="100">
+											<DataPath>ВоинскийУчет.ДатаВыдачиМобпредписания</DataPath>
+											<ContextMenu name="ВоинскийУчетДатаВыдачиМобпредписанияКонтекстноеМеню" id="101"/>
+											<ExtendedTooltip name="ВоинскийУчетДатаВыдачиМобпредписанияРасширеннаяПодсказка" id="102"/>
+										</InputField>
 										<InputField name="ВоинскийУчетНомерКомандыПартии" id="23">
 											<DataPath>ВоинскийУчет.НомерКомандыПартии</DataPath>
 											<Width>30</Width>
@@ -266,6 +302,11 @@
 											<ContextMenu name="ВоинскийУчетПунктПеречняКонтекстноеМеню" id="35"/>
 											<ExtendedTooltip name="ВоинскийУчетПунктПеречняExtendedTooltip" id="57"/>
 										</InputField>
+										<InputField name="ВоинскийУчетСпецУчет" id="71">
+											<DataPath>ВоинскийУчет.СпецУчет</DataPath>
+											<ContextMenu name="ВоинскийУчетСпецУчетКонтекстноеМеню" id="72"/>
+											<ExtendedTooltip name="ВоинскийУчетСпецУчетРасширеннаяПодсказка" id="73"/>
+										</InputField>
 										<InputField name="ВоинскийУчетЗабронированОрганизацией" id="26">
 											<DataPath>ЗабронированОрганизацией</DataPath>
 											<ReadOnly>true</ReadOnly>
@@ -280,6 +321,43 @@
 											<CommandName>DocumentJournal.БронированиеГражданПребывающихВЗапасе.StandardCommand.OpenList</CommandName>
 											<ExtendedTooltip name="ЖурналДокументовБронированиеГражданПребывающихВЗапасеОткрытьСписокРасширеннаяПодсказка" id="67"/>
 										</Button>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаОтсрочка" id="115">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отсрочка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Відстрочка</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа отсрочка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>uk</v8:lang>
+											<v8:content>Група відстрочка</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ExtendedTooltip name="ГруппаОтсрочкаРасширеннаяПодсказка" id="116"/>
+									<ChildItems>
+										<InputField name="ВоинскийУчетСрокОтсрочки" id="106">
+											<DataPath>ВоинскийУчет.СрокОтсрочки</DataPath>
+											<ContextMenu name="ВоинскийУчетСрокОтсрочкиКонтекстноеМеню" id="107"/>
+											<ExtendedTooltip name="ВоинскийУчетСрокОтсрочкиРасширеннаяПодсказка" id="108"/>
+										</InputField>
+										<InputField name="ВоинскийУчетОснованиеОтсрочки" id="103">
+											<DataPath>ВоинскийУчет.ОснованиеОтсрочки</DataPath>
+											<ContextMenu name="ВоинскийУчетОснованиеОтсрочкиКонтекстноеМеню" id="104"/>
+											<ExtendedTooltip name="ВоинскийУчетОснованиеОтсрочкиРасширеннаяПодсказка" id="105"/>
+										</InputField>
 									</ChildItems>
 								</UsualGroup>
 							</ChildItems>

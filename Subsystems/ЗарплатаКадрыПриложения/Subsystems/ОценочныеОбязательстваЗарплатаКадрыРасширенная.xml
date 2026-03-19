@@ -25,6 +25,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">FunctionalOption.ИспользоватьРасчетРезервовОтпусков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ОрганизацияНастройкиРасчетаРезервовОтпусков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.РезервОтпусковКлиентРасширенный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.СправкаРасчетРезервыОтпусков</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеОценочныхОбязательствЗарплатаКадрыРасширенная</xr:Item>
 			</Content>
 		</Properties>

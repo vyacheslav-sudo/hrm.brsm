@@ -594,7 +594,7 @@
 																	</v8:item>
 																	<v8:item>
 																		<v8:lang>uk</v8:lang>
-																		<v8:content>Даними цього графіка</v8:content>
+																		<v8:content>Даних цього графіка</v8:content>
 																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xr:DesignTimeRef">Enum.СпособыОпределенияНормыСуммированногоУчета.EnumValue.ПоДаннымЭтогоГрафика</Value>
@@ -611,7 +611,7 @@
 																	</v8:item>
 																	<v8:item>
 																		<v8:lang>uk</v8:lang>
-																		<v8:content>Даними іншого графіка</v8:content>
+																		<v8:content>Даних іншого графіка</v8:content>
 																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xr:DesignTimeRef">Enum.СпособыОпределенияНормыСуммированногоУчета.EnumValue.ПоДаннымДругогоГрафика</Value>
@@ -937,6 +937,12 @@
 									<VerticalStretch>true</VerticalStretch>
 									<ContextMenu name="СписокВидовВремениВидВремениКонтекстноеМеню" id="37"/>
 									<ExtendedTooltip name="СписокВидовВремениВидВремениExtendedTooltip" id="119"/>
+								</InputField>
+								<InputField name="СписокВидовВремениБуквенныйКод" id="200">
+									<DataPath>СписокВидовВремени.БуквенныйКод</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокВидовВремениБуквенныйКодКонтекстноеМеню" id="201"/>
+									<ExtendedTooltip name="СписокВидовВремениБуквенныйКодРасширеннаяПодсказка" id="202"/>
 								</InputField>
 							</ChildItems>
 						</Table>

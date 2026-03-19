@@ -265,11 +265,11 @@
 									<ContextMenu name="СотрудникиДатаУвольненияКонтекстноеМеню" id="103"/>
 									<ExtendedTooltip name="СотрудникиДатаУвольненияРасширеннаяПодсказка" id="104"/>
 								</InputField>
-								<InputField name="СотрудникиСтатьяТКРФ" id="105">
+								<InputField name="СотрудникиСтатьяКЗОТ" id="105">
 									<DataPath>Объект.Сотрудники.СтатьяКЗоТ</DataPath>
 									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="СотрудникиСтатьяТКРФКонтекстноеМеню" id="106"/>
-									<ExtendedTooltip name="СотрудникиСтатьяТКРФРасширеннаяПодсказка" id="107"/>
+									<ContextMenu name="СотрудникиСтатьяКЗОТКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="СотрудникиСтатьяКЗОТРасширеннаяПодсказка" id="107"/>
 								</InputField>
 							</ChildItems>
 						</ColumnGroup>

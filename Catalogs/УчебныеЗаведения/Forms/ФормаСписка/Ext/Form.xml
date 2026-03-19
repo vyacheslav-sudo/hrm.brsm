@@ -116,6 +116,14 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="24"/>
 				</LabelField>
+				<LabelField name="Ссылка" id="31">
+					<DataPath>Список.Ref</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="33"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

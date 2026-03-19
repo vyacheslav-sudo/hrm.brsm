@@ -558,6 +558,21 @@
 				<Event name="URLProcessing">ОплатыПредставлениеОбработкаНавигационнойСсылки</Event>
 			</Events>
 		</LabelField>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="167">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Додатково</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="168"/>
+		</UsualGroup>
 		<UsualGroup name="ГруппаКомментарийОтветственный" id="105">
 			<VerticalStretch>false</VerticalStretch>
 			<Group>Horizontal</Group>

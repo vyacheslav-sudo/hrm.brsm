@@ -1316,6 +1316,21 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ВведенныеНаДатуДокументыГруппаРасширеннаяПодсказка" id="264"/>
 		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="323">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>uk</v8:lang>
+					<v8:content>Додатково</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="324"/>
+		</UsualGroup>
 		<UsualGroup name="ГруппаКомментарийОтветственный" id="258">
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>

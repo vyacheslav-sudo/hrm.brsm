@@ -36,11 +36,6 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:c44474d6-3179-4ed6-80ef-9b4b46c67f4a">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
 		<Command name="Document.ОплатаПоСреднемуЗаработку.StandardCommand.OpenList">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -62,11 +57,6 @@
 			</Visibility>
 		</Command>
 		<Command name="Document.УвольнениеСписком.StandardCommand.OpenList">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="0:4d2869ee-aeca-4b09-bdaf-5e42bd0dc5d4">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -151,12 +141,7 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="0:2da619d7-15b4-4f71-99f0-2543efdb1ec3">
-			<Visibility>
-				<xr:Common>false</xr:Common>
-			</Visibility>
-		</Command>
-		<Command name="0:d6849460-8f1e-493d-8271-c651dc1cb5e2">
+		<Command name="DataProcessor.ПанельСправочниковЗарплата.Command.РазделНормативныеВеличины">
 			<Visibility>
 				<xr:Common>false</xr:Common>
 			</Visibility>
@@ -276,11 +261,6 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
-		<Command name="DataProcessor.ПроведениеДокументовПоВидамУчета.Command.ОбновитьДанныеДляРасчетаСреднегоЗаработка">
-			<Visibility>
-				<xr:Common>true</xr:Common>
-			</Visibility>
-		</Command>
 		<Command name="DataProcessor.ПроведениеДокументовПоВидамУчета.StandardCommand.Open">
 			<Visibility>
 				<xr:Common>false</xr:Common>
@@ -373,10 +353,6 @@
 			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
 			<Placement>Auto</Placement>
 		</Command>
-		<Command name="DataProcessor.ПроведениеДокументовПоВидамУчета.Command.ОбновитьДанныеДляРасчетаСреднегоЗаработка">
-			<CommandGroup>ActionsPanelTools</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
 		<Command name="CommonCommand.ДополнительныеОтчетыЗарплата">
 			<CommandGroup>ActionsPanelTools</CommandGroup>
 			<Placement>Auto</Placement>
@@ -404,9 +380,6 @@
 		<Command name="Document.НачислениеЗаПервуюПоловинуМесяца.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:00070ad4-e229-427c-aef8-8bcb77565db7">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
 		<Command name="Document.БольничныйЛист.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
@@ -429,9 +402,6 @@
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Document.ОтпускБезСохраненияОплаты.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="0:c44474d6-3179-4ed6-80ef-9b4b46c67f4a">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Document.Премия.StandardCommand.OpenList">
@@ -459,9 +429,6 @@
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="Document.УвольнениеСписком.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="0:4d2869ee-aeca-4b09-bdaf-5e42bd0dc5d4">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="DocumentJournal.ИзменениеОплатыСотрудников.StandardCommand.OpenList">
@@ -548,16 +515,10 @@
 		<Command name="CommonCommand.УтверждениеТарифнойСеткиВХозрасчете">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:2da619d7-15b4-4f71-99f0-2543efdb1ec3">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
 		<Command name="Document.Отгул.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="0:d6849460-8f1e-493d-8271-c651dc1cb5e2">
-			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
-		</Command>
-		<Command name="0:2a216b52-ecea-425b-aeea-58d5a6c226b2">
+		<Command name="DataProcessor.ПанельСправочниковЗарплата.Command.РазделНормативныеВеличины">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="DocumentJournal.ПриемыПереводыУвольнения.StandardCommand.OpenList">
@@ -762,21 +723,6 @@
 			<CommandGroup>ActionsPanelCreate</CommandGroup>
 		</Command>
 		<Command name="Document.ПрекращениеПлановогоНачисления.StandardCommand.Create">
-			<CommandGroup>ActionsPanelCreate</CommandGroup>
-		</Command>
-		<Command name="1:00070ad4-e229-427c-aef8-8bcb77565db7">
-			<CommandGroup>ActionsPanelCreate</CommandGroup>
-		</Command>
-		<Command name="1:c44474d6-3179-4ed6-80ef-9b4b46c67f4a">
-			<CommandGroup>ActionsPanelCreate</CommandGroup>
-		</Command>
-		<Command name="1:4d2869ee-aeca-4b09-bdaf-5e42bd0dc5d4">
-			<CommandGroup>ActionsPanelCreate</CommandGroup>
-		</Command>
-		<Command name="1:2a216b52-ecea-425b-aeea-58d5a6c226b2">
-			<CommandGroup>ActionsPanelCreate</CommandGroup>
-		</Command>
-		<Command name="1:d6849460-8f1e-493d-8271-c651dc1cb5e2">
 			<CommandGroup>ActionsPanelCreate</CommandGroup>
 		</Command>
 		<Command name="Document.ВходящаяСправкаОРасчетеБольничного.StandardCommand.Create">

@@ -574,7 +574,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Видаляються нарахування пріоритет вище</v8:content>
+					<v8:content>Нарахування, що вилучаються, пріоритет вище</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -639,7 +639,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Видаляються нарахування пріоритет нижче</v8:content>
+					<v8:content>Нарахування, що вилучаються, пріоритет нижче</v8:content>
 				</v8:item>
 			</Title>
 			<Type>

@@ -3448,11 +3448,11 @@
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Обозначения в учете времени и стажах</v8:content>
+									<v8:content>Обозначения в учете времени</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>uk</v8:lang>
-									<v8:content>Позначення в обліку часу і стажах</v8:content>
+									<v8:content>Позначення в обліку часу</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -6825,25 +6825,6 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПредставлениеВидаНачисленияПоНКРФ" id="32">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Представление вида начисления по НКРФ</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>uk</v8:lang>
-					<v8:content>Представлення виду нарахування за НКРФ</v8:content>
-				</v8:item>
-			</Title>
-			<Type>
-				<v8:Type>xs:string</v8:Type>
-				<v8:StringQualifiers>
-					<v8:Length>0</v8:Length>
-					<v8:AllowedLength>Variable</v8:AllowedLength>
-				</v8:StringQualifiers>
-			</Type>
-		</Attribute>
 		<Attribute name="СписокЗависимыеНачисления" id="34">
 			<Title>
 				<v8:item>
@@ -7247,7 +7228,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Видаляються нарахування пріоритет вище</v8:content>
+					<v8:content>Нарахування, що вилучаються, пріоритет вище</v8:content>
 				</v8:item>
 			</Title>
 			<Type/>
@@ -7273,7 +7254,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>uk</v8:lang>
-					<v8:content>Видаляються нарахування пріоритет нижче</v8:content>
+					<v8:content>Нарахування, що вилучаються, пріоритет нижче</v8:content>
 				</v8:item>
 			</Title>
 			<Type/>
