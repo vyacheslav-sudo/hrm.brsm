@@ -2337,6 +2337,10 @@
 			<CommonModule>ЭлектроннаяПодписьСлужебныйКлиент</CommonModule>
 			<CommonModule>ЭлектроннаяПодписьСлужебныйКлиентСервер</CommonModule>
 			<CommonModule>ЭлектроннаяПодписьСлужебныйПовтИсп</CommonModule>
+			<CommonModule>ЯЯ_ВзаимодействиеССервисами</CommonModule>
+			<CommonModule>ЯЯ_ВзаимодействиеССервисамиВызовСервера</CommonModule>
+			<CommonModule>ЯЯ_ВзаимодействиеССервисамиКлиент</CommonModule>
+			<CommonModule>ЯЯ_Доработки</CommonModule>
 			<CommonAttribute>КомментарийЯзык1</CommonAttribute>
 			<CommonAttribute>КомментарийЯзык2</CommonAttribute>
 			<CommonAttribute>НаименованиеЯзык1</CommonAttribute>
@@ -3797,6 +3801,7 @@
 			<Catalog>ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</Catalog>
 			<Catalog>ЯзыкиНародовМира</Catalog>
+			<Catalog>ЯЯ_ПредопределенныеОбъекты</Catalog>
 			<Document>АктПриемкиВыполненныхРаботОказанныхУслуг</Document>
 			<Document>АктПроверкиСтраховыхВзносов</Document>
 			<Document>Анкета</Document>
